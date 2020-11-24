@@ -1,0 +1,236 @@
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+main {
+    display: block;
+    margin: 40px 0;
+}
+
+img {
+    border-style: none;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+}
+
+body, html {
+    height: 100%;
+}
+
+#parallax-header {
+    background-image: url("./images/artbauhauss_dontthink_2020_detail.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+#header-text {
+    text-align: center;
+}
+
+#artist-name {
+    font-size: min(12vw, 5em);
+    font-weight: bold;
+    padding-bottom: calc(min(12vw, 5em) / 3);
+}
+
+#full-name {
+    font-size: min(10vw, 4em);
+    padding-bottom: calc(min(12vw, 4em) / 2);
+}
+
+#header-menu {
+    display: flex;
+    justify-content: center;
+}
+
+#header-menu a {
+    display: block;
+    padding: 20px;
+    font-size: min(6vw, 2em);
+    font-weight: bold;
+}
+
+#header-menu a:hover {
+    background-color: rgba(233, 233, 233, 0.5);
+}
+
+.two-col-grid {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fit, 300px);
+    justify-content: center;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    padding: 25px;
+    background-color: white;
+}
+
+nav a {
+    display: block;
+    float: left;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: gray;
+}
+
+nav .two-col-grid {
+    grid-template-columns: 1fr 1fr;
+}
+
+#home {
+    justify-self: left;
+}
+
+#home a {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#menu {
+    justify-self: right;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + main {
+    padding-top: 92px;
+}
+
+.gallery-item {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-item img {
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 400px;
+}
+
+footer {
+    border-top: 1px solid lightgray;
+    padding: 40px;
+}
+
+footer * {
+    color: lightslategray;
+}
+
+#imprint {
+    place-self: center;
+}
+
+#imprint p {
+    padding: 0.5em;
+}
+
+#imprint a:hover, #imprint a:active {
+    color: dimgray;
+}
+
+#copyright {
+    place-self: center;
+}
+
+/*credits for loader: https://projects.lukehaas.me/css-loaders/ under MIT license*/
+
+.loader,
+.loader:before,
+.loader:after {
+    border-radius: 50%;
+    width: 2.5em;
+    height: 2.5em;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation: load7 1.8s infinite ease-in-out;
+    animation: load7 1.8s infinite ease-in-out;
+}
+
+.loader {
+    color: darkorange;
+    font-size: 10px;
+    margin: 80px auto;
+    position: relative;
+    text-indent: -9999em;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+
+.loader:before,
+.loader:after {
+    content: '';
+    position: absolute;
+    top: 0;
+}
+
+.loader:before {
+    left: -3.5em;
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+
+.loader:after {
+    left: 3.5em;
+}
+
+@-webkit-keyframes load7 {
+    0%,
+    80%,
+    100% {
+        box-shadow: 0 2.5em 0 -1.3em;
+    }
+    40% {
+        box-shadow: 0 2.5em 0 0;
+    }
+}
+
+@keyframes load7 {
+    0%,
+    80%,
+    100% {
+        box-shadow: 0 2.5em 0 -1.3em;
+    }
+    40% {
+        box-shadow: 0 2.5em 0 0;
+    }
+}
+

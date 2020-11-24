@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="./main.css" rel="stylesheet">
+</head>
+<body>
+<header id="parallax-header">
+    <div id="header-text">
+        <div id="artist-name">Artbauhauss</div>
+        <div id="full-name">Sophie Bauhaus</div>
+        <div id="header-menu">
+            <a href="#portfolio">Portfolio</a>
+            <a href="#cv">CV</a>
+        </div>
+    </div>
+</header>
+<nav id="navbar">
+    <div class="two-col-grid">
+        <div id="home">
+            <a href="https://www.artbauhauss.de/">Artbauhauss</a>
+        </div>
+        <div id="menu">
+            <a href="#portfolio">Portfolio</a>
+            <a href="#cv">CV</a>
+        </div>
+    </div>
+</nav>
+<main>
+    <section id="portfolio" class="two-col-grid">
+    </section>
+    <section id="cv">
+
+    </section>
+</main>
+<footer>
+    <div class="two-col-grid">
+        <div id="imprint">
+            <b>Imprint</b>
+            <p> Sophie Bauhaus<br>
+                Rohrbacher Straße 27<br>
+                69115 Heidelberg, Germany<br>
+                <a href="mailto:sophie.bauhaus@posteo.de">sophie.bauhaus@posteo.de</a><br>
+                <a href="https://www.instagram.com/artbauhauss/">@artbauhauss</a>
+            </p>
+        </div>
+        <div id="copyright">
+            © 2021 Sophie Bauhaus
+        </div>
+    </div>
+</footer>
+<script>
+	const galleryData = [
+		{
+			title: 'Lost in Space #1',
+			size: '29.7x42 cm',
+			description: 'photo collage on paper',
+			year: 2020,
+			image_path: './images/artbauhauss_lostinspace1.jpg',
+			sold: false
+		},
+		{
+			title: 'Lost in Space #2',
+			size: '29.7x42 cm',
+			description: 'photo collage on paper',
+			year: 2020,
+			image_path: './images/artbauhauss_lostinspace2.jpg',
+			sold: false
+		},
+		{
+			title: 'Lost in Space #3',
+			size: '50x64 cm',
+			description: 'photo collage on paper',
+			year: 2020,
+			image_path: './images/artbauhauss_lostinspace3.jpg',
+			sold: false
+		},
+		{
+			title: 'Lost in Space #4',
+			size: '50x64 cm',
+			description: 'photo collage on paper',
+			year: 2020,
+			image_path: './images/artbauhauss_lostinspace4.jpg',
+			sold: false
+		},
+		{
+			title: 'By the Lake #1',
+			size: '24x35 cm',
+			description: 'fine liner, collage on paper',
+			year: 2020,
+			image_path: './images/artbauhauss_bythelake1.jpg',
+			sold: false
+		},
+		{
+			title: 'By the Lake #2',
+			size: '24x35 cm',
+			description: 'fine liner, collage on paper',
+			year: 2020,
+			image_path: './images/artbauhauss_bythelake2.jpg',
+			sold: false
+		},
+		{
+			title: 'Dare to Express #2',
+			size: '20x20 cm',
+			description: 'oil and acrylic on canvas',
+			year: 2019,
+			image_path: './images/20191125_140713.jpg',
+			sold: true
+		},
+		{
+			title: 'Where is the Space #2',
+			size: '20x20 cm',
+			description: 'oil on canvas',
+			year: 2020,
+			image_path: './images/20200803_173336.jpg',
+			sold: false
+		}
+	];
+
+	const portfolio = document.getElementById('portfolio');
+
+	function createLoaderElement() {
+		const loader = document.createElement('div');
+		loader.classList.add('loader');
+		return loader;
+	}
+
+	function loadImage(imgSrc, callback) {
+		const imageElement = document.createElement('img');
+		imageElement.onload = function () {
+			setTimeout(() => callback(imageElement), Math.random() * 1000);
+		}
+		imageElement.src = imgSrc;
+	}
+
+	galleryData.forEach(item => {
+		const galleryItem = document.createElement('div');
+		galleryItem.classList.add('gallery-item');
+		const loader = createLoaderElement();
+		galleryItem.appendChild(loader);
+		portfolio.appendChild(galleryItem);
+		loadImage(item.image_path, (imageElement) => {
+			galleryItem.removeChild(loader);
+			galleryItem.appendChild(imageElement);
+		});
+	});
+
+	const navbar = document.getElementById('navbar');
+	const sticky = navbar.offsetTop;
+
+	window.onscroll = () => {
+		if (window.pageYOffset >= sticky) {
+			navbar.classList.add('sticky')
+		} else {
+			navbar.classList.remove('sticky');
+		}
+	};
+</script>
+</body>
+</html>
