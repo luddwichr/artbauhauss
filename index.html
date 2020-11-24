@@ -32,7 +32,6 @@
     <section id="portfolio" class="two-col-grid">
     </section>
     <section id="cv">
-
     </section>
 </main>
 <footer>
@@ -51,8 +50,26 @@
         </div>
     </div>
 </footer>
+<div id="fullscreen-viewer">
+    <div id="flex-wrapper">
+        <div id="fullscreen-navbar">
+            <button id="#fullscreen-image-button">&#x26F6;</button>
+            <button id="end-fullscreen-button">&#x2716;</button>
+        </div>
+        <div id="fullscreen-content">
+            <img id="artwork-image" alt="artwork-image" src="">
+            <div id="metadata">
+                <p id="artwork-title"></p>
+                <p id="artwork-size"></p>
+                <p id="artwork-description"></p>
+                <p id="artwork-year"></p>
+                <p id="artwork-sold"></p>
+            </div>
+        </div>
+    </div>
+</div>
 <script>
-	const galleryData = [
+	const galleryItems = [
 		{
 			title: 'Lost in Space #1',
 			size: '29.7x42 cm',
@@ -119,7 +136,22 @@
 		}
 	];
 
+	const setText = (elementId, text) => document.getElementById(elementId).innerText = text;
+
 	const portfolio = document.getElementById('portfolio');
+	const fullScreenViewer = document.getElementById('fullscreen-viewer');
+	const endFullScreenButton = document.getElementById('end-fullscreen-button');
+	endFullScreenButton.onclick = () => fullScreenViewer.style.visibility = 'hidden';
+
+	function displayInFullScreen(item) {
+		fullScreenViewer.style.visibility = 'visible';
+		setText('artwork-title', item.title);
+		setText('artwork-size', item.size);
+		setText('artwork-description', item.description);
+		setText('artwork-year', item.year);
+		setText('artwork-sold', item.sold ? 'in private collection' : '');
+		document.getElementById('artwork-image').src = item.image_path;
+	}
 
 	function createLoaderElement() {
 		const loader = document.createElement('div');
@@ -130,12 +162,12 @@
 	function loadImage(imgSrc, callback) {
 		const imageElement = document.createElement('img');
 		imageElement.onload = function () {
-			setTimeout(() => callback(imageElement), Math.random() * 1000);
+			callback(imageElement);
 		}
 		imageElement.src = imgSrc;
 	}
 
-	galleryData.forEach(item => {
+	galleryItems.forEach(item => {
 		const galleryItem = document.createElement('div');
 		galleryItem.classList.add('gallery-item');
 		const loader = createLoaderElement();
@@ -144,6 +176,7 @@
 		loadImage(item.image_path, (imageElement) => {
 			galleryItem.removeChild(loader);
 			galleryItem.appendChild(imageElement);
+			imageElement.onclick = () => displayInFullScreen(item);
 		});
 	});
 

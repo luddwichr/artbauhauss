@@ -145,7 +145,7 @@ nav .two-col-grid {
 
 footer {
     border-top: 1px solid lightgray;
-    padding: 40px;
+    padding: 40px 0;
 }
 
 footer * {
@@ -166,6 +166,43 @@ footer * {
 
 #copyright {
     place-self: center;
+}
+
+#fullscreen-viewer {
+    visibility: hidden;
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    z-index: 10000;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+#flex-wrapper {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+#fullscreen-navbar {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#fullscreen-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 30px;
+    padding: 30px;
+}
+
+#artwork-image {
+    width: 100%;
+    height: auto;
 }
 
 /*credits for loader: https://projects.lukehaas.me/css-loaders/ under MIT license*/
