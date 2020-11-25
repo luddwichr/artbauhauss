@@ -115,31 +115,34 @@ body, html {
 
 .two-col-grid {
     display: grid;
-    grid-gap: 50px;
+    grid-row-gap: 50px;
+    grid-column-gap: 100px;
     grid-template-columns: repeat(auto-fit, 300px);
     align-items: center;
     justify-content: center;
+    justify-items: center;
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
 }
 
-nav {
+#navbar {
     padding: 25px;
     background-color: white;
 }
 
-nav .two-col-grid {
+#navbar .two-col-grid {
     grid-template-columns: 1fr 1fr;
+    grid-column-gap: 0;
 }
 
-nav a {
+#navbar a {
     display: block;
     float: left;
     padding: 10px;
 }
 
-nav a:hover {
+#navbar a:hover {
     color: gray;
 }
 
@@ -191,12 +194,13 @@ footer {
     padding: 30px 0;
 }
 
-footer * {
-    color: lightslategray;
+footer .two-col-grid {
+    grid-column-gap: 0;
+    grid-row-gap: 20px;
 }
 
-#imprint {
-    place-self: center;
+footer * {
+    color: lightslategray;
 }
 
 #imprint p {
@@ -205,10 +209,6 @@ footer * {
 
 #imprint a:hover, #imprint a:active {
     color: dimgray;
-}
-
-#copyright {
-    place-self: center;
 }
 
 #fullscreen-viewer {
@@ -221,12 +221,8 @@ footer * {
     z-index: 10000;
     background-color: white;
     border: 1px solid lightgray;
-}
-
-#flex-wrapper {
     display: flex;
     flex-flow: column;
-    height: 100%;
 }
 
 #fullscreen-navbar {
