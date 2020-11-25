@@ -179,15 +179,23 @@
 	});
 
 	const navbar = document.getElementById('navbar');
-	const sticky = navbar.offsetTop;
+	const header = document.getElementById('parallax-header');
+    const computeNavOffset= () => header.offsetTop + header.offsetHeight;
+	let navTopOffset = computeNavOffset();
 
-	window.onscroll = () => {
-		if (window.pageYOffset >= sticky) {
+	function navStickyCheck() {
+		if (window.pageYOffset >= navTopOffset) {
 			navbar.classList.add('sticky')
 		} else {
 			navbar.classList.remove('sticky');
 		}
-	};
+	}
+
+	window.onscroll = navStickyCheck;
+	window.onresize = () => {
+		navTopOffset = computeNavOffset();
+		navStickyCheck();
+	}
 </script>
 </body>
 </html>
