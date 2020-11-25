@@ -203,10 +203,6 @@ footer * {
     color: lightslategray;
 }
 
-#imprint p {
-    padding-left: 0.5em;
-}
-
 #imprint a:hover, #imprint a:active {
     color: dimgray;
 }
