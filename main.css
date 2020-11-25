@@ -79,14 +79,11 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    padding-top: 150px;
 }
 
 #header-text {
     text-align: center;
+    padding-top: 150px;
 }
 
 #artist-name {
@@ -107,7 +104,7 @@ body, html {
 
 #header-menu a {
     display: block;
-    padding: 20px;
+    padding: 1em;
     font-size: min(6vw, 2em);
     font-weight: bold;
 }
@@ -120,6 +117,7 @@ body, html {
     display: grid;
     grid-gap: 50px;
     grid-template-columns: repeat(auto-fit, 300px);
+    align-items: center;
     justify-content: center;
     max-width: 700px;
     margin-left: auto;
@@ -131,6 +129,10 @@ nav {
     background-color: white;
 }
 
+nav .two-col-grid {
+    grid-template-columns: 1fr 1fr;
+}
+
 nav a {
     display: block;
     float: left;
@@ -139,10 +141,6 @@ nav a {
 
 nav a:hover {
     color: gray;
-}
-
-nav .two-col-grid {
-    grid-template-columns: 1fr 1fr;
 }
 
 #home {
@@ -177,6 +175,7 @@ main {
     height: 400px;
     display: flex;
     align-items: center;
+    justify-self: center;
     justify-content: center;
 }
 
@@ -189,7 +188,7 @@ main {
 
 footer {
     border-top: 1px solid lightgray;
-    padding: 40px 0;
+    padding: 30px 0;
 }
 
 footer * {
@@ -201,7 +200,7 @@ footer * {
 }
 
 #imprint p {
-    padding: 0.5em;
+    padding-left: 0.5em;
 }
 
 #imprint a:hover, #imprint a:active {
