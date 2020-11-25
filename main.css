@@ -1,11 +1,21 @@
+/*
+ * Normalize CSS
+ */
 html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
 }
 
+body {
+    margin: 0;
+}
+
 main {
     display: block;
-    margin: 40px 0;
+}
+
+a {
+    background-color: transparent;
 }
 
 img {
@@ -16,8 +26,39 @@ img {
     box-sizing: border-box;
 }
 
-body {
+button {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
     margin: 0;
+    overflow: visible;
+    text-transform: none;
+}
+
+button, [type="button"] {
+    -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+[hidden] {
+    display: none;
+}
+
+/*
+ * Page specific styling
+ */
+
+body {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -25,7 +66,6 @@ body {
 a {
     text-decoration: none;
     color: black;
-    background-color: transparent;
 }
 
 body, html {
@@ -128,6 +168,10 @@ nav .two-col-grid {
     padding-top: 92px;
 }
 
+main {
+    margin: 40px 0;
+}
+
 .gallery-item {
     width: 300px;
     height: 400px;
@@ -171,10 +215,10 @@ footer * {
 #fullscreen-viewer {
     visibility: hidden;
     position: fixed;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     z-index: 10000;
     background-color: white;
     border: 1px solid lightgray;
@@ -198,14 +242,20 @@ footer * {
     grid-template-columns: 2fr 1fr;
     grid-gap: 30px;
     padding: 30px;
+    overflow: hidden;
 }
 
 #artwork-image {
-    width: 100%;
+    width: auto;
     height: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 
-/*credits for loader: https://projects.lukehaas.me/css-loaders/ under MIT license*/
+/*
+ * Spinner when loading images
+ * credits: https://projects.lukehaas.me/css-loaders/ under MIT license
+ */
 
 .loader,
 .loader:before,
@@ -270,4 +320,3 @@ footer * {
         box-shadow: 0 2.5em 0 0;
     }
 }
-
