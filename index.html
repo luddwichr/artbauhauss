@@ -17,7 +17,7 @@
         </div>
     </div>
 </header>
-<nav id="navbar">
+<nav id="navbar" class="centered-container">
     <div class="two-col-grid">
         <div id="home">
             <a href="https://www.artbauhauss.de/">Artbauhauss</a>
@@ -28,56 +28,62 @@
         </div>
     </div>
 </nav>
-<main>
-    <section id="portfolio" class="two-col-grid">
+<main class="centered-container">
+    <section id="portfolio">
+        <div id="gallery" class="two-col-grid">
+        </div>
     </section>
-    <section id="info" class="two-col-grid">
-        <div id="about-me">
-            In my work I am concerned with questions of control and transformation.
-            I am interested in the dynamic between the desire to determine the outcome of a process and the inability to
-            decide upon certain results.
-            Holding on to existing structures opposes change and transformation.
-            Both on the individual and personal level, as well as on the societal level, we are subjects to change and
-            transformation constantly.
-            On both levels there is an ongoing conflict between forces that try to remain in existing realities,
-            and forces that are willing to take risks in order to advance.
-            Surrendering to this fact and the engagement in this reality form the core of my creative work.
-        </div>
-        <div id="portrait" class="gallery-item">
-            <img alt="sophie bauhaus" src="./images/artbauhauss_portrait.jpg">
-        </div>
-        <div id="on-view">
-            <h1>On View</h1>
+    <section id="info">
+        <div id="info-content" class="two-col-grid">
+            <p id="about-me">
+                In my work I am concerned with questions of control and transformation.
+                I am interested in the dynamic between the desire to determine the outcome of a process and the
+                inability to
+                decide upon certain results.
+                Holding on to existing structures opposes change and transformation.
+                Both on the individual and personal level, as well as on the societal level, we are subjects to change
+                and
+                transformation constantly.
+                On both levels there is an ongoing conflict between forces that try to remain in existing realities,
+                and forces that are willing to take risks in order to advance.
+                Surrendering to this fact and the engagement in this reality form the core of my creative work.
+            </p>
+            <div id="portrait" class="gallery-item">
+                <img alt="sophie bauhaus" src="./images/artbauhauss_portrait.jpg">
+            </div>
+            <div id="on-view">
+                <h1>On View</h1>
 
-            <h2>Art.Next Breidenbach Studios</h2>
-            Group Exhibition<br>
-            Sep 11/12, 2020<br><br>
-            Vernissage: Sep 11, 2020 // 19:00<br><br>
+                <h2>Art.Next Breidenbach Studios</h2>
+                Group Exhibition<br>
+                Sep 11/12, 2020<br><br>
+                Vernissage: Sep 11, 2020 // 19:00<br><br>
 
-            Breidenbach Studios<br>
-            Hebelstraße 18<br>
-            69115 Heidelberg<br><br>
-            <a href="https://www.breidenbachstudios.de/veranstaltungen/">events Breidenbach</a>
+                Breidenbach Studios<br>
+                Hebelstraße 18<br>
+                69115 Heidelberg<br><br>
+                <a href="https://www.breidenbachstudios.de/veranstaltungen/">events Breidenbach</a>
 
-            <h2>Explosions and Transformations</h2>
-            Solo Exhibition<br>
-            Dec 08, 2019 - Apr 11, 2020<br><br>
-            Vernissage: Dec 08, 2020 // 15:00<br><br>
-            Pannonica<br>
-            Ingrimstr. 22<br>
-            69117 Heidelberg<br>
-        </div>
-        <div id="contact">
-            <h1>Contact</h1>
-            I am based in Heidelberg and Berlin.<br>
-            Please contact the email address below for any inquiries.<br>
-            <a href="mailto:sophie.bauhaus@posteo.de">sophie.bauhaus@posteo.de</a><br>
-            <a href="https://www.instagram.com/artbauhauss/">@artbauhauss on Instagram</a>
+                <h2>Explosions and Transformations</h2>
+                Solo Exhibition<br>
+                Dec 08, 2019 - Apr 11, 2020<br><br>
+                Vernissage: Dec 08, 2020 // 15:00<br><br>
+                Pannonica<br>
+                Ingrimstr. 22<br>
+                69117 Heidelberg<br>
+            </div>
+            <div id="contact">
+                <h1>Contact</h1>
+                I am based in Heidelberg and Berlin.<br>
+                Please contact the email address below for any inquiries.<br><br>
+                <a href="mailto:sophie.bauhaus@posteo.de">sophie.bauhaus@posteo.de</a><br>
+                <a href="https://www.instagram.com/artbauhauss/">@artbauhauss on Instagram</a>
+            </div>
         </div>
     </section>
 </main>
 <footer>
-    <div class="two-col-grid">
+    <div class="two-col-grid centered-container">
         <div id="imprint">
             <b>Imprint</b>
             <p> Sophie Bauhaus<br>
@@ -178,7 +184,7 @@
 
 	const setText = (elementId, text) => document.getElementById(elementId).innerText = text;
 
-	const portfolio = document.getElementById('portfolio');
+	const galleryElement = document.getElementById('gallery');
 	const fullScreenViewer = document.getElementById('fullscreen-viewer');
 	const endFullScreenButton = document.getElementById('end-fullscreen-button');
 	endFullScreenButton.onclick = () => fullScreenViewer.style.visibility = 'hidden';
@@ -212,7 +218,7 @@
 		galleryItem.classList.add('gallery-item');
 		const loader = createLoaderElement();
 		galleryItem.appendChild(loader);
-		portfolio.appendChild(galleryItem);
+		galleryElement.appendChild(galleryItem);
 		loadImage(item.image_path, (imageElement) => {
 			galleryItem.removeChild(loader);
 			galleryItem.appendChild(imageElement);
