@@ -269,6 +269,13 @@ footer * {
     justify-items: left;
     padding: 20px;
     line-height: 1.5em;
+    grid-template-areas: "about portrait" "exhibitions contact"
+}
+
+@media (max-width: 1024px) {
+    #info-content {
+        grid-template-areas: "portrait" "about" "exhibitions" "contact"
+    }
 }
 
 #info-content a {
@@ -277,6 +284,7 @@ footer * {
 
 #about-me {
     font-size: 1.2em;
+    grid-area: about;
 }
 
 #portrait {
@@ -284,6 +292,15 @@ footer * {
     max-height: 500px;
     width: auto;
     height: auto;
+    grid-area: portrait;
+}
+
+#contact {
+    grid-area: contact;
+}
+
+#exhibitions {
+    grid-area: exhibitions;
 }
 
 h1 {
