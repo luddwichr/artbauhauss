@@ -188,7 +188,15 @@ body, html {
 }
 
 section {
-    margin: 40px 0;
+    margin-bottom: 40px;
+}
+
+.section-header {
+    border-top: 1px solid lightgray;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 2em;
+    color: gray;
 }
 
 .gallery-item {
