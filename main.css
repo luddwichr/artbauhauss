@@ -293,6 +293,7 @@ footer * {
 #about-me {
     font-size: 1.2em;
     grid-area: about;
+    text-align: justify;
 }
 
 #portrait {
