@@ -215,18 +215,22 @@
 		imageElement.src = imgSrc;
 	}
 
-	galleryItems.forEach(item => {
-		const galleryItem = document.createElement('div');
-		galleryItem.classList.add('gallery-item');
-		const loader = createLoaderElement();
-		galleryItem.appendChild(loader);
-		galleryElement.appendChild(galleryItem);
-		loadImage(item.image_path, (imageElement) => {
-			galleryItem.removeChild(loader);
-			galleryItem.appendChild(imageElement);
-			imageElement.onclick = () => displayInFullScreen(item);
+	function loadGaleryItems() {
+		galleryItems.forEach(item => {
+			const galleryItem = document.createElement('div');
+			galleryItem.classList.add('gallery-item');
+			const loader = createLoaderElement();
+			galleryItem.appendChild(loader);
+			galleryElement.appendChild(galleryItem);
+			loadImage(item.image_path, (imageElement) => {
+				galleryItem.removeChild(loader);
+				galleryItem.appendChild(imageElement);
+				imageElement.onclick = () => displayInFullScreen(item);
+			});
 		});
-	});
+	}
+
+	window.onload = loadGaleryItems;
 
 	const navbar = document.getElementById('navbar');
 	const header = document.getElementById('parallax-header');
