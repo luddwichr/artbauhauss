@@ -1,5 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('./fonts/open-sans-v18-latin-regular.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/open-sans-v18-latin-regular.woff2') format('woff2'),
+    url('./fonts/open-sans-v18-latin-regular.woff') format('woff'),
+    url('./fonts/open-sans-v18-latin-regular.ttf') format('truetype'),
+    url('./fonts/open-sans-v18-latin-regular.svg#OpenSans') format('svg');
+}
 
 /*
  * Normalize CSS
