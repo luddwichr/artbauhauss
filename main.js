@@ -67,13 +67,20 @@ const galleryItems = [
 
 const setText = (elementId, text) => document.getElementById(elementId).innerText = text;
 
+const bodyElement = document.getElementsByTagName('body')[0];
 const galleryElement = document.getElementById('gallery');
 const fullScreenViewer = document.getElementById('fullscreen-viewer');
 const endFullScreenButton = document.getElementById('end-fullscreen-button');
-endFullScreenButton.onclick = () => fullScreenViewer.style.visibility = 'hidden';
+endFullScreenButton.onclick = () => {
+	fullScreenViewer.style.visibility = 'hidden';
+	bodyElement.style.overflow = 'initial';
+
+}
 
 function displayInFullScreen(item) {
 	fullScreenViewer.style.visibility = 'visible';
+	bodyElement.style.overflow = 'hidden';
+
 	setText('artwork-title', item.title);
 	setText('artwork-size', item.size);
 	setText('artwork-description', item.description);
