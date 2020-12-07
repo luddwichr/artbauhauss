@@ -96,7 +96,11 @@ function loadImage(imgSrc, callback) {
 	imageElement.src = imgSrc;
 }
 
-function loadGaleryItems() {
+const galleryLoader = createLoaderElement();
+galleryElement.appendChild(galleryLoader);
+
+function loadGalleryItems() {
+	galleryElement.removeChild(galleryLoader);
 	galleryItems.forEach(item => {
 		const galleryItem = document.createElement('div');
 		galleryItem.classList.add('gallery-item');
@@ -111,8 +115,22 @@ function loadGaleryItems() {
 	});
 }
 
-window.onload = loadGaleryItems;
+function loadPortrait() {
+	const portraitElement = document.getElementById('portrait');
+	loadImage('./images/artbauhauss_portrait.jpg', imageElement => {
+		portraitElement.classList.remove('loader');
+		portraitElement.appendChild(imageElement);
+	});
+}
 
+window.onload = () => {
+	loadPortrait();
+	loadGalleryItems();
+}
+
+/*
+ * Sticky header stuff (re-evaluate coverage of https://caniuse.com/css-sticky at some point for cleaner design)
+ */
 const navbar = document.getElementById('navbar');
 const header = document.getElementById('parallax-header');
 const computeNavOffset = () => header.offsetTop + header.offsetHeight;
