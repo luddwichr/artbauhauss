@@ -1,6 +1,6 @@
 - Determine font to use: https://fonts.google.com
 - Smooth scrolling to target for browsers other than modern Chrome/Firefox?
-- Review info content and layout
-- Heading for sections?
-- Maximize image button to be filled with life or delete it
 - Make it clear to the user that gallery items can be clicked - e.g. show some info on mouse hover
+- Run google lighthouse on page to check for problems
+- Provide symbols for instagram and email in contact section
+- Consistently compress images, experiment with webp format?
