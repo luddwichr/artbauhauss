@@ -130,29 +130,29 @@ function loadPortrait() {
 	});
 }
 
-window.onload = () => {
-	loadPortrait();
-	loadGalleryItems();
-}
+function initStickyHeader() {
+	const navbar = document.getElementById('navbar');
+	const header = document.getElementById('parallax-header');
+	const computeNavOffset = () => header.offsetTop + header.offsetHeight;
+	let navTopOffset = computeNavOffset();
 
-/*
- * Sticky header stuff (re-evaluate coverage of https://caniuse.com/css-sticky at some point for cleaner design)
- */
-const navbar = document.getElementById('navbar');
-const header = document.getElementById('parallax-header');
-const computeNavOffset = () => header.offsetTop + header.offsetHeight;
-let navTopOffset = computeNavOffset();
+	function navStickyCheck() {
+		if (window.pageYOffset >= navTopOffset) {
+			navbar.classList.add('sticky')
+		} else {
+			navbar.classList.remove('sticky');
+		}
+	}
 
-function navStickyCheck() {
-	if (window.pageYOffset >= navTopOffset) {
-		navbar.classList.add('sticky')
-	} else {
-		navbar.classList.remove('sticky');
+	window.onscroll = navStickyCheck;
+	window.onresize = () => {
+		navTopOffset = computeNavOffset();
+		navStickyCheck();
 	}
 }
 
-window.onscroll = navStickyCheck;
-window.onresize = () => {
-	navTopOffset = computeNavOffset();
-	navStickyCheck();
+window.onload = () => {
+	loadPortrait();
+	loadGalleryItems();
+	initStickyHeader();
 }
