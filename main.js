@@ -95,8 +95,9 @@ function createLoaderElement() {
 	return loader;
 }
 
-function loadImage(imgSrc, callback) {
+function loadImage(imgSrc, altText, callback) {
 	const imageElement = document.createElement('img');
+	imageElement.alt = altText;
 	imageElement.onload = function () {
 		callback(imageElement);
 	}
@@ -114,7 +115,7 @@ function loadGalleryItems() {
 		const loader = createLoaderElement();
 		galleryItem.appendChild(loader);
 		galleryElement.appendChild(galleryItem);
-		loadImage(item.image_path, (imageElement) => {
+		loadImage(item.image_path, item.title, (imageElement) => {
 			galleryItem.removeChild(loader);
 			galleryItem.appendChild(imageElement);
 			imageElement.onclick = () => displayInFullScreen(item);
@@ -124,10 +125,12 @@ function loadGalleryItems() {
 
 function loadPortrait() {
 	const portraitElement = document.getElementById('portrait');
-	loadImage('./images/artbauhauss_portrait.jpg', imageElement => {
-		portraitElement.classList.remove('loader');
-		portraitElement.appendChild(imageElement);
-	});
+	loadImage('./images/artbauhauss_portrait.jpg', 'sophie bauhaus portrait',
+		imageElement => {
+			portraitElement.classList.remove('loader');
+			portraitElement.appendChild(imageElement);
+		}
+	);
 }
 
 function initStickyHeader() {
