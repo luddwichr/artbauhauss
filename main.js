@@ -73,13 +73,12 @@ const fullScreenViewer = document.getElementById('fullscreen-viewer');
 const endFullScreenButton = document.getElementById('end-fullscreen-button');
 endFullScreenButton.onclick = () => {
 	fullScreenViewer.style.visibility = 'hidden';
-	bodyElement.style.overflow = 'initial';
-
+	bodyElement.classList.remove('no-scroll');
 }
 
 function displayInFullScreen(item) {
 	fullScreenViewer.style.visibility = 'visible';
-	bodyElement.style.overflow = 'hidden';
+	bodyElement.classList.add('no-scroll');
 
 	setText('artwork-title', item.title);
 	setText('artwork-size', item.size);

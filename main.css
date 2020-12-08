@@ -89,6 +89,10 @@ body, html {
     height: 100%;
 }
 
+.no-scroll {
+    overflow: hidden;
+}
+
 #parallax-header {
     background-image: url("./images/artbauhauss_dontthink_2020_detail.jpg");
     height: 100%;
