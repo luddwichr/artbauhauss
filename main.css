@@ -291,6 +291,10 @@ footer * {
     overflow: hidden;
 }
 
+#metadata > p {
+    font-size: 1.25em;
+}
+
 @media (max-width: 1024px) {
     #fullscreen-content {
         grid-template-columns: 1fr;
