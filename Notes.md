@@ -4,7 +4,6 @@
 - Smooth scrolling to target for browsers other than modern Chrome/Firefox?
 - Make it clear to the user that gallery items can be clicked - e.g. show some info on mouse hover
 - Run google lighthouse on page to check for problems
-
 - Use CloudFlare as CDN for performance: https://gist.github.com/cvan/8630f847f579f90e0c014dc5199c337bs
 - Links in image descriptions needed? if so, assign not to innerText but innerHtml
 

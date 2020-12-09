@@ -4,7 +4,7 @@ const galleryItems = [
 		size: '29.7x42 cm',
 		description: 'photo collage on paper',
 		year: 2020,
-		image_path: './images/artbauhauss_lostinspace1.jpg',
+		image_path: './images/artbauhauss_lostinspace1.webp',
 		sold: false
 	},
 	{
@@ -12,7 +12,7 @@ const galleryItems = [
 		size: '29.7x42 cm',
 		description: 'photo collage on paper',
 		year: 2020,
-		image_path: './images/artbauhauss_lostinspace2.jpg',
+		image_path: './images/artbauhauss_lostinspace2.webp',
 		sold: false
 	},
 	{
@@ -20,7 +20,7 @@ const galleryItems = [
 		size: '50x64 cm',
 		description: 'photo collage on paper',
 		year: 2020,
-		image_path: './images/artbauhauss_lostinspace3.jpg',
+		image_path: './images/artbauhauss_lostinspace3.webp',
 		sold: false
 	},
 	{
@@ -28,7 +28,7 @@ const galleryItems = [
 		size: '50x64 cm',
 		description: 'photo collage on paper',
 		year: 2020,
-		image_path: './images/artbauhauss_lostinspace4.jpg',
+		image_path: './images/artbauhauss_lostinspace4.webp',
 		sold: false
 	},
 	{
@@ -36,7 +36,7 @@ const galleryItems = [
 		size: '24x35 cm',
 		description: 'fine liner, collage on paper',
 		year: 2020,
-		image_path: './images/artbauhauss_bythelake1.jpg',
+		image_path: './images/artbauhauss_bythelake1.webp',
 		sold: false
 	},
 	{
@@ -44,7 +44,7 @@ const galleryItems = [
 		size: '24x35 cm',
 		description: 'fine liner, collage on paper',
 		year: 2020,
-		image_path: './images/artbauhauss_bythelake2.jpg',
+		image_path: './images/artbauhauss_bythelake2.webp',
 		sold: false
 	},
 	{
@@ -52,7 +52,7 @@ const galleryItems = [
 		size: '20x20 cm',
 		description: 'oil and acrylic on canvas',
 		year: 2019,
-		image_path: './images/20191125_140713.jpg',
+		image_path: './images/20191125_140713.webp',
 		sold: true
 	},
 	{
@@ -60,7 +60,7 @@ const galleryItems = [
 		size: '20x20 cm',
 		description: 'oil on canvas',
 		year: 2020,
-		image_path: './images/20200803_173336.jpg',
+		image_path: './images/20200803_173336.webp',
 		sold: false
 	}
 ];
@@ -124,7 +124,7 @@ function loadGalleryItems() {
 
 function loadPortrait() {
 	const portraitElement = document.getElementById('portrait');
-	loadImage('./images/artbauhauss_portrait.jpg', 'sophie bauhaus portrait',
+	loadImage('./images/artbauhauss_portrait.webp', 'sophie bauhaus portrait',
 		imageElement => {
 			portraitElement.classList.remove('loader');
 			portraitElement.appendChild(imageElement);
