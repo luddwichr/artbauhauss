@@ -234,6 +234,10 @@ section {
     cursor: pointer;
 }
 
+#portrait > img {
+    cursor: default;
+}
+
 footer {
     border-top: 1px solid lightgray;
     padding: 30px 0;
