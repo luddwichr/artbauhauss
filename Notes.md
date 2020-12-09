@@ -7,7 +7,6 @@
 - Potential Domain registrars:
     - domaindiscount24: 2.32 € p.a., cf. https://www.domaindiscount24.com/de/de-domain
     - INWX: transfer fee: 4.54€, renew: 4.54€ c.f. https://www.inwx.de/de/domain/pricelist for .de
-- Links in image descriptions needed? if so, assign not to innerText but innerHtml
 
 # Converting images from jpg to webp:
 

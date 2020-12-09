@@ -50,7 +50,7 @@ const galleryItems = [
 	{
 		title: 'Dare to Express #2',
 		size: '20x20 cm',
-		description: 'oil and acrylic on canvas',
+		description: 'oil and acrylic on canvas. <br><a href="#" target="_blank" rel="noopener">Some external link</a>',
 		year: 2019,
 		image_path: './images/20191125_140713.webp',
 		sold: true
@@ -65,8 +65,6 @@ const galleryItems = [
 	}
 ];
 
-const setText = (elementId, text) => document.getElementById(elementId).innerText = text;
-
 const bodyElement = document.getElementsByTagName('body')[0];
 const galleryElement = document.getElementById('gallery');
 const fullScreenViewer = document.getElementById('fullscreen-viewer');
@@ -80,9 +78,12 @@ function displayInFullScreen(item) {
 	fullScreenViewer.style.visibility = 'visible';
 	bodyElement.classList.add('no-scroll');
 
+	const setText = (elementId, text) => document.getElementById(elementId).innerText = text;
+	const setHtml = (elementId, text) => document.getElementById(elementId).innerHTML = text;
+
 	setText('artwork-title', item.title);
 	setText('artwork-size', item.size);
-	setText('artwork-description', item.description);
+	setHtml('artwork-description', item.description);
 	setText('artwork-year', item.year);
 	setText('artwork-sold', item.sold ? 'in private collection' : '');
 	document.getElementById('artwork-image').src = item.image_path;
