@@ -1,10 +1,12 @@
 # Backlog
 
 - Determine font to use: https://fonts.google.com
-- Smooth scrolling to target for browsers other than modern Chrome/Firefox?
 - Make it clear to the user that gallery items can be clicked - e.g. show some info on mouse hover
-- Run google lighthouse on page to check for problems
 - Use CloudFlare as CDN for performance: https://gist.github.com/cvan/8630f847f579f90e0c014dc5199c337b
+    - configuration for domaindiscount24: https://www.domaindiscount24.com/faq/cname-eintrag
+- Potential Domain registrars:
+    - domaindiscount24: 2.32 € p.a., cf. https://www.domaindiscount24.com/de/de-domain
+    - INWX: transfer fee: 4.54€, renew: 4.54€ c.f. https://www.inwx.de/de/domain/pricelist for .de
 - Links in image descriptions needed? if so, assign not to innerText but innerHtml
 
 # Converting images from jpg to webp:
