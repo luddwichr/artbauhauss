@@ -107,6 +107,13 @@ body, html {
     padding-top: 150px;
 }
 
+@media (orientation: landscape) {
+    #header-text {
+        text-align: center;
+        padding-top: 40px;
+    }
+}
+
 #artist-name {
     font-size: min(12vw, 5em);
     font-weight: bold;
@@ -261,8 +268,8 @@ footer * {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    right: 0;
+    bottom: 0;
     z-index: 10000;
     background-color: white;
     border: 1px solid lightgray;
@@ -293,6 +300,12 @@ footer * {
     grid-gap: 30px;
     padding: 30px;
     overflow: hidden;
+}
+
+@media (orientation: landscape) {
+    #fullscreen-content {
+        overflow: scroll;
+    }
 }
 
 #metadata > p {
