@@ -272,13 +272,12 @@ footer * {
     bottom: 0;
     z-index: 10000;
     background-color: white;
-    border: 1px solid lightgray;
     display: flex;
     flex-flow: column;
 }
 
 #fullscreen-navbar {
-    padding: 30px;
+    padding: 20px;
     display: flex;
     flex-flow: column;
     align-items: flex-end;
@@ -298,14 +297,8 @@ footer * {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-gap: 30px;
-    padding: 30px;
-    overflow: hidden;
-}
-
-@media (orientation: landscape) {
-    #fullscreen-content {
-        overflow: scroll;
-    }
+    padding: 20px;
+    overflow: auto;
 }
 
 #metadata > p {
