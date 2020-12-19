@@ -343,10 +343,6 @@ footer * {
         display: none;
     }
 
-    #artwork-image {
-        max-width: 100%;
-    }
-
     #fullscreen-carousel {
         justify-content: center;
         overflow: visible;
