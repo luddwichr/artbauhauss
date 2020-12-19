@@ -1,5 +1,21 @@
 const galleryItems = [
 	{
+		title: 'Incredibly Large And Small',
+		size: '? cm',
+		description: '?',
+		year: 2020,
+		image_path: './images/artbauhauss_incrediblylargeandsmall.webp',
+		sold: false
+	},
+	{
+		title: 'Self Portait',
+		size: '? cm',
+		description: '?',
+		year: 2020,
+		image_path: './images/artbauhauss_selfportrait.webp',
+		sold: false
+	},
+	{
 		title: 'Lost in Space #1',
 		size: '29.7x42 cm',
 		description: 'photo collage on paper',
@@ -40,6 +56,22 @@ const galleryItems = [
 		sold: false
 	},
 	{
+		title: 'The Trees',
+		size: '24x35 cm',
+		description: 'fine liner on paper',
+		year: 2020,
+		image_path: './images/artbauhauss_thetrees.webp',
+		sold: false
+	},
+	{
+		title: 'Reflections',
+		size: '24x35 cm',
+		description: 'fine liner on paper',
+		year: 2020,
+		image_path: './images/artbauhauss_reflections.webp',
+		sold: false
+	},
+	{
 		title: 'By the Lake #2',
 		size: '24x35 cm',
 		description: 'fine liner, collage on paper',
@@ -48,20 +80,118 @@ const galleryItems = [
 		sold: false
 	},
 	{
-		title: 'Dare to Express #2',
-		size: '20x20 cm',
-		description: 'oil and acrylic on canvas. <br><a href="#" target="_blank" rel="noopener">Some external link</a>',
-		year: 2019,
-		image_path: './images/20191125_140713.webp',
-		sold: true
-	},
-	{
 		title: 'Where is the Space #2',
 		size: '20x20 cm',
 		description: 'oil on canvas',
 		year: 2020,
-		image_path: './images/20200803_173336.webp',
+		image_path: './images/artbauhauss_whereisthespace2.webp',
 		sold: false
+	},
+	{
+		title: 'Don\'t Think',
+		size: '70x70 cm',
+		description: 'oil and acrylic on canvas',
+		year: 2020,
+		image_path: './images/artbauhauss_dontthink.webp',
+		sold: false
+	},
+	{
+		title: 'You',
+		size: '185x185 cm',
+		description: 'oil, acrylic and spray paint on canvas',
+		year: 2020,
+		image_path: './images/artbauhauss_you.webp',
+		sold: false
+	},
+	{
+		title: 'Dare to Express #1',
+		size: '30x30 cm',
+		description: `oil and acrylic on canvas <p>The painting was donated to Breidenbach Studios in Heidelberg to 
+help them survive the hard situation caused by Covid-19. 
+See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopener">Startnext Breidenbach Studios</a> for more.</p>`,
+		year: 2019,
+		image_path: './images/artbauhauss_daretoexpress1.webp',
+		sold: true
+	},
+	{
+		title: 'Dare to Express #2',
+		size: '20x20 cm',
+		description: 'oil and acrylic on canvas',
+		year: 2019,
+		image_path: './images/artbauhauss_daretoexpress2.webp',
+		sold: true
+	},
+	{
+		title: 'Transformation #2',
+		size: '40x40 cm',
+		description: 'oil and acrylic on canvas',
+		year: 2019,
+		image_path: './images/artbauhauss_transformation2.webp',
+		sold: true
+	},
+	{
+		title: 'Untitled',
+		size: '20x40 cm (20x20 each)',
+		description: 'spray paint, acrylic and oil on canvas',
+		year: 2019,
+		image_path: './images/artbauhauss_untitled1.webp',
+		sold: true
+	},
+	{
+		title: 'Turquoise Circle #2',
+		size: '200x200 cm',
+		description: 'spray paint, acrylic and oil on canvas',
+		year: 2019,
+		image_path: './images/artbauhauss_turquoisecircle2.webp',
+		sold: false
+	},
+	{
+		title: 'Turquoise Circle #1',
+		size: '100x100 cm',
+		description: 'oil and acrylic on canvas',
+		year: 2019,
+		image_path: './images/artbauhauss_turqoisecircle1.webp',
+		sold: true
+	},
+	{
+		title: 'Explosion #1',
+		size: '100x100 cm',
+		description: 'oil and acrylic on canvas',
+		year: 2019,
+		image_path: './images/artbauhauss_explosion1.webp',
+		sold: false
+	},
+	{
+		title: 'Explosion #2',
+		size: '80x100 cm',
+		description: 'oil and acrylic on canvas',
+		year: 2019,
+		image_path: './images/artbauhauss_explosion2.webp',
+		sold: false
+	},
+	{
+		title: 'Red Parachute #3',
+		size: '50x50 cm',
+		description: 'oil and acrylic on canvas',
+		year: 2019,
+		image_path: './images/artbauhauss_redparachute3.webp',
+		sold: false
+	},
+	{
+		title: 'Red Parachute #2',
+		size: '50x50 cm',
+		description: 'oil on canvas',
+		year: 2019,
+		image_path: './images/artbauhauss_redparachute2.webp',
+		sold: false
+	},
+	{
+		title: 'Red Parachute #1',
+		size: '40x40 cm',
+		description: 'acrylic on canvas',
+		year: 2018,
+		image_path: './images/artbauhauss_redparachute1.webp',
+		sold: true
 	}
 ];
 
