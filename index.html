@@ -16,6 +16,7 @@
     <meta property="og:site_name" content="artbauhauss"/>
     <meta property="og:type" content="website"/>
     <link href="./main.css" rel="stylesheet">
+    <script src="swiped-events.min.js" defer></script>
     <script src="main.js" defer></script>
 </head>
 <body>
@@ -115,10 +116,14 @@
 </footer>
 <div id="fullscreen-viewer">
     <div id="fullscreen-navbar">
-        <button type="button" id="end-fullscreen-button">&#x2716;</button>
+        <button type="button" id="end-fullscreen-button" class="fullscreen-button">&#x2716;</button>
     </div>
     <div id="fullscreen-content">
-        <img id="artwork-image" alt="artwork-image" src="">
+        <div id="fullscreen-carousel">
+            <button type="button" id="go-to-previous-item" class="fullscreen-button">&#xFF1C;</button>
+            <img id="artwork-image" alt="artwork-image" src="">
+            <button type="button" id="go-to-next-item" class="fullscreen-button">&#xFF1E;</button>
+        </div>
         <div id="metadata">
             <p id="artwork-title"></p>
             <p id="artwork-size"></p>

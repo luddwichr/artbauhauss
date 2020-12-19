@@ -199,12 +199,25 @@ const bodyElement = document.getElementsByTagName('body')[0];
 const galleryElement = document.getElementById('gallery');
 const fullScreenViewer = document.getElementById('fullscreen-viewer');
 const endFullScreenButton = document.getElementById('end-fullscreen-button');
+
+let currentFullscreenGalleryItemIdx = null;
+
 endFullScreenButton.onclick = () => {
 	fullScreenViewer.style.visibility = 'hidden';
 	bodyElement.classList.remove('no-scroll');
+	currentFullscreenGalleryItemIdx = null;
 }
 
-function displayInFullScreen(item) {
+bodyElement.addEventListener('swiped-left', () => {
+	if (currentFullscreenGalleryItemIdx > 0) displayInFullScreen(currentFullscreenGalleryItemIdx - 1)
+});
+bodyElement.addEventListener('swiped-right', () => {
+	if (currentFullscreenGalleryItemIdx < galleryItems.length - 1) displayInFullScreen(currentFullscreenGalleryItemIdx + 1)
+});
+
+function displayInFullScreen(itemIdx) {
+	currentFullscreenGalleryItemIdx = itemIdx;
+	const item = galleryItems[itemIdx];
 	fullScreenViewer.style.visibility = 'visible';
 	bodyElement.classList.add('no-scroll');
 
@@ -217,6 +230,14 @@ function displayInFullScreen(item) {
 	setText('artwork-year', item.year);
 	setText('artwork-sold', item.sold ? 'in private collection' : '');
 	document.getElementById('artwork-image').src = item.image_path;
+
+	let goToPreviousItemElement = document.getElementById('go-to-previous-item');
+	goToPreviousItemElement.disabled = itemIdx === 0;
+	goToPreviousItemElement.onclick = () => displayInFullScreen(itemIdx - 1);
+	let goToNextItemElement = document.getElementById('go-to-next-item');
+	goToNextItemElement.disabled = itemIdx === galleryItems.length - 1;
+	goToNextItemElement.onclick = () => displayInFullScreen(itemIdx + 1);
+
 }
 
 function createLoaderElement() {
@@ -239,7 +260,7 @@ galleryElement.appendChild(galleryLoader);
 
 function loadGalleryItems() {
 	galleryElement.removeChild(galleryLoader);
-	galleryItems.forEach(item => {
+	galleryItems.forEach((item, itemIdx) => {
 		const galleryItem = document.createElement('div');
 		galleryItem.classList.add('gallery-item');
 		const loader = createLoaderElement();
@@ -248,7 +269,7 @@ function loadGalleryItems() {
 		loadImage(item.image_path, item.title, (imageElement) => {
 			galleryItem.removeChild(loader);
 			galleryItem.appendChild(imageElement);
-			imageElement.onclick = () => displayInFullScreen(item);
+			imageElement.onclick = () => displayInFullScreen(itemIdx);
 		});
 	});
 }
