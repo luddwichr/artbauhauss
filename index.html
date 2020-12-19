@@ -140,7 +140,7 @@
     </div>
 </div>
 <script>
-	var supportsGrid = typeof el.style.grid === 'string';
+	var supportsGrid = typeof document.createElement('p').style.grid === 'string';
 	if (!supportsGrid) {
 		document.getElementById('outdated-browser-warning').style.display = 'block';
 	}
