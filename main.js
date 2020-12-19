@@ -224,29 +224,35 @@ const fullScreenViewer = document.getElementById('fullscreen-viewer');
 const endFullScreenButton = document.getElementById('end-fullscreen-button');
 
 let currentFullscreenGalleryItemIdx = null;
+let inFullScreenMode = false;
 
 endFullScreenButton.onclick = () => {
 	fullScreenViewer.style.visibility = 'hidden';
 	bodyElement.classList.remove('no-scroll');
-	currentFullscreenGalleryItemIdx = null;
+	inFullScreenMode = false;
 }
 
 bodyElement.addEventListener('swiped-right', () => {
-	if (currentFullscreenGalleryItemIdx > 0) displayInFullScreen(currentFullscreenGalleryItemIdx - 1)
+	if (inFullScreenMode && currentFullscreenGalleryItemIdx > 0) {
+		displayInFullScreen(currentFullscreenGalleryItemIdx - 1);
+	}
 });
 bodyElement.addEventListener('swiped-left', () => {
-	if (currentFullscreenGalleryItemIdx < galleryItems.length - 1) displayInFullScreen(currentFullscreenGalleryItemIdx + 1)
+	if (inFullScreenMode && currentFullscreenGalleryItemIdx < galleryItems.length - 1) {
+		displayInFullScreen(currentFullscreenGalleryItemIdx + 1);
+	}
 });
 
+const setText = (elementId, text) => document.getElementById(elementId).innerText = text;
+const setHtml = (elementId, text) => document.getElementById(elementId).innerHTML = text;
+
 function displayInFullScreen(itemIdx) {
+	inFullScreenMode = true;
 	currentFullscreenGalleryItemIdx = itemIdx;
-	const item = galleryItems[itemIdx];
 	fullScreenViewer.style.visibility = 'visible';
 	bodyElement.classList.add('no-scroll');
 
-	const setText = (elementId, text) => document.getElementById(elementId).innerText = text;
-	const setHtml = (elementId, text) => document.getElementById(elementId).innerHTML = text;
-
+	const item = galleryItems[itemIdx];
 	setText('artwork-title', item.title);
 	setText('artwork-size', item.size);
 	setText('artwork-style', item.style);
@@ -261,7 +267,6 @@ function displayInFullScreen(itemIdx) {
 	let goToNextItemElement = document.getElementById('go-to-next-item');
 	goToNextItemElement.disabled = itemIdx === galleryItems.length - 1;
 	goToNextItemElement.onclick = () => displayInFullScreen(itemIdx + 1);
-
 }
 
 function createLoaderElement() {
