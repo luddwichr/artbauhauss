@@ -2,7 +2,8 @@ const galleryItems = [
 	{
 		title: 'Incredibly Large And Small',
 		size: '? cm',
-		description: '?',
+		style: '?',
+		description: '',
 		year: 2020,
 		image_path: './images/artbauhauss_incrediblylargeandsmall.webp',
 		sold: false
@@ -10,7 +11,8 @@ const galleryItems = [
 	{
 		title: 'Self Portait',
 		size: '? cm',
-		description: '?',
+		style: '?',
+		description: '',
 		year: 2020,
 		image_path: './images/artbauhauss_selfportrait.webp',
 		sold: false
@@ -18,7 +20,8 @@ const galleryItems = [
 	{
 		title: 'Lost in Space #1',
 		size: '29.7x42 cm',
-		description: 'photo collage on paper',
+		style: 'photo collage on paper',
+		description: '',
 		year: 2020,
 		image_path: './images/artbauhauss_lostinspace1.webp',
 		sold: false
@@ -26,7 +29,8 @@ const galleryItems = [
 	{
 		title: 'Lost in Space #2',
 		size: '29.7x42 cm',
-		description: 'photo collage on paper',
+		style: 'photo collage on paper',
+		description: '',
 		year: 2020,
 		image_path: './images/artbauhauss_lostinspace2.webp',
 		sold: false
@@ -34,7 +38,8 @@ const galleryItems = [
 	{
 		title: 'Lost in Space #3',
 		size: '50x64 cm',
-		description: 'photo collage on paper',
+		style: 'photo collage on paper',
+		description: '',
 		year: 2020,
 		image_path: './images/artbauhauss_lostinspace3.webp',
 		sold: false
@@ -42,7 +47,8 @@ const galleryItems = [
 	{
 		title: 'Lost in Space #4',
 		size: '50x64 cm',
-		description: 'photo collage on paper',
+		style: 'photo collage on paper',
+		description: '',
 		year: 2020,
 		image_path: './images/artbauhauss_lostinspace4.webp',
 		sold: false
@@ -50,7 +56,8 @@ const galleryItems = [
 	{
 		title: 'By the Lake #1',
 		size: '24x35 cm',
-		description: 'fine liner, collage on paper',
+		style: 'fine liner, collage on paper',
+		description: '',
 		year: 2020,
 		image_path: './images/artbauhauss_bythelake1.webp',
 		sold: false
@@ -58,7 +65,8 @@ const galleryItems = [
 	{
 		title: 'The Trees',
 		size: '24x35 cm',
-		description: 'fine liner on paper',
+		style: 'fine liner on paper',
+		description: '',
 		year: 2020,
 		image_path: './images/artbauhauss_thetrees.webp',
 		sold: false
@@ -66,7 +74,8 @@ const galleryItems = [
 	{
 		title: 'Reflections',
 		size: '24x35 cm',
-		description: 'fine liner on paper',
+		style: 'fine liner on paper',
+		description: '',
 		year: 2020,
 		image_path: './images/artbauhauss_reflections.webp',
 		sold: false
@@ -74,7 +83,8 @@ const galleryItems = [
 	{
 		title: 'By the Lake #2',
 		size: '24x35 cm',
-		description: 'fine liner, collage on paper',
+		style: 'fine liner, collage on paper',
+		description: '',
 		year: 2020,
 		image_path: './images/artbauhauss_bythelake2.webp',
 		sold: false
@@ -82,7 +92,8 @@ const galleryItems = [
 	{
 		title: 'Where is the Space #2',
 		size: '20x20 cm',
-		description: 'oil on canvas',
+		style: 'oil on canvas',
+		description: '',
 		year: 2020,
 		image_path: './images/artbauhauss_whereisthespace2.webp',
 		sold: false
@@ -90,7 +101,8 @@ const galleryItems = [
 	{
 		title: 'Don\'t Think',
 		size: '70x70 cm',
-		description: 'oil and acrylic on canvas',
+		style: 'oil and acrylic on canvas',
+		description: '',
 		year: 2020,
 		image_path: './images/artbauhauss_dontthink.webp',
 		sold: false
@@ -98,7 +110,8 @@ const galleryItems = [
 	{
 		title: 'You',
 		size: '185x185 cm',
-		description: 'oil, acrylic and spray paint on canvas',
+		style: 'oil, acrylic and spray paint on canvas',
+		description: '',
 		year: 2020,
 		image_path: './images/artbauhauss_you.webp',
 		sold: false
@@ -106,9 +119,9 @@ const galleryItems = [
 	{
 		title: 'Dare to Express #1',
 		size: '30x30 cm',
-		description: `oil and acrylic on canvas <p>The painting was donated to Breidenbach Studios in Heidelberg to 
-help them survive the hard situation caused by Covid-19. 
-See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopener">Startnext Breidenbach Studios</a> for more.</p>`,
+		style: 'oil and acrylic on canvas',
+		description: `The painting was donated to Breidenbach Studios in Heidelberg to help them survive the hard situation caused by Covid-19. 
+See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopener">Startnext Breidenbach Studios</a> for more.`,
 		year: 2019,
 		image_path: './images/artbauhauss_daretoexpress1.webp',
 		sold: true
@@ -116,7 +129,8 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 	{
 		title: 'Dare to Express #2',
 		size: '20x20 cm',
-		description: 'oil and acrylic on canvas',
+		style: 'oil and acrylic on canvas',
+		description: '',
 		year: 2019,
 		image_path: './images/artbauhauss_daretoexpress2.webp',
 		sold: true
@@ -124,7 +138,8 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 	{
 		title: 'Transformation #2',
 		size: '40x40 cm',
-		description: 'oil and acrylic on canvas',
+		style: 'oil and acrylic on canvas',
+		description: '',
 		year: 2019,
 		image_path: './images/artbauhauss_transformation2.webp',
 		sold: true
@@ -132,7 +147,8 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 	{
 		title: 'Untitled',
 		size: '20x40 cm (20x20 each)',
-		description: 'spray paint, acrylic and oil on canvas',
+		style: 'spray paint, acrylic and oil on canvas',
+		description: '',
 		year: 2019,
 		image_path: './images/artbauhauss_untitled1.webp',
 		sold: true
@@ -140,7 +156,8 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 	{
 		title: 'Turquoise Circle #2',
 		size: '200x200 cm',
-		description: 'spray paint, acrylic and oil on canvas',
+		style: 'spray paint, acrylic and oil on canvas',
+		description: '',
 		year: 2019,
 		image_path: './images/artbauhauss_turquoisecircle2.webp',
 		sold: false
@@ -148,7 +165,8 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 	{
 		title: 'Turquoise Circle #1',
 		size: '100x100 cm',
-		description: 'oil and acrylic on canvas',
+		style: 'oil and acrylic on canvas',
+		description: '',
 		year: 2019,
 		image_path: './images/artbauhauss_turqoisecircle1.webp',
 		sold: true
@@ -156,7 +174,8 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 	{
 		title: 'Explosion #1',
 		size: '100x100 cm',
-		description: 'oil and acrylic on canvas',
+		style: 'oil and acrylic on canvas',
+		description: '',
 		year: 2019,
 		image_path: './images/artbauhauss_explosion1.webp',
 		sold: false
@@ -164,7 +183,8 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 	{
 		title: 'Explosion #2',
 		size: '80x100 cm',
-		description: 'oil and acrylic on canvas',
+		style: 'oil and acrylic on canvas',
+		description: '',
 		year: 2019,
 		image_path: './images/artbauhauss_explosion2.webp',
 		sold: false
@@ -172,7 +192,8 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 	{
 		title: 'Red Parachute #3',
 		size: '50x50 cm',
-		description: 'oil and acrylic on canvas',
+		style: 'oil and acrylic on canvas',
+		description: '',
 		year: 2019,
 		image_path: './images/artbauhauss_redparachute3.webp',
 		sold: false
@@ -180,7 +201,8 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 	{
 		title: 'Red Parachute #2',
 		size: '50x50 cm',
-		description: 'oil on canvas',
+		style: 'oil on canvas',
+		description: '',
 		year: 2019,
 		image_path: './images/artbauhauss_redparachute2.webp',
 		sold: false
@@ -188,7 +210,8 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 	{
 		title: 'Red Parachute #1',
 		size: '40x40 cm',
-		description: 'acrylic on canvas',
+		style: 'acrylic on canvas',
+		description: '',
 		year: 2018,
 		image_path: './images/artbauhauss_redparachute1.webp',
 		sold: true
@@ -226,6 +249,7 @@ function displayInFullScreen(itemIdx) {
 
 	setText('artwork-title', item.title);
 	setText('artwork-size', item.size);
+	setText('artwork-style', item.style);
 	setHtml('artwork-description', item.description);
 	setText('artwork-year', item.year);
 	setText('artwork-sold', item.sold ? 'in private collection' : '');
