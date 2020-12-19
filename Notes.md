@@ -8,6 +8,8 @@
     - domaindiscount24: 2.32 € p.a., cf. https://www.domaindiscount24.com/de/de-domain
     - INWX: transfer fee: 4.54€, renew: 4.54€ c.f. https://www.inwx.de/de/domain/pricelist for .de
 - for dare to express: is new layout of information ok?
+- Think about providing "previous/next image" buttons in detail view. it's really not that comfortable to always close
+  the window for every image...
 
 # Converting images from jpg to webp
 
