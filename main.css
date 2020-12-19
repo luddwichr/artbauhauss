@@ -310,12 +310,6 @@ footer * {
     text-decoration: underline;
 }
 
-@media (max-width: 1024px) {
-    #fullscreen-content {
-        grid-template-columns: 1fr;
-    }
-}
-
 #fullscreen-carousel {
     display: inline-flex;
     justify-content: space-between;
@@ -332,6 +326,10 @@ footer * {
 }
 
 @media (max-width: 1024px) {
+    #fullscreen-content {
+        grid-template-columns: 1fr;
+    }
+
     #go-to-previous-item, #go-to-next-item {
         display: none;
     }
@@ -345,20 +343,6 @@ footer * {
         overflow: visible;
     }
 
-}
-
-#info-content {
-    align-items: start;
-    justify-items: left;
-    padding: 20px;
-    line-height: 1.5em;
-    grid-template-areas: "about portrait" "exhibitions contact"
-}
-
-@media (max-width: 1024px) {
-    #info-content {
-        grid-template-areas: "portrait" "about" "exhibitions" "contact"
-    }
 }
 
 #info-content a {
@@ -405,6 +389,24 @@ h1 {
 
 h2 {
     font-size: 1.3em;
+}
+
+#info-content {
+    align-items: start;
+    justify-items: left;
+    padding: 20px;
+    line-height: 1.5em;
+    grid-template-areas: "about portrait" "exhibitions contact"
+}
+
+@media (max-width: 1024px) {
+    #info-content {
+        grid-template-areas: "portrait" "about" "exhibitions" "contact"
+    }
+
+    #about-me {
+        padding: 0 1em;
+    }
 }
 
 /*
