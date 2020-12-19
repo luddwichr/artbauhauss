@@ -231,10 +231,10 @@ endFullScreenButton.onclick = () => {
 	currentFullscreenGalleryItemIdx = null;
 }
 
-bodyElement.addEventListener('swiped-left', () => {
+bodyElement.addEventListener('swiped-right', () => {
 	if (currentFullscreenGalleryItemIdx > 0) displayInFullScreen(currentFullscreenGalleryItemIdx - 1)
 });
-bodyElement.addEventListener('swiped-right', () => {
+bodyElement.addEventListener('swiped-left', () => {
 	if (currentFullscreenGalleryItemIdx < galleryItems.length - 1) displayInFullScreen(currentFullscreenGalleryItemIdx + 1)
 });
 
