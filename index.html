@@ -20,6 +20,11 @@
     <script src="main.js" defer></script>
 </head>
 <body>
+<div id="outdated-browser-warning">
+    <p>Your browser seems to be outdated and the website will not function correctly! Please consider updating your
+        browser.
+    </p>
+</div>
 <header id="parallax-header">
     <div id="header-text">
         <h1 id="artist-name">Artbauhauss</h1>
@@ -134,5 +139,11 @@
         </div>
     </div>
 </div>
+<script>
+	var supportsGrid = typeof el.style.grid === 'string';
+	if (!supportsGrid) {
+		document.getElementById('outdated-browser-warning').style.display = 'block';
+	}
+</script>
 </body>
 </html>
