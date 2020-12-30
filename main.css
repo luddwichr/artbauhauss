@@ -408,10 +408,6 @@ h2 {
     #info-content {
         grid-template-areas: "portrait" "about" "exhibitions" "contact"
     }
-
-    #about-me {
-        padding: 0 1em;
-    }
 }
 
 /*
