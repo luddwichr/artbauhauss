@@ -5,7 +5,7 @@ const galleryItems = [
 		style: '?',
 		description: '',
 		year: 2020,
-		image_path: './images/artbauhauss_incrediblylargeandsmall.webp',
+		image_path: 'artbauhauss_incrediblylargeandsmall.jpg',
 		sold: false
 	},
 	{
@@ -14,7 +14,7 @@ const galleryItems = [
 		style: '?',
 		description: '',
 		year: 2020,
-		image_path: './images/artbauhauss_selfportrait.webp',
+		image_path: 'artbauhauss_selfportrait.jpg',
 		sold: false
 	},
 	{
@@ -23,7 +23,7 @@ const galleryItems = [
 		style: 'photo collage on paper',
 		description: '',
 		year: 2020,
-		image_path: './images/artbauhauss_lostinspace1.webp',
+		image_path: 'artbauhauss_lostinspace1.jpg',
 		sold: false
 	},
 	{
@@ -32,7 +32,7 @@ const galleryItems = [
 		style: 'photo collage on paper',
 		description: '',
 		year: 2020,
-		image_path: './images/artbauhauss_lostinspace2.webp',
+		image_path: 'artbauhauss_lostinspace2.jpg',
 		sold: false
 	},
 	{
@@ -41,7 +41,7 @@ const galleryItems = [
 		style: 'photo collage on paper',
 		description: '',
 		year: 2020,
-		image_path: './images/artbauhauss_lostinspace3.webp',
+		image_path: 'artbauhauss_lostinspace3.jpg',
 		sold: false
 	},
 	{
@@ -50,7 +50,7 @@ const galleryItems = [
 		style: 'photo collage on paper',
 		description: '',
 		year: 2020,
-		image_path: './images/artbauhauss_lostinspace4.webp',
+		image_path: 'artbauhauss_lostinspace4.jpg',
 		sold: false
 	},
 	{
@@ -59,7 +59,7 @@ const galleryItems = [
 		style: 'fine liner, collage on paper',
 		description: '',
 		year: 2020,
-		image_path: './images/artbauhauss_bythelake1.webp',
+		image_path: 'artbauhauss_bythelake1.jpg',
 		sold: false
 	},
 	{
@@ -68,7 +68,7 @@ const galleryItems = [
 		style: 'fine liner on paper',
 		description: '',
 		year: 2020,
-		image_path: './images/artbauhauss_thetrees.webp',
+		image_path: 'artbauhauss_thetrees.jpg',
 		sold: false
 	},
 	{
@@ -77,7 +77,7 @@ const galleryItems = [
 		style: 'fine liner on paper',
 		description: '',
 		year: 2020,
-		image_path: './images/artbauhauss_reflections.webp',
+		image_path: 'artbauhauss_reflections.jpg',
 		sold: false
 	},
 	{
@@ -86,7 +86,7 @@ const galleryItems = [
 		style: 'fine liner, collage on paper',
 		description: '',
 		year: 2020,
-		image_path: './images/artbauhauss_bythelake2.webp',
+		image_path: 'artbauhauss_bythelake2.jpg',
 		sold: false
 	},
 	{
@@ -95,7 +95,7 @@ const galleryItems = [
 		style: 'oil on canvas',
 		description: '',
 		year: 2020,
-		image_path: './images/artbauhauss_whereisthespace2.webp',
+		image_path: 'artbauhauss_whereisthespace2.jpg',
 		sold: false
 	},
 	{
@@ -104,7 +104,7 @@ const galleryItems = [
 		style: 'oil and acrylic on canvas',
 		description: '',
 		year: 2020,
-		image_path: './images/artbauhauss_dontthink.webp',
+		image_path: 'artbauhauss_dontthink.jpg',
 		sold: false
 	},
 	{
@@ -113,7 +113,7 @@ const galleryItems = [
 		style: 'oil, acrylic and spray paint on canvas',
 		description: '',
 		year: 2020,
-		image_path: './images/artbauhauss_you.webp',
+		image_path: 'artbauhauss_you.jpg',
 		sold: false
 	},
 	{
@@ -123,7 +123,7 @@ const galleryItems = [
 		description: `The painting was donated to Breidenbach Studios in Heidelberg to help them survive the hard situation caused by Covid-19. 
 See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopener">Startnext Breidenbach Studios</a> for more.`,
 		year: 2019,
-		image_path: './images/artbauhauss_daretoexpress1.webp',
+		image_path: 'artbauhauss_daretoexpress1.jpg',
 		sold: true
 	},
 	{
@@ -132,7 +132,7 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 		style: 'oil and acrylic on canvas',
 		description: '',
 		year: 2019,
-		image_path: './images/artbauhauss_daretoexpress2.webp',
+		image_path: 'artbauhauss_daretoexpress2.jpg',
 		sold: true
 	},
 	{
@@ -141,7 +141,7 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 		style: 'oil and acrylic on canvas',
 		description: '',
 		year: 2019,
-		image_path: './images/artbauhauss_transformation2.webp',
+		image_path: 'artbauhauss_transformation2.jpg',
 		sold: true
 	},
 	{
@@ -150,7 +150,7 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 		style: 'spray paint, acrylic and oil on canvas',
 		description: '',
 		year: 2019,
-		image_path: './images/artbauhauss_untitled1.webp',
+		image_path: 'artbauhauss_untitled1.jpg',
 		sold: true
 	},
 	{
@@ -159,7 +159,7 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 		style: 'spray paint, acrylic and oil on canvas',
 		description: '',
 		year: 2019,
-		image_path: './images/artbauhauss_turquoisecircle2.webp',
+		image_path: 'artbauhauss_turquoisecircle2.jpg',
 		sold: false
 	},
 	{
@@ -168,7 +168,7 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 		style: 'oil and acrylic on canvas',
 		description: '',
 		year: 2019,
-		image_path: './images/artbauhauss_turqoisecircle1.webp',
+		image_path: 'artbauhauss_turqoisecircle1.jpg',
 		sold: true
 	},
 	{
@@ -177,7 +177,7 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 		style: 'oil and acrylic on canvas',
 		description: '',
 		year: 2019,
-		image_path: './images/artbauhauss_explosion1.webp',
+		image_path: 'artbauhauss_explosion1.jpg',
 		sold: false
 	},
 	{
@@ -186,7 +186,7 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 		style: 'oil and acrylic on canvas',
 		description: '',
 		year: 2019,
-		image_path: './images/artbauhauss_explosion2.webp',
+		image_path: 'artbauhauss_explosion2.jpg',
 		sold: false
 	},
 	{
@@ -195,7 +195,7 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 		style: 'oil and acrylic on canvas',
 		description: '',
 		year: 2019,
-		image_path: './images/artbauhauss_redparachute3.webp',
+		image_path: 'artbauhauss_redparachute3.jpg',
 		sold: false
 	},
 	{
@@ -204,7 +204,7 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 		style: 'oil on canvas',
 		description: '',
 		year: 2019,
-		image_path: './images/artbauhauss_redparachute2.webp',
+		image_path: 'artbauhauss_redparachute2.jpg',
 		sold: false
 	},
 	{
@@ -213,7 +213,7 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 		style: 'acrylic on canvas',
 		description: '',
 		year: 2018,
-		image_path: './images/artbauhauss_redparachute1.webp',
+		image_path: 'artbauhauss_redparachute1.jpg',
 		sold: true
 	}
 ];
@@ -259,7 +259,7 @@ function displayInFullScreen(itemIdx) {
 	setHtml('artwork-description', item.description);
 	setText('artwork-year', item.year);
 	setText('artwork-sold', item.sold ? 'in private collection' : '');
-	document.getElementById('artwork-image').src = item.image_path;
+	document.getElementById('artwork-image').src = 'images/large/' + item.image_path;
 
 	let goToPreviousItemElement = document.getElementById('go-to-previous-item');
 	goToPreviousItemElement.disabled = itemIdx === 0;
@@ -284,6 +284,7 @@ function loadImage(imgSrc, altText, callback) {
 	imageElement.src = imgSrc;
 }
 
+const imagesBasePath = window.innerWidth < 1024 ? 'images/small/' : 'images/medium/';
 const galleryLoader = createLoaderElement();
 galleryElement.appendChild(galleryLoader);
 
@@ -295,7 +296,7 @@ function loadGalleryItems() {
 		const loader = createLoaderElement();
 		galleryItem.appendChild(loader);
 		galleryElement.appendChild(galleryItem);
-		loadImage(item.image_path, item.title, (imageElement) => {
+		loadImage(imagesBasePath + item.image_path, item.title, (imageElement) => {
 			galleryItem.removeChild(loader);
 			galleryItem.appendChild(imageElement);
 			imageElement.onclick = () => displayInFullScreen(itemIdx);
@@ -305,7 +306,7 @@ function loadGalleryItems() {
 
 function loadPortrait() {
 	const portraitElement = document.getElementById('portrait');
-	loadImage('./images/artbauhauss_portrait.webp', 'sophie bauhaus portrait',
+	loadImage(imagesBasePath  + 'artbauhauss_portrait.jpg', 'sophie bauhaus portrait',
 		imageElement => {
 			portraitElement.classList.remove('loader');
 			portraitElement.appendChild(imageElement);
