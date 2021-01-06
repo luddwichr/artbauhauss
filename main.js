@@ -1,17 +1,18 @@
 const galleryItems = [
 	{
 		title: 'Incredibly Large And Small',
-		size: '? cm',
-		style: '?',
-		description: '',
+		size: '29.7x42 cm',
+		style: 'photocollage and fineliner on photograph',
+		description: `<p>This work was created as cover for the PhD thesis <i>"From Images to Graphs: Machine Learning Methods for the Detection of Microtubules and Synapses in Large-Scale Electron Microscopy Data"</i> handed in at ETH Zurich by Julia Milena Buhmann.</p>
+					  <p>Credit: The photo of the universe in the background was taken by ESO/ Mario Nonino, Piero Rosati and the ESO GOODS Team (downloadable from <a href="https://www.eso.org/public/images/eso0839a/" target="_blank" rel="noopener">here</a>). It shows the Chandra Deep Field South, observed in the U-, B-, and R-bands with ESO's VIMOS and WFI instruments.`,
 		year: 2020,
 		image_path: 'artbauhauss_incrediblylargeandsmall.jpg',
-		sold: false
+		sold: true
 	},
 	{
 		title: 'Self Portait',
-		size: '? cm',
-		style: '?',
+		size: '29.7x42 cm',
+		style: 'photo collage on photograph',
 		description: '',
 		year: 2020,
 		image_path: 'artbauhauss_selfportrait.jpg',
