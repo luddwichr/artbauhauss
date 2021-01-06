@@ -7,19 +7,8 @@
 - Potential Domain registrars:
     - domaindiscount24: 2.32 € p.a., cf. https://www.domaindiscount24.com/de/de-domain
     - INWX: transfer fee: 4.54€, renew: 4.54€ c.f. https://www.inwx.de/de/domain/pricelist for .de
-- for dare to express: is new layout of information ok?
-- Think about providing "previous/next image" buttons in detail view. it's really not that comfortable to always close
-  the window for every image...
-
-# Converting images from jpg to webp
-
-## Use script to converter entire directory
-
-- Open a terminal, navigate to `scripts` directory.
-- Run `./webp-convert-directory.sh` to convert all images in `images` directory.
-- Adjust `PATH variable` to convert images in a different directory...
-
-## Additional reading:
-
-- get converter from here: https://developers.google.com/speed/webp/docs/precompiled
-- instructions how to use the converter: https://developers.google.com/speed/webp/docs/usings
+- enable left/right arrow key press to view next/previous gallery item in fullscreen view
+- pre-load large images once website was fully loaded to make fullscreen view more enjoyable to use on slow connections
+- re-prioritize image loading if image is view in fullscreen mode and has not been loaded yet
+- show spinner in fullscreen view while image is being loaded
+- think of using flexbox instead of grid layout to support wider range of browsers
