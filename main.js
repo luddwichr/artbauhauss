@@ -220,39 +220,46 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 ];
 
 const bodyElement = document.getElementsByTagName('body')[0];
-const galleryElement = document.getElementById('gallery');
-const fullScreenViewer = document.getElementById('fullscreen-viewer');
-const endFullScreenButton = document.getElementById('end-fullscreen-button');
 
+const galleryFullScreenViewer = document.getElementById('gallery-fullscreen-viewer');
 let currentFullscreenGalleryItemIdx = null;
-let inFullScreenMode = false;
 
-endFullScreenButton.onclick = () => {
-	fullScreenViewer.style.visibility = 'hidden';
-	bodyElement.classList.remove('no-scroll');
-	inFullScreenMode = false;
-}
-
-bodyElement.addEventListener('swiped-right', () => {
-	if (inFullScreenMode && currentFullscreenGalleryItemIdx > 0) {
-		displayInFullScreen(currentFullscreenGalleryItemIdx - 1);
-	}
-});
-bodyElement.addEventListener('swiped-left', () => {
-	if (inFullScreenMode && currentFullscreenGalleryItemIdx < galleryItems.length - 1) {
+function swipedLeft() {
+	if (currentFullscreenGalleryItemIdx < galleryItems.length - 1) {
 		displayInFullScreen(currentFullscreenGalleryItemIdx + 1);
 	}
-});
+}
 
-const setText = (elementId, text) => document.getElementById(elementId).innerText = text;
-const setHtml = (elementId, text) => document.getElementById(elementId).innerHTML = text;
+function swipedRight() {
+	if (currentFullscreenGalleryItemIdx > 0) {
+		displayInFullScreen(currentFullscreenGalleryItemIdx - 1);
+	}
+}
 
-function displayInFullScreen(itemIdx) {
-	inFullScreenMode = true;
-	currentFullscreenGalleryItemIdx = itemIdx;
-	fullScreenViewer.style.visibility = 'visible';
+function startGalleryFullScreenMode(itemIdx) {
+	galleryFullScreenViewer.style.visibility = 'visible';
 	bodyElement.classList.add('no-scroll');
 
+	bodyElement.addEventListener('swiped-right', swipedRight);
+	bodyElement.addEventListener('swiped-left', swipedLeft);
+
+	displayInFullScreen(itemIdx);
+}
+
+function endGalleryFullScreenMode() {
+	galleryFullScreenViewer.style.visibility = 'hidden';
+	bodyElement.classList.remove('no-scroll');
+	bodyElement.removeEventListener('swiped-right', swipedRight);
+	bodyElement.removeEventListener('swiped-left', swipedLeft);
+	document.getElementById('artwork-image').src = '';
+}
+
+document.getElementById('end-gallery-fullscreen-button').onclick = () => endGalleryFullScreenMode();
+
+function displayInFullScreen(itemIdx) {
+	currentFullscreenGalleryItemIdx = itemIdx;
+	const setText = (elementId, text) => document.getElementById(elementId).innerText = text;
+	const setHtml = (elementId, text) => document.getElementById(elementId).innerHTML = text;
 	const item = galleryItems[itemIdx];
 	setText('artwork-title', item.title);
 	setText('artwork-size', item.size);
@@ -287,6 +294,7 @@ function loadImage(imgSrc, altText, callback) {
 
 const imagesBasePath = window.innerWidth < 1024 ? 'images/small/' : 'images/medium/';
 const galleryLoader = createLoaderElement();
+const galleryElement = document.getElementById('gallery');
 galleryElement.appendChild(galleryLoader);
 
 function loadGalleryItems() {
@@ -300,14 +308,14 @@ function loadGalleryItems() {
 		loadImage(imagesBasePath + item.image_path, item.title, (imageElement) => {
 			galleryItem.removeChild(loader);
 			galleryItem.appendChild(imageElement);
-			imageElement.onclick = () => displayInFullScreen(itemIdx);
+			imageElement.onclick = () => startGalleryFullScreenMode(itemIdx);
 		});
 	});
 }
 
 function loadPortrait() {
 	const portraitElement = document.getElementById('portrait');
-	loadImage(imagesBasePath  + 'artbauhauss_portrait.jpg', 'sophie bauhaus portrait',
+	loadImage(imagesBasePath + 'artbauhauss_portrait.jpg', 'sophie bauhaus portrait',
 		imageElement => {
 			portraitElement.classList.remove('loader');
 			portraitElement.appendChild(imageElement);
@@ -336,8 +344,33 @@ function initStickyHeader() {
 	}
 }
 
+function initFullscreenNav() {
+	const navFullScreenViewer = document.getElementById('nav-fullscreen-viewer');
+
+	function startNavFullScreenMode() {
+		navFullScreenViewer.style.visibility = 'visible';
+		bodyElement.classList.add('no-scroll');
+	}
+
+	[...document.getElementsByClassName('burger')].forEach(burgerElement => {
+		burgerElement.addEventListener('click', () => startNavFullScreenMode());
+	});
+
+	function endNavScreenMode() {
+		navFullScreenViewer.style.visibility = 'hidden';
+		bodyElement.classList.remove('no-scroll');
+	}
+
+	document.getElementById('end-nav-fullscreen-button').onclick = () => endNavScreenMode();
+
+	[...document.querySelectorAll('#fullscreen-menu li a')].forEach(menuLink => {
+		menuLink.addEventListener('click', () => endNavScreenMode());
+	});
+}
+
 window.onload = () => {
 	loadPortrait();
 	loadGalleryItems();
 	initStickyHeader();
+	initFullscreenNav();
 }

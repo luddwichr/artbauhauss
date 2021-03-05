@@ -9,10 +9,4 @@
 - re-prioritize image loading if image is view in fullscreen mode and has not been loaded yet
 - show spinner in fullscreen view while image is being loaded
 - think of using flexbox instead of grid layout to support wider range of browsers
-- navigation menu and menu in header:
-    - portfolio
-    - about
-    - on view
-    - contact
-- navigation menu on mobile as burger menu in full screen
 

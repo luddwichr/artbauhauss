@@ -28,30 +28,53 @@
         <h1 id="full-name">Sophie Bauhaus</h1>
         <div id="header-menu">
             <a href="#portfolio">portfolio</a>
-            <a href="#info">info</a>
+            <a href="#about">about</a>
+            <a href="#on-view">on view</a>
+            <a href="#contact">contact</a>
+        </div>
+        <div class="burger centered-container">
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
     </div>
 </header>
 <nav id="navbar" class="centered-container">
-    <div class="two-col-grid">
-        <div id="home">
-            <a href="#">Artbauhauss</a>
-        </div>
-        <div id="menu">
-            <a href="#portfolio">portfolio</a>
-            <a href="#info">info</a>
-        </div>
+    <div id="home">
+        <a href="#">Sophie Bauhaus</a>
+    </div>
+    <div class="burger">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div id="menu">
+        <a href="#portfolio">portfolio</a>
+        <a href="#about">about</a>
+        <a href="#on-view">on view</a>
+        <a href="#contact">contact</a>
     </div>
 </nav>
+<div id="nav-fullscreen-viewer" class="fullscreen-viewer">
+    <div class="fullscreen-navbar">
+        <button type="button" id="end-nav-fullscreen-button" class="fullscreen-button">&#x2716;</button>
+    </div>
+    <ul id="fullscreen-menu">
+        <li><a href="#portfolio">portfolio</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#on-view">on view</a></li>
+        <li><a href="#contact">contact</a></li>
+    </ul>
+</div>
 <main class="centered-container">
     <section id="portfolio">
-        <h2 class="section-header">Portfolio</h2>
+        <h2>Portfolio</h2>
         <div id="gallery" class="two-col-grid">
         </div>
     </section>
-    <section id="info">
-        <h2 class="section-header">About</h2>
-        <div id="info-content" class="two-col-grid">
+    <section id="about">
+        <h2>About</h2>
+        <div id="about-content" class="two-col-grid">
             <p id="about-me">
                 In my work I am concerned with questions of control and transformation.
                 I am interested in the dynamic between the desire to determine the outcome of a process and the
@@ -65,46 +88,48 @@
             </p>
             <div id="portrait" class="gallery-item loader">
             </div>
-            <div id="exhibitions">
-                <h2>On View</h2>
-
-                <h3>Art.Next Breidenbach Studios</h3>
-                Group Exhibition<br>
-                Sep 11/12, 2020<br><br>
-                Vernissage: Sep 11, 2020 // 19:00<br><br>
-                Breidenbach Studios<br>
-                Hebelstraße 18<br>
-                69115 Heidelberg<br><br>
-                <a href="https://www.breidenbachstudios.de/veranstaltungen/" target="_blank" rel="noopener">events
-                    Breidenbach</a>
-
-                <h3>Explosions and Transformations</h3>
-                Solo Exhibition<br>
-                Dec 08, 2019 - Apr 11, 2020<br><br>
-                Vernissage: Dec 08, 2019 // 15:00<br><br>
-                Pannonica<br>
-                Ingrimstr. 22<br>
-                69117 Heidelberg<br>
-            </div>
-            <div id="contact">
-                <h2>Contact</h2>
-                <p>I am based in Heidelberg and Berlin.</p>
-                <p>Please contact the email address below for any inquiries.</p>
-                <div class="contact-option">
-                    <img alt="contact via email" src="images/mail.svg" class="contact-icon">
-                    <a href="mailto:atelier@sophiebauhaus.de">atelier@sophiebauhaus.de</a><br>
-                </div>
-                <div class="contact-option">
-                    <img alt="contact via instagram" src="images/instagram.svg" class="contact-icon">
-                    <a href="https://www.instagram.com/sophie.bauhaus/" target="_blank"
-                       rel="noopener">@sophie.bauhaus</a>
-                </div>
-            </div>
         </div>
     </section>
+    <div class="two-col-grid">
+        <section id="on-view">
+            <h2>On View</h2>
+
+            <h3>Art.Next Breidenbach Studios</h3>
+            Group Exhibition<br>
+            Sep 11/12, 2020<br><br>
+            Vernissage: Sep 11, 2020 // 19:00<br><br>
+            Breidenbach Studios<br>
+            Hebelstraße 18<br>
+            69115 Heidelberg<br><br>
+            <a href="https://www.breidenbachstudios.de/veranstaltungen/" target="_blank" rel="noopener">events
+                Breidenbach</a>
+
+            <h3>Explosions and Transformations</h3>
+            Solo Exhibition<br>
+            Dec 08, 2019 - Apr 11, 2020<br><br>
+            Vernissage: Dec 08, 2019 // 15:00<br><br>
+            Pannonica<br>
+            Ingrimstr. 22<br>
+            69117 Heidelberg<br>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>I am based in Heidelberg and Berlin.</p>
+            <p>Please contact the email address below for any inquiries.</p>
+            <div class="contact-option">
+                <img alt="contact via email" src="images/mail.svg" class="contact-icon">
+                <a href="mailto:atelier@sophiebauhaus.de">atelier@sophiebauhaus.de</a><br>
+            </div>
+            <div class="contact-option">
+                <img alt="contact via instagram" src="images/instagram.svg" class="contact-icon">
+                <a href="https://www.instagram.com/sophie.bauhaus/" target="_blank"
+                   rel="noopener">@sophie.bauhaus</a>
+            </div>
+        </section>
+    </div>
 </main>
-<footer>
-    <div class="two-col-grid centered-container">
+<footer class="centered-container">
+    <div class="two-col-grid">
         <div id="imprint">
             <b>Imprint</b>
             <p> Sophie Bauhaus<br>
@@ -117,12 +142,12 @@
         <div id="copyright">© 2021 Sophie Bauhaus</div>
     </div>
 </footer>
-<div id="fullscreen-viewer">
-    <div id="fullscreen-navbar">
-        <button type="button" id="end-fullscreen-button" class="fullscreen-button">&#x2716;</button>
+<div id="gallery-fullscreen-viewer" class="fullscreen-viewer">
+    <div class="fullscreen-navbar">
+        <button type="button" id="end-gallery-fullscreen-button" class="fullscreen-button">&#x2716;</button>
     </div>
-    <div id="fullscreen-content">
-        <div id="fullscreen-carousel">
+    <div id="gallery-item-details">
+        <div id="gallery-carousel">
             <button type="button" id="go-to-previous-item" class="fullscreen-button">&#xFF1C;</button>
             <img id="artwork-image" alt="artwork-image" src="">
             <button type="button" id="go-to-next-item" class="fullscreen-button">&#xFF1E;</button>
