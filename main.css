@@ -123,16 +123,9 @@ body, html {
     }
 }
 
-#artist-name {
+#full-name {
     font-size: min(12vw, 5em);
     font-weight: bold;
-    padding-bottom: calc(min(12vw, 5em) / 3);
-    margin: 0;
-}
-
-#full-name {
-    font-size: min(10vw, 4em);
-    padding-bottom: calc(min(12vw, 4em) / 2);
 }
 
 #header-menu {
