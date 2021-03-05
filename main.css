@@ -231,7 +231,7 @@ body, html {
 }
 
 @media (min-width: 1024px) {
-    div .burger {
+    .burger {
         display: none;
     }
 }
