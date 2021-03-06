@@ -252,6 +252,7 @@ function endGalleryFullScreenMode() {
 	bodyElement.removeEventListener('swiped-right', swipedRight);
 	bodyElement.removeEventListener('swiped-left', swipedLeft);
 	document.getElementById('artwork-image').src = '';
+	galleryFullScreenViewer.scrollTop = 0;
 }
 
 document.getElementById('end-gallery-fullscreen-button').onclick = () => endGalleryFullScreenMode();
