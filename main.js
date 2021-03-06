@@ -326,14 +326,18 @@ function loadPortrait() {
 function initStickyHeader() {
 	const navbar = document.getElementById('navbar');
 	const header = document.getElementById('parallax-header');
+	const main = document.getElementsByTagName('main')[0];
 	const computeNavOffset = () => header.offsetTop + header.offsetHeight;
 	let navTopOffset = computeNavOffset();
 
 	function navStickyCheck() {
 		if (window.pageYOffset >= navTopOffset) {
-			navbar.classList.add('sticky')
+			navbar.classList.add('sticky');
+			main.style.paddingTop = navbar.offsetHeight + 'px';
+
 		} else {
 			navbar.classList.remove('sticky');
+			main.style.paddingTop = 0;
 		}
 	}
 

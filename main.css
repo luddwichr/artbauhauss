@@ -244,10 +244,6 @@ body, html {
     transform: translateX(-50%);
 }
 
-.sticky + main {
-    padding-top: 92px;
-}
-
 #portfolio h2, #about, #on-view, #contact {
     line-height: 1.5em;
     padding: 30px;
