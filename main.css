@@ -150,6 +150,18 @@ body, html {
     max-width: 1200px;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.column {
+    width: 50%;
+}
+
 .two-col-grid {
     display: grid;
     grid-row-gap: 50px;
@@ -165,6 +177,10 @@ body, html {
 
     #gallery.two-col-grid {
         grid-row-gap: 25px;
+    }
+
+    .column {
+        width: 100%;
     }
 }
 
@@ -246,7 +262,7 @@ body, html {
 
 #portfolio h2, #about, #on-view, #contact {
     line-height: 1.5em;
-    padding: 30px;
+    padding: 0 30px 30px 30px;
 }
 
 .gallery-item {
@@ -274,12 +290,7 @@ body, html {
 
 footer {
     border-top: 1px solid lightgray;
-    padding: 30px 0;
-}
-
-footer .two-col-grid {
-    grid-column-gap: 0;
-    grid-row-gap: 20px;
+    padding: 30px;
     align-items: center;
     justify-items: center;
 }
@@ -384,6 +395,7 @@ footer * {
     max-height: 500px;
     width: auto;
     height: auto;
+    margin: 0 auto;
 }
 
 .contact-option {
@@ -407,8 +419,12 @@ h2 {
 }
 
 @media (max-width: 1024px) {
-    #about-content {
-        /* todo: reverse items */
+    #about-me {
+        order: 2
+    }
+
+    #portrait {
+        order: 1
     }
 }
 
