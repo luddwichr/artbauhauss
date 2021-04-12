@@ -327,7 +327,7 @@ footer * {
     padding: 20px;
     overflow: auto;
     height: 100%;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
 }
 
 #metadata > p {
@@ -356,6 +356,10 @@ footer * {
 @media (max-width: 1024px) {
     #go-to-previous-item, #go-to-next-item {
         display: none;
+    }
+
+    #gallery-item-details {
+        flex-wrap: wrap;
     }
 
     #gallery-carousel {
