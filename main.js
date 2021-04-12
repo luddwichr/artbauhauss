@@ -1,21 +1,47 @@
 const galleryItems = [
 	{
-		title: 'Incredibly Large And Small',
-		size: '29.7x42 cm',
-		style: 'photocollage and fineliner on photograph',
-		description: `<p>This work was created as cover for the PhD thesis <i>"From Images to Graphs: Machine Learning Methods for the Detection of Microtubules and Synapses in Large-Scale Electron Microscopy Data"</i> handed in at ETH Zurich by Julia Milena Buhmann.</p>
-					  <p>Credit: The photo of the universe in the background was taken by ESO/ Mario Nonino, Piero Rosati and the ESO GOODS Team (downloadable from <a href="https://www.eso.org/public/images/eso0839a/" target="_blank" rel="noopener">here</a>). It shows the Chandra Deep Field South, observed in the U-, B-, and R-bands with ESO's VIMOS and WFI instruments.`,
-		year: 2020,
-		image_path: 'artbauhauss_incrediblylargeandsmall.jpg',
-		sold: true
+		title: 'New Beginnings #1',
+		size: '30x40 cm',
+		style: 'oil on paper',
+		description: '',
+		year: 2021,
+		image_path: 'artbauhauss_newbeginnings1.jpg',
+		sold: false
 	},
 	{
-		title: 'Self Portait',
-		size: '29.7x42 cm',
-		style: 'photo collage on photograph',
+		title: 'New Beginnings #2',
+		size: '30x40 cm',
+		style: 'oil on paper',
 		description: '',
-		year: 2020,
-		image_path: 'artbauhauss_selfportrait.jpg',
+		year: 2021,
+		image_path: 'artbauhauss_newbeginnings2.jpg',
+		sold: false
+	},
+	{
+		title: 'New Beginnings #3',
+		size: '30x40 cm',
+		style: 'oil on paper',
+		description: '',
+		year: 2021,
+		image_path: 'artbauhauss_newbeginnings3.jpg',
+		sold: false
+	},
+	{
+		title: 'On the Road',
+		size: '90x90 cm',
+		style: 'oil on canvas',
+		description: '',
+		year: 2021,
+		image_path: 'artbauhauss_ontheroad.jpg',
+		sold: false
+	},
+	{
+		title: 'The End',
+		size: '50x64 cm',
+		style: 'photo collage on paper',
+		description: '',
+		year: 2021,
+		image_path: 'artbauhauss_theend.jpg',
 		sold: false
 	},
 	{
@@ -52,6 +78,25 @@ const galleryItems = [
 		description: '',
 		year: 2020,
 		image_path: 'artbauhauss_lostinspace4.jpg',
+		sold: false
+	},
+	{
+		title: 'Incredibly Large And Small',
+		size: '29.7x42 cm',
+		style: 'photo collage and fineliner on photograph',
+		description: `<p>This work was created as cover for the PhD thesis <i>"From Images to Graphs: Machine Learning Methods for the Detection of Microtubules and Synapses in Large-Scale Electron Microscopy Data"</i> handed in at ETH Zurich by Julia Milena Buhmann.</p>
+					  <p>Credit: The photo of the universe in the background was taken by ESO/ Mario Nonino, Piero Rosati and the ESO GOODS Team (downloadable from <a href="https://www.eso.org/public/images/eso0839a/" target="_blank" rel="noopener">here</a>). It shows the Chandra Deep Field South, observed in the U-, B-, and R-bands with ESO's VIMOS and WFI instruments.`,
+		year: 2020,
+		image_path: 'artbauhauss_incrediblylargeandsmall.jpg',
+		sold: true
+	},
+	{
+		title: 'Self Portait',
+		size: '29.7x42 cm',
+		style: 'photo collage on photograph',
+		description: '',
+		year: 2020,
+		image_path: 'artbauhauss_selfportrait.jpg',
 		sold: false
 	},
 	{
@@ -191,15 +236,6 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 		sold: false
 	},
 	{
-		title: 'Red Parachute #3',
-		size: '50x50 cm',
-		style: 'oil and acrylic on canvas',
-		description: '',
-		year: 2019,
-		image_path: 'artbauhauss_redparachute3.jpg',
-		sold: false
-	},
-	{
 		title: 'Red Parachute #2',
 		size: '50x50 cm',
 		style: 'oil on canvas',
@@ -302,7 +338,7 @@ function loadGalleryItems() {
 	galleryElement.removeChild(galleryLoader);
 	galleryItems.forEach((item, itemIdx) => {
 		const galleryItem = document.createElement('div');
-		galleryItem.classList.add('gallery-item');
+		galleryItem.classList.add('gallery-item', 'column');
 		const loader = createLoaderElement();
 		galleryItem.appendChild(loader);
 		galleryElement.appendChild(galleryItem);
