@@ -93,15 +93,6 @@ body, html {
     overflow: hidden;
 }
 
-#outdated-browser-warning {
-    padding: 1em;
-    text-align: center;
-    border: 2px solid red;
-    font-weight: bold;
-    font-size: 1.25em;
-    display: none;
-}
-
 #parallax-header {
     background-image: url("./images/large/artbauhauss_header.jpg");
     height: 100%;
