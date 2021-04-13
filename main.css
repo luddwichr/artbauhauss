@@ -110,21 +110,33 @@ h2 {
     overflow: hidden;
 }
 
-#parallax-header {
+.container {
+    width: 100%;
+    background-color: white;
+}
+
+#parallaxed {
     background-image: url("./images/large/artbauhauss_header.jpg");
-    height: 100%;
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -1;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+}
+
+header {
+    height: 100%;
     display: flex;
     padding-top: 150px;
     flex-direction: column;
     align-items: center;
+    background-color: transparent;
 }
 
-@media (max-device-height: 400px) {
-    #parallax-header {
+@media (max-height: 400px) {
+    header {
         padding: 0;
         justify-content: center;
     }
@@ -158,16 +170,8 @@ h2 {
     row-gap: 50px;
 }
 
-@media (min-width: 1024px) {
-    .row > :nth-child(odd) {
-        margin-right: 100px; /* column-gap for .row is not yet supported well enough, especially Safari */
-    }
-}
-
 .column {
     width: 50%;
-    max-width: 500px;
-    margin-bottom: 50px;
 }
 
 #navbar {
@@ -230,7 +234,7 @@ section {
 }
 
 #gallery {
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .gallery-item {
@@ -337,7 +341,7 @@ footer * {
 }
 
 #about-me {
-    font-size: 1.2em;
+    font-size: 1.4em;
     text-align: justify;
 }
 
@@ -358,7 +362,7 @@ footer * {
 }
 
 @media (max-width: 600px) {
-    #parallax-header {
+    #parallaxed {
         background-image: url("./images/large/artbauhauss_header-slim.jpg");
     }
 }
@@ -370,7 +374,6 @@ footer * {
 
     .column {
         width: 100%;
-        max-width: none;
     }
 
     .burger {
@@ -398,7 +401,6 @@ footer * {
         margin: 0;
         padding-top: 0.5em;
     }
-    
 
     #portrait {
         order: 1
@@ -408,7 +410,6 @@ footer * {
         order: 2
     }
 
-    
 }
 
 /*

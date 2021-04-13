@@ -362,7 +362,7 @@ function loadPortrait() {
 
 function initStickyHeader() {
 	const navbar = document.getElementById('navbar');
-	const header = document.getElementById('parallax-header');
+	const header = document.getElementsByTagName('header')[0];
 	const main = document.getElementsByTagName('main')[0];
 	const computeNavOffset = () => header.offsetTop + header.offsetHeight;
 	let navTopOffset = computeNavOffset();
