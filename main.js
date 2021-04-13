@@ -338,7 +338,7 @@ function loadGalleryItems() {
 	galleryElement.removeChild(galleryLoader);
 	galleryItems.forEach((item, itemIdx) => {
 		const galleryItem = document.createElement('div');
-		galleryItem.classList.add('gallery-item', 'column');
+		galleryItem.classList.add('gallery-item');
 		const loader = createLoaderElement();
 		galleryItem.appendChild(loader);
 		galleryElement.appendChild(galleryItem);

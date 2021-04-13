@@ -80,6 +80,10 @@ body {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
+main {
+    line-height: 1.5em;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -87,6 +91,19 @@ a {
 
 body, html {
     height: 100%;
+}
+
+h1 {
+    font-size: min(12vw, 5em);
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 1em;
+}
+
+h2 {
+    font-size: 1.3em;
+    margin: 0;
+    padding: 1em 0;
 }
 
 .no-scroll {
@@ -100,38 +117,31 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-#header-text {
-    text-align: center;
+    display: flex;
     padding-top: 150px;
+    flex-direction: column;
+    align-items: center;
 }
 
-@media (orientation: landscape) {
-    #header-text {
-        text-align: center;
-        padding-top: 40px;
+@media (max-device-height: 400px) {
+    #parallax-header {
+        padding: 0;
+        justify-content: center;
     }
-}
-
-#full-name {
-    font-size: min(12vw, 5em);
-    font-weight: bold;
 }
 
 #header-menu {
     display: flex;
-    justify-content: center;
 }
 
-#header-menu a {
+#header-menu a, #fullscreen-menu a {
     display: block;
     padding: 1em;
     font-size: min(6vw, 2em);
     font-weight: bold;
 }
 
-#header-menu a:hover {
+#header-menu a:hover, #fullscreen-menu a:hover {
     background-color: rgba(233, 233, 233, 0.5);
 }
 
@@ -143,20 +153,21 @@ body, html {
 
 .row {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
+    justify-content: start;
+    row-gap: 50px;
+}
+
+@media (min-width: 1024px) {
+    .row > :nth-child(odd) {
+        margin-right: 100px; /* column-gap for .row is not yet supported well enough, especially Safari */
+    }
 }
 
 .column {
     width: 50%;
-}
-
-@media (max-width: 1024px) {
-    .column {
-        width: 100%;
-    }
+    max-width: 500px;
+    margin-bottom: 50px;
 }
 
 #navbar {
@@ -190,25 +201,8 @@ body, html {
     padding: 20px;
 }
 
-#fullscreen-menu a {
-    display: block;
-    padding: 1em;
-    font-size: min(6vw, 2em);
-    font-weight: bold;
-}
-
-#fullscreen-menu a:hover {
-    background-color: rgba(233, 233, 233, 0.5);
-}
-
-@media (max-width: 1024px) {
-    #menu, #header-menu {
-        display: none;
-    }
-}
-
 .burger {
-    display: block;
+    display: none;
     width: 35px;
     cursor: pointer;
 }
@@ -221,12 +215,6 @@ body, html {
     cursor: pointer;
 }
 
-@media (min-width: 1024px) {
-    .burger {
-        display: none;
-    }
-}
-
 .sticky {
     position: fixed;
     top: 0;
@@ -235,15 +223,14 @@ body, html {
     transform: translateX(-50%);
 }
 
-#portfolio h2, #about, #on-view, #contact {
-    line-height: 1.5em;
+section {
     padding: 0 30px 30px 30px;
+    scroll-margin-top: 3em;
+    scroll-snap-margin-top: 3em; /* Safari uses non standard name */
 }
 
 #gallery {
-    row-gap: 50px;
-    column-gap: 100px;
-    padding: 30px;
+    justify-content: center;
 }
 
 .gallery-item {
@@ -251,7 +238,6 @@ body, html {
     max-width: 500px;
     display: flex;
     align-items: center;
-    justify-self: center;
     justify-content: center;
 }
 
@@ -263,15 +249,10 @@ body, html {
     cursor: pointer;
 }
 
-#portrait > img {
-    cursor: default;
-}
-
 footer {
     border-top: 1px solid lightgray;
     padding: 30px;
     align-items: center;
-    justify-items: center;
 }
 
 footer * {
@@ -314,11 +295,13 @@ footer * {
 
 #gallery-item-details {
     display: flex;
-    gap: 30px;
-    padding: 20px;
+    padding: 10px;
     overflow: auto;
     height: 100%;
-    flex-wrap: no-wrap;
+}
+
+#metadata {
+    width: 50%;
 }
 
 #metadata > p {
@@ -337,6 +320,7 @@ footer * {
 
 #go-to-previous-item, #go-to-next-item {
     width: 5%;
+    font-weight: bold;
 }
 
 #artwork-image {
@@ -344,7 +328,55 @@ footer * {
     object-fit: contain;
 }
 
+#about-content {
+    justify-content: center;
+}
+
+#about-content a {
+    text-decoration: underline;
+}
+
+#about-me {
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+#portrait > img {
+    cursor: default;
+}
+
+.contact-option {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.contact-icon {
+    margin-right: 10px;
+    width: 29px;
+    height: 29px;
+}
+
+@media (max-width: 600px) {
+    #parallax-header {
+        background-image: url("./images/large/artbauhauss_header-slim.jpg");
+    }
+}
+
 @media (max-width: 1024px) {
+    #menu, #header-menu {
+        display: none;
+    }
+
+    .column {
+        width: 100%;
+        max-width: none;
+    }
+
+    .burger {
+        display: block;
+    }
+    
     #go-to-previous-item, #go-to-next-item {
         display: none;
     }
@@ -358,53 +390,25 @@ footer * {
         overflow: visible;
     }
 
-}
-
-#about-content a {
-    text-decoration: underline;
-}
-
-#about-me {
-    font-size: 1.2em;
-    text-align: justify;
-}
-
-#portrait {
-    max-width: 400px;
-    max-height: 500px;
-    width: auto;
-    height: auto;
-    margin: 0 auto;
-}
-
-.contact-option {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 10px;
-}
-
-.contact-icon {
-    width: 29px;
-    height: 29px;
-}
-
-h1 {
-    font-size: 2em;
-}
-
-h2 {
-    font-size: 1.3em;
-}
-
-@media (max-width: 1024px) {
-    #about-me {
-        order: 2
+    #metadata {
+        width: 100%;
     }
+
+    #metadata > p {
+        margin: 0;
+        padding-top: 0.5em;
+    }
+    
 
     #portrait {
         order: 1
     }
+
+    #about-me {
+        order: 2
+    }
+
+    
 }
 
 /*
