@@ -36,6 +36,11 @@
         </div>
     </header>
     <div class="container">
+        <div id="outdated-browser-warning">
+            <p>Your browser seems to be outdated and the website will not function correctly! Please consider updating your
+                browser.
+            </p>
+        </div>
         <nav id="navbar" class="centered-container">
             <div id="home">
                 <a href="#">Sophie Bauhaus</a>
@@ -167,6 +172,13 @@
             </div>
         </div>
     </div>
+    <script>
+        try {
+            eval("const x = () => [...[1]];");
+        } catch (e) {
+            document.getElementById('outdated-browser-warning').style.display = 'block';
+        }
+    </script>
 </body>
 
 </html>
