@@ -6,7 +6,7 @@ const galleryItems = [
 		description: '',
 		year: 2021,
 		image_path: 'artbauhauss_newbeginnings1.jpg',
-		sold: false
+		sold: true
 	},
 	{
 		title: 'New Beginnings #2',
