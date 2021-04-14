@@ -304,7 +304,17 @@ function displayInFullScreen(itemIdx) {
 	setHtml('artwork-description', item.description);
 	setText('artwork-year', item.year);
 	setText('artwork-sold', item.sold ? 'in private collection' : '');
-	document.getElementById('artwork-image').src = 'images/large/' + item.image_path;
+	const artworkImageElement = document.getElementById('artwork-image');
+	const artworkLoader = document.getElementById('artwork-loader');
+
+	artworkImageElement.hidden = true;
+	artworkLoader.hidden = false;
+
+	artworkImageElement.onload = function () {
+		artworkLoader.hidden = true;
+		artworkImageElement.hidden = false;
+	}
+	artworkImageElement.src = 'images/large/' + item.image_path;
 
 	let goToPreviousItemElement = document.getElementById('go-to-previous-item');
 	goToPreviousItemElement.disabled = itemIdx === 0;
@@ -315,9 +325,12 @@ function displayInFullScreen(itemIdx) {
 }
 
 function createLoaderElement() {
+	const loaderContainer = document.createElement('div');
+	loaderContainer.classList.add('loader-container');
 	const loader = document.createElement('div');
 	loader.classList.add('loader');
-	return loader;
+	loaderContainer.appendChild(loader);
+	return loaderContainer;
 }
 
 function loadImage(imgSrc, altText, callback) {
@@ -352,9 +365,10 @@ function loadGalleryItems() {
 
 function loadPortrait() {
 	const portraitElement = document.getElementById('portrait');
+	const portraitLoader = document.getElementById('portrait-loader');
 	loadImage(imagesBasePath + 'artbauhauss_portrait.jpg', 'sophie bauhaus portrait',
 		imageElement => {
-			portraitElement.classList.remove('loader');
+			portraitLoader.hidden = true;
 			portraitElement.appendChild(imageElement);
 		}
 	);

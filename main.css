@@ -64,7 +64,7 @@ button:-moz-focusring,
 }
 
 [hidden] {
-    display: none;
+    display: none !important;
 }
 
 /*
@@ -302,6 +302,7 @@ footer * {
     padding: 10px;
     overflow: auto;
     height: 100%;
+    width: 100%;
 }
 
 #metadata {
@@ -317,9 +318,11 @@ footer * {
 }
 
 #gallery-carousel {
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
     overflow: hidden;
+    width: 100%;
 }
 
 #go-to-previous-item, #go-to-next-item {
@@ -412,10 +415,15 @@ footer * {
 
 }
 
-/*
- * Spinner when loading images
- * credits: https://projects.lukehaas.me/css-loaders/ under MIT license
- */
+.loader-container {
+     display: flex;
+     width: min(90vw, 500px);
+     height: min(50vh, 500px);
+     align-items: center;
+     justify-content: center;
+     border: 1px solid #EFEFEF;
+     border-radius: 25px;
+ }
 
 .loader,
 .loader:before,
@@ -423,21 +431,15 @@ footer * {
     border-radius: 50%;
     width: 2.5em;
     height: 2.5em;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    -webkit-animation: load7 1.8s infinite ease-in-out;
-    animation: load7 1.8s infinite ease-in-out;
+    -webkit-animation: load 1.8s infinite ease-in-out;
+    animation: load 1.8s infinite ease-in-out;
 }
 
 .loader {
     color: darkorange;
     font-size: 10px;
-    margin: 80px auto;
+    margin-top: -5em;
     position: relative;
-    text-indent: -9999em;
-    -webkit-transform: translateZ(0);
-    -ms-transform: translateZ(0);
-    transform: translateZ(0);
     -webkit-animation-delay: -0.16s;
     animation-delay: -0.16s;
 }
@@ -459,7 +461,7 @@ footer * {
     left: 3.5em;
 }
 
-@-webkit-keyframes load7 {
+@-webkit-keyframes load {
     0%,
     80%,
     100% {
@@ -470,7 +472,7 @@ footer * {
     }
 }
 
-@keyframes load7 {
+@keyframes load {
     0%,
     80%,
     100% {
