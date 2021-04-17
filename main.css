@@ -312,10 +312,16 @@ footer * {
 
 #metadata {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    
 }
 
 #metadata > p {
     font-size: 1.25em;
+    width: 80%;
 }
 
 #metadata * a {
@@ -349,7 +355,7 @@ footer * {
 }
 
 #about-me {
-    font-size: 1.4em;
+    font-size: 1.25em;
     text-align: justify;
 }
 
@@ -408,6 +414,7 @@ footer * {
     #metadata > p {
         margin: 0;
         padding-top: 0.5em;
+        width: 100%;
     }
 
     #portrait {
