@@ -346,10 +346,6 @@ footer * {
     object-fit: contain;
 }
 
-#about-content {
-    justify-content: center;
-}
-
 #about-content a {
     text-decoration: underline;
 }
@@ -357,6 +353,10 @@ footer * {
 #about-me {
     font-size: 1.25em;
     text-align: justify;
+}
+
+#portrait {
+    max-width: 100%;
 }
 
 #portrait > img {
