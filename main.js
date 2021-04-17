@@ -272,13 +272,22 @@ function swipedRight() {
 	}
 }
 
+function arrowKeyNavigation(event) {
+	if (event.key === "ArrowLeft") {
+		swipedRight();
+	} else if (event.key === "ArrowRight") {
+		swipedLeft();
+	}
+}
+
 function startGalleryFullScreenMode(itemIdx) {
 	galleryFullScreenViewer.style.visibility = 'visible';
 	bodyElement.classList.add('no-scroll');
 
 	bodyElement.addEventListener('swiped-right', swipedRight);
 	bodyElement.addEventListener('swiped-left', swipedLeft);
-
+	bodyElement.addEventListener('keydown', arrowKeyNavigation);
+	
 	displayInFullScreen(itemIdx);
 }
 
@@ -287,6 +296,7 @@ function endGalleryFullScreenMode() {
 	bodyElement.classList.remove('no-scroll');
 	bodyElement.removeEventListener('swiped-right', swipedRight);
 	bodyElement.removeEventListener('swiped-left', swipedLeft);
+	bodyElement.removeEventListener('keydown', arrowKeyNavigation);
 	document.getElementById('artwork-image').src = '';
 	galleryFullScreenViewer.scrollTop = 0;
 }
