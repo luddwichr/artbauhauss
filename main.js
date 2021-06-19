@@ -27,6 +27,51 @@ const galleryItems = [
 		sold: false
 	},
 	{
+		title: 'New Beginnings #4',
+		size: '30x40 cm',
+		style: 'oil on paper',
+		description: '',
+		year: 2021,
+		image_path: 'artbauhauss_newbeginnings4.jpg',
+		sold: false
+	},
+	{
+		title: 'New Beginnings #5',
+		size: '30x40 cm',
+		style: 'oil on paper',
+		description: '',
+		year: 2021,
+		image_path: 'artbauhauss_newbeginnings5.jpg',
+		sold: false
+	},
+	{
+		title: 'New Beginnings #6',
+		size: '30x40 cm',
+		style: 'oil on paper',
+		description: '',
+		year: 2021,
+		image_path: 'artbauhauss_newbeginnings6.jpg',
+		sold: false
+	},
+	{
+		title: 'On Fire',
+		size: '100x100 cm',
+		style: 'oil on canvas',
+		description: '',
+		year: 2021,
+		image_path: 'artbauhauss_onfire.jpg',
+		sold: false
+	},
+	{
+		title: 'Iced',
+		size: '60x60 cm',
+		style: 'oil on canvas',
+		description: '',
+		year: 2021,
+		image_path: 'artbauhauss_iced.jpg',
+		sold: false
+	},
+	{
 		title: 'On the Road',
 		size: '90x90 cm',
 		style: 'oil on canvas',
@@ -36,12 +81,12 @@ const galleryItems = [
 		sold: false
 	},
 	{
-		title: 'The End',
-		size: '50x64 cm',
+		title: 'Ease',
+		size: '29.7x42 cm',
 		style: 'photo collage on paper',
 		description: '',
 		year: 2021,
-		image_path: 'artbauhauss_theend.jpg',
+		image_path: 'artbauhauss_ease.jpg',
 		sold: false
 	},
 	{
@@ -78,6 +123,15 @@ const galleryItems = [
 		description: '',
 		year: 2020,
 		image_path: 'artbauhauss_lostinspace4.jpg',
+		sold: false
+	},
+	{
+		title: 'The End',
+		size: '50x64 cm',
+		style: 'photo collage on paper',
+		description: '',
+		year: 2021,
+		image_path: 'artbauhauss_theend.jpg',
 		sold: false
 	},
 	{
