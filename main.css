@@ -328,6 +328,15 @@ footer * {
     text-decoration: underline;
 }
 
+#on-view a {
+    text-decoration: underline;
+}
+
+#on-view h3:not(:first-of-type) {
+    margin-top: 3em;
+
+}
+
 #gallery-carousel {
     display: flex;
     justify-content: space-between;
