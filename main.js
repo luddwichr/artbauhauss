@@ -90,6 +90,15 @@ const galleryItems = [
 		sold: false
 	},
 	{
+		title: 'Mountains',
+		size: '29.7x42 cm',
+		style: 'photo collage on paper',
+		description: '',
+		year: 2021,
+		image_path: 'artbauhauss_mountains.jpg',
+		sold: false
+	},
+	{
 		title: 'Lost in Space #1',
 		size: '29.7x42 cm',
 		style: 'photo collage on paper',
