@@ -1,38 +1,11 @@
 const galleryItems = [
 	{
-		title: 'New Beginnings #1',
+		title: 'New Beginnings #6',
 		size: '30x40 cm',
 		style: 'oil on paper',
 		description: '',
 		year: 2021,
-		image_path: 'artbauhauss_newbeginnings1.jpg',
-		sold: true
-	},
-	{
-		title: 'New Beginnings #2',
-		size: '30x40 cm',
-		style: 'oil on paper',
-		description: '',
-		year: 2021,
-		image_path: 'artbauhauss_newbeginnings2.jpg',
-		sold: false
-	},
-	{
-		title: 'New Beginnings #3',
-		size: '30x40 cm',
-		style: 'oil on paper',
-		description: '',
-		year: 2021,
-		image_path: 'artbauhauss_newbeginnings3.jpg',
-		sold: false
-	},
-	{
-		title: 'New Beginnings #4',
-		size: '30x40 cm',
-		style: 'oil on paper',
-		description: '',
-		year: 2021,
-		image_path: 'artbauhauss_newbeginnings4.jpg',
+		image_path: 'artbauhauss_newbeginnings6.jpg',
 		sold: false
 	},
 	{
@@ -45,13 +18,40 @@ const galleryItems = [
 		sold: false
 	},
 	{
-		title: 'New Beginnings #6',
+		title: 'New Beginnings #4',
 		size: '30x40 cm',
 		style: 'oil on paper',
 		description: '',
 		year: 2021,
-		image_path: 'artbauhauss_newbeginnings6.jpg',
+		image_path: 'artbauhauss_newbeginnings4.jpg',
 		sold: false
+	},
+	{
+		title: 'New Beginnings #3',
+		size: '30x40 cm',
+		style: 'oil on paper',
+		description: '',
+		year: 2021,
+		image_path: 'artbauhauss_newbeginnings3.jpg',
+		sold: false
+	},
+	{
+		title: 'New Beginnings #2',
+		size: '30x40 cm',
+		style: 'oil on paper',
+		description: '',
+		year: 2021,
+		image_path: 'artbauhauss_newbeginnings2.jpg',
+		sold: false
+	},
+	{
+		title: 'New Beginnings #1',
+		size: '30x40 cm',
+		style: 'oil on paper',
+		description: '',
+		year: 2021,
+		image_path: 'artbauhauss_newbeginnings1.jpg',
+		sold: true
 	},
 	{
 		title: 'On Fire',
