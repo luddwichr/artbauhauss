@@ -81,8 +81,35 @@ const galleryItems = [
 		sold: false
 	},
 	{
+		title: 'Feelings Expressed #1',
+		size: '42x29.7 cm',
+		style: 'photo collage on paper',
+		description: '',
+		year: 2022,
+		image_path: 'sophiebauhaus_feelingsexpressed1.jpg',
+		sold: true
+	},
+	{
+		title: 'Feelings Expressed #2',
+		size: '42x29.7 cm',
+		style: 'photo collage on paper',
+		description: '',
+		year: 2022,
+		image_path: 'sophiebauhaus_feelingsexpressed2.jpg',
+		sold: false
+	},
+	{
+		title: 'Simple and Yet Not Easy',
+		size: '26x18.5 cm',
+		style: 'photo collage on paper',
+		description: '',
+		year: 2022,
+		image_path: 'sophiebauhaus_simpleandyetnoteasy.jpg',
+		sold: false
+	},
+	{
 		title: 'Ease',
-		size: '29.7x42 cm',
+		size: '42x29.7 cm',
 		style: 'photo collage on paper',
 		description: '',
 		year: 2021,
@@ -91,7 +118,7 @@ const galleryItems = [
 	},
 	{
 		title: 'Mountains',
-		size: '29.7x42 cm',
+		size: '46x35 cm',
 		style: 'photo collage on paper',
 		description: '',
 		year: 2021,
@@ -100,7 +127,7 @@ const galleryItems = [
 	},
 	{
 		title: 'Lost in Space #1',
-		size: '29.7x42 cm',
+		size: '42x29.7 cm',
 		style: 'photo collage on paper',
 		description: '',
 		year: 2020,
@@ -109,7 +136,7 @@ const galleryItems = [
 	},
 	{
 		title: 'Lost in Space #2',
-		size: '29.7x42 cm',
+		size: '42x29.7 cm',
 		style: 'photo collage on paper',
 		description: '',
 		year: 2020,
@@ -118,7 +145,7 @@ const galleryItems = [
 	},
 	{
 		title: 'Lost in Space #3',
-		size: '50x64 cm',
+		size: '64x50 cm',
 		style: 'photo collage on paper',
 		description: '',
 		year: 2020,
@@ -127,7 +154,7 @@ const galleryItems = [
 	},
 	{
 		title: 'Lost in Space #4',
-		size: '50x64 cm',
+		size: '64x50 cm',
 		style: 'photo collage on paper',
 		description: '',
 		year: 2020,
@@ -136,7 +163,7 @@ const galleryItems = [
 	},
 	{
 		title: 'The End',
-		size: '50x64 cm',
+		size: '64x50 cm',
 		style: 'photo collage on paper',
 		description: '',
 		year: 2021,
@@ -145,7 +172,7 @@ const galleryItems = [
 	},
 	{
 		title: 'Incredibly Large And Small',
-		size: '29.7x42 cm',
+		size: '42x29.7 cm',
 		style: 'photo collage and fineliner on photograph',
 		description: `<p>This work was created as cover for the PhD thesis <i>"From Images to Graphs: Machine Learning Methods for the Detection of Microtubules and Synapses in Large-Scale Electron Microscopy Data"</i> handed in at ETH Zurich by Julia Milena Buhmann.</p>
 					  <p>Credit: The photo of the universe in the background was taken by ESO/ Mario Nonino, Piero Rosati and the ESO GOODS Team (downloadable from <a href="https://www.eso.org/public/images/eso0839a/" target="_blank" rel="noopener">here</a>). It shows the Chandra Deep Field South, observed in the U-, B-, and R-bands with ESO's VIMOS and WFI instruments.`,
@@ -155,7 +182,7 @@ const galleryItems = [
 	},
 	{
 		title: 'Self Portait',
-		size: '29.7x42 cm',
+		size: '42x29.7 cm',
 		style: 'photo collage on photograph',
 		description: '',
 		year: 2020,
