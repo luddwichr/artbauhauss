@@ -1,86 +1,5 @@
 const galleryItems = [
 	{
-		title: 'New Beginnings #6',
-		size: '30x40 cm',
-		style: 'oil on paper',
-		description: '',
-		year: 2021,
-		image_path: 'sophiebauhaus_newbeginnings6.jpg',
-		sold: false
-	},
-	{
-		title: 'New Beginnings #5',
-		size: '30x40 cm',
-		style: 'oil on paper',
-		description: '',
-		year: 2021,
-		image_path: 'sophiebauhaus_newbeginnings5.jpg',
-		sold: false
-	},
-	{
-		title: 'New Beginnings #4',
-		size: '30x40 cm',
-		style: 'oil on paper',
-		description: '',
-		year: 2021,
-		image_path: 'sophiebauhaus_newbeginnings4.jpg',
-		sold: false
-	},
-	{
-		title: 'New Beginnings #3',
-		size: '30x40 cm',
-		style: 'oil on paper',
-		description: '',
-		year: 2021,
-		image_path: 'sophiebauhaus_newbeginnings3.jpg',
-		sold: false
-	},
-	{
-		title: 'New Beginnings #2',
-		size: '30x40 cm',
-		style: 'oil on paper',
-		description: '',
-		year: 2021,
-		image_path: 'sophiebauhaus_newbeginnings2.jpg',
-		sold: false
-	},
-	{
-		title: 'New Beginnings #1',
-		size: '30x40 cm',
-		style: 'oil on paper',
-		description: '',
-		year: 2021,
-		image_path: 'sophiebauhaus_newbeginnings1.jpg',
-		sold: true
-	},
-	{
-		title: 'On Fire',
-		size: '100x100 cm',
-		style: 'oil on canvas',
-		description: '',
-		year: 2021,
-		image_path: 'sophiebauhaus_onfire.jpg',
-		sold: false
-	},
-	{
-		title: 'Iced',
-		size: '60x60 cm',
-		style: 'oil on canvas',
-		description: '',
-		year: 2021,
-		image_path: 'sophiebauhaus_iced.jpg',
-		sold: false
-	},
-	{
-		title: 'On the Road',
-		size: '90x90 cm',
-		style: 'oil on canvas',
-		description: '',
-		year: 2021,
-		image_path: 'sophiebauhaus_ontheroad.jpg',
-		sold: false
-	},
-	{
 		title: 'Feelings Expressed #1',
 		size: '42x29.7 cm',
 		style: 'photo collage on paper',
@@ -126,24 +45,6 @@ const galleryItems = [
 		sold: false
 	},
 	{
-		title: 'Lost in Space #1',
-		size: '42x29.7 cm',
-		style: 'photo collage on paper',
-		description: '',
-		year: 2020,
-		image_path: 'sophiebauhaus_lostinspace1.jpg',
-		sold: false
-	},
-	{
-		title: 'Lost in Space #2',
-		size: '42x29.7 cm',
-		style: 'photo collage on paper',
-		description: '',
-		year: 2020,
-		image_path: 'sophiebauhaus_lostinspace2.jpg',
-		sold: false
-	},
-	{
 		title: 'Lost in Space #3',
 		size: '64x50 cm',
 		style: 'photo collage on paper',
@@ -171,6 +72,24 @@ const galleryItems = [
 		sold: false
 	},
 	{
+		title: 'Lost in Space #1',
+		size: '42x29.7 cm',
+		style: 'photo collage on paper',
+		description: '',
+		year: 2020,
+		image_path: 'sophiebauhaus_lostinspace1.jpg',
+		sold: false
+	},
+	{
+		title: 'Lost in Space #2',
+		size: '42x29.7 cm',
+		style: 'photo collage on paper',
+		description: '',
+		year: 2020,
+		image_path: 'sophiebauhaus_lostinspace2.jpg',
+		sold: false
+	},
+	{
 		title: 'Incredibly Large And Small',
 		size: '42x29.7 cm',
 		style: 'photo collage and fineliner on photograph',
@@ -190,39 +109,84 @@ const galleryItems = [
 		sold: false
 	},
 	{
-		title: 'By the Lake #1',
-		size: '24x35 cm',
-		style: 'fine liner, collage on paper',
+		title: 'New Beginnings #6',
+		size: '40x30 cm',
+		style: 'oil on paper',
 		description: '',
-		year: 2020,
-		image_path: 'sophiebauhaus_bythelake1.jpg',
+		year: 2021,
+		image_path: 'sophiebauhaus_newbeginnings6.jpg',
 		sold: false
 	},
 	{
-		title: 'The Trees',
-		size: '24x35 cm',
-		style: 'fine liner on paper',
+		title: 'New Beginnings #5',
+		size: '40x30 cm',
+		style: 'oil on paper',
 		description: '',
-		year: 2020,
-		image_path: 'sophiebauhaus_thetrees.jpg',
+		year: 2021,
+		image_path: 'sophiebauhaus_newbeginnings5.jpg',
 		sold: false
 	},
 	{
-		title: 'Reflections',
-		size: '24x35 cm',
-		style: 'fine liner on paper',
+		title: 'New Beginnings #4',
+		size: '40x30 cm',
+		style: 'oil on paper',
 		description: '',
-		year: 2020,
-		image_path: 'sophiebauhaus_reflections.jpg',
+		year: 2021,
+		image_path: 'sophiebauhaus_newbeginnings4.jpg',
 		sold: false
 	},
 	{
-		title: 'By the Lake #2',
-		size: '24x35 cm',
-		style: 'fine liner, collage on paper',
+		title: 'New Beginnings #3',
+		size: '40x30 cm',
+		style: 'oil on paper',
 		description: '',
-		year: 2020,
-		image_path: 'sophiebauhaus_bythelake2.jpg',
+		year: 2021,
+		image_path: 'sophiebauhaus_newbeginnings3.jpg',
+		sold: false
+	},
+	{
+		title: 'New Beginnings #2',
+		size: '40x30 cm',
+		style: 'oil on paper',
+		description: '',
+		year: 2021,
+		image_path: 'sophiebauhaus_newbeginnings2.jpg',
+		sold: false
+	},
+	{
+		title: 'New Beginnings #1',
+		size: '40x30 cm',
+		style: 'oil on paper',
+		description: '',
+		year: 2021,
+		image_path: 'sophiebauhaus_newbeginnings1.jpg',
+		sold: true
+	},
+	{
+		title: 'On Fire',
+		size: '100x100 cm',
+		style: 'oil on canvas',
+		description: '',
+		year: 2021,
+		image_path: 'sophiebauhaus_onfire.jpg',
+		sold: false
+	},
+	{
+		title: 'Iced',
+		size: '60x60 cm',
+		style: 'oil on canvas',
+		description: '',
+		year: 2021,
+		image_path: 'sophiebauhaus_iced.jpg',
+		sold: false
+	},
+	{
+		title: 'On the Road',
+		size: '90x90 cm',
+		style: 'oil on canvas',
+		description: '',
+		year: 2021,
+		image_path: 'sophiebauhaus_ontheroad.jpg',
 		sold: false
 	},
 	{
@@ -342,7 +306,43 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 		year: 2018,
 		image_path: 'sophiebauhaus_redparachute1.jpg',
 		sold: true
-	}
+	},
+	{
+		title: 'By the Lake #1',
+		size: '35x24 cm',
+		style: 'fine liner, collage on paper',
+		description: '',
+		year: 2020,
+		image_path: 'sophiebauhaus_bythelake1.jpg',
+		sold: false
+	},
+	{
+		title: 'The Trees',
+		size: '35x24 cm',
+		style: 'fine liner on paper',
+		description: '',
+		year: 2020,
+		image_path: 'sophiebauhaus_thetrees.jpg',
+		sold: false
+	},
+	{
+		title: 'Reflections',
+		size: '35x24 cm',
+		style: 'fine liner on paper',
+		description: '',
+		year: 2020,
+		image_path: 'sophiebauhaus_reflections.jpg',
+		sold: false
+	},
+	{
+		title: 'By the Lake #2',
+		size: '35x24 cm',
+		style: 'fine liner, collage on paper',
+		description: '',
+		year: 2020,
+		image_path: 'sophiebauhaus_bythelake2.jpg',
+		sold: false
+	},
 ];
 
 const bodyElement = document.getElementsByTagName('body')[0];
@@ -375,11 +375,9 @@ function keyNavigation(event) {
 function startGalleryFullScreenMode(itemIdx) {
 	galleryFullScreenViewer.style.visibility = 'visible';
 	bodyElement.classList.add('no-scroll');
-
 	bodyElement.addEventListener('swiped-right', swipedRight);
 	bodyElement.addEventListener('swiped-left', swipedLeft);
 	bodyElement.addEventListener('keydown', keyNavigation);
-	
 	displayInFullScreen(itemIdx);
 }
 
