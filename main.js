@@ -328,7 +328,7 @@ function endGalleryFullScreenMode() {
 	galleryFullScreenViewer.scrollTop = 0;
 }
 
-document.getElementById('end-gallery-fullscreen-button').onclick = () => endGalleryFullScreenMode();
+document.getElementById('end-gallery-fullscreen-button').onclick = endGalleryFullScreenMode;
 
 function displayInFullScreen(itemIdx) {
 	currentFullscreenGalleryItemIdx = itemIdx;
