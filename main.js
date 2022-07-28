@@ -5,7 +5,7 @@ const galleryItems = [
 		style: 'oil on paper',
 		description: '',
 		year: 2021,
-		image_path: 'artbauhauss_newbeginnings6.jpg',
+		image_path: 'sophiebauhaus_newbeginnings6.jpg',
 		sold: false
 	},
 	{
@@ -14,7 +14,7 @@ const galleryItems = [
 		style: 'oil on paper',
 		description: '',
 		year: 2021,
-		image_path: 'artbauhauss_newbeginnings5.jpg',
+		image_path: 'sophiebauhaus_newbeginnings5.jpg',
 		sold: false
 	},
 	{
@@ -23,7 +23,7 @@ const galleryItems = [
 		style: 'oil on paper',
 		description: '',
 		year: 2021,
-		image_path: 'artbauhauss_newbeginnings4.jpg',
+		image_path: 'sophiebauhaus_newbeginnings4.jpg',
 		sold: false
 	},
 	{
@@ -32,7 +32,7 @@ const galleryItems = [
 		style: 'oil on paper',
 		description: '',
 		year: 2021,
-		image_path: 'artbauhauss_newbeginnings3.jpg',
+		image_path: 'sophiebauhaus_newbeginnings3.jpg',
 		sold: false
 	},
 	{
@@ -41,7 +41,7 @@ const galleryItems = [
 		style: 'oil on paper',
 		description: '',
 		year: 2021,
-		image_path: 'artbauhauss_newbeginnings2.jpg',
+		image_path: 'sophiebauhaus_newbeginnings2.jpg',
 		sold: false
 	},
 	{
@@ -50,7 +50,7 @@ const galleryItems = [
 		style: 'oil on paper',
 		description: '',
 		year: 2021,
-		image_path: 'artbauhauss_newbeginnings1.jpg',
+		image_path: 'sophiebauhaus_newbeginnings1.jpg',
 		sold: true
 	},
 	{
@@ -59,7 +59,7 @@ const galleryItems = [
 		style: 'oil on canvas',
 		description: '',
 		year: 2021,
-		image_path: 'artbauhauss_onfire.jpg',
+		image_path: 'sophiebauhaus_onfire.jpg',
 		sold: false
 	},
 	{
@@ -68,7 +68,7 @@ const galleryItems = [
 		style: 'oil on canvas',
 		description: '',
 		year: 2021,
-		image_path: 'artbauhauss_iced.jpg',
+		image_path: 'sophiebauhaus_iced.jpg',
 		sold: false
 	},
 	{
@@ -77,7 +77,7 @@ const galleryItems = [
 		style: 'oil on canvas',
 		description: '',
 		year: 2021,
-		image_path: 'artbauhauss_ontheroad.jpg',
+		image_path: 'sophiebauhaus_ontheroad.jpg',
 		sold: false
 	},
 	{
@@ -86,7 +86,7 @@ const galleryItems = [
 		style: 'photo collage on paper',
 		description: '',
 		year: 2021,
-		image_path: 'artbauhauss_ease.jpg',
+		image_path: 'sophiebauhaus_ease.jpg',
 		sold: false
 	},
 	{
@@ -95,7 +95,7 @@ const galleryItems = [
 		style: 'photo collage on paper',
 		description: '',
 		year: 2021,
-		image_path: 'artbauhauss_mountains.jpg',
+		image_path: 'sophiebauhaus_mountains.jpg',
 		sold: false
 	},
 	{
@@ -104,7 +104,7 @@ const galleryItems = [
 		style: 'photo collage on paper',
 		description: '',
 		year: 2020,
-		image_path: 'artbauhauss_lostinspace1.jpg',
+		image_path: 'sophiebauhaus_lostinspace1.jpg',
 		sold: false
 	},
 	{
@@ -113,7 +113,7 @@ const galleryItems = [
 		style: 'photo collage on paper',
 		description: '',
 		year: 2020,
-		image_path: 'artbauhauss_lostinspace2.jpg',
+		image_path: 'sophiebauhaus_lostinspace2.jpg',
 		sold: false
 	},
 	{
@@ -122,7 +122,7 @@ const galleryItems = [
 		style: 'photo collage on paper',
 		description: '',
 		year: 2020,
-		image_path: 'artbauhauss_lostinspace3.jpg',
+		image_path: 'sophiebauhaus_lostinspace3.jpg',
 		sold: false
 	},
 	{
@@ -131,7 +131,7 @@ const galleryItems = [
 		style: 'photo collage on paper',
 		description: '',
 		year: 2020,
-		image_path: 'artbauhauss_lostinspace4.jpg',
+		image_path: 'sophiebauhaus_lostinspace4.jpg',
 		sold: false
 	},
 	{
@@ -140,7 +140,7 @@ const galleryItems = [
 		style: 'photo collage on paper',
 		description: '',
 		year: 2021,
-		image_path: 'artbauhauss_theend.jpg',
+		image_path: 'sophiebauhaus_theend.jpg',
 		sold: false
 	},
 	{
@@ -150,7 +150,7 @@ const galleryItems = [
 		description: `<p>This work was created as cover for the PhD thesis <i>"From Images to Graphs: Machine Learning Methods for the Detection of Microtubules and Synapses in Large-Scale Electron Microscopy Data"</i> handed in at ETH Zurich by Julia Milena Buhmann.</p>
 					  <p>Credit: The photo of the universe in the background was taken by ESO/ Mario Nonino, Piero Rosati and the ESO GOODS Team (downloadable from <a href="https://www.eso.org/public/images/eso0839a/" target="_blank" rel="noopener">here</a>). It shows the Chandra Deep Field South, observed in the U-, B-, and R-bands with ESO's VIMOS and WFI instruments.`,
 		year: 2020,
-		image_path: 'artbauhauss_incrediblylargeandsmall.jpg',
+		image_path: 'sophiebauhaus_incrediblylargeandsmall.jpg',
 		sold: true
 	},
 	{
@@ -159,7 +159,7 @@ const galleryItems = [
 		style: 'photo collage on photograph',
 		description: '',
 		year: 2020,
-		image_path: 'artbauhauss_selfportrait.jpg',
+		image_path: 'sophiebauhaus_selfportrait.jpg',
 		sold: false
 	},
 	{
@@ -168,7 +168,7 @@ const galleryItems = [
 		style: 'fine liner, collage on paper',
 		description: '',
 		year: 2020,
-		image_path: 'artbauhauss_bythelake1.jpg',
+		image_path: 'sophiebauhaus_bythelake1.jpg',
 		sold: false
 	},
 	{
@@ -177,7 +177,7 @@ const galleryItems = [
 		style: 'fine liner on paper',
 		description: '',
 		year: 2020,
-		image_path: 'artbauhauss_thetrees.jpg',
+		image_path: 'sophiebauhaus_thetrees.jpg',
 		sold: false
 	},
 	{
@@ -186,7 +186,7 @@ const galleryItems = [
 		style: 'fine liner on paper',
 		description: '',
 		year: 2020,
-		image_path: 'artbauhauss_reflections.jpg',
+		image_path: 'sophiebauhaus_reflections.jpg',
 		sold: false
 	},
 	{
@@ -195,7 +195,7 @@ const galleryItems = [
 		style: 'fine liner, collage on paper',
 		description: '',
 		year: 2020,
-		image_path: 'artbauhauss_bythelake2.jpg',
+		image_path: 'sophiebauhaus_bythelake2.jpg',
 		sold: false
 	},
 	{
@@ -204,7 +204,7 @@ const galleryItems = [
 		style: 'oil on canvas',
 		description: '',
 		year: 2020,
-		image_path: 'artbauhauss_whereisthespace2.jpg',
+		image_path: 'sophiebauhaus_whereisthespace2.jpg',
 		sold: false
 	},
 	{
@@ -213,7 +213,7 @@ const galleryItems = [
 		style: 'oil and acrylic on canvas',
 		description: '',
 		year: 2020,
-		image_path: 'artbauhauss_dontthink.jpg',
+		image_path: 'sophiebauhaus_dontthink.jpg',
 		sold: false
 	},
 	{
@@ -222,7 +222,7 @@ const galleryItems = [
 		style: 'oil, acrylic and spray paint on canvas',
 		description: '',
 		year: 2020,
-		image_path: 'artbauhauss_you.jpg',
+		image_path: 'sophiebauhaus_you.jpg',
 		sold: false
 	},
 	{
@@ -232,7 +232,7 @@ const galleryItems = [
 		description: `The painting was donated to Breidenbach Studios in Heidelberg to help them survive the hard situation caused by Covid-19. 
 See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopener">Startnext Breidenbach Studios</a> for more.`,
 		year: 2019,
-		image_path: 'artbauhauss_daretoexpress1.jpg',
+		image_path: 'sophiebauhaus_daretoexpress1.jpg',
 		sold: true
 	},
 	{
@@ -241,7 +241,7 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 		style: 'oil and acrylic on canvas',
 		description: '',
 		year: 2019,
-		image_path: 'artbauhauss_daretoexpress2.jpg',
+		image_path: 'sophiebauhaus_daretoexpress2.jpg',
 		sold: true
 	},
 	{
@@ -250,7 +250,7 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 		style: 'oil and acrylic on canvas',
 		description: '',
 		year: 2019,
-		image_path: 'artbauhauss_transformation2.jpg',
+		image_path: 'sophiebauhaus_transformation2.jpg',
 		sold: true
 	},
 	{
@@ -259,7 +259,7 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 		style: 'spray paint, acrylic and oil on canvas',
 		description: '',
 		year: 2019,
-		image_path: 'artbauhauss_untitled1.jpg',
+		image_path: 'sophiebauhaus_untitled1.jpg',
 		sold: true
 	},
 	{
@@ -268,7 +268,7 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 		style: 'spray paint, acrylic and oil on canvas',
 		description: '',
 		year: 2019,
-		image_path: 'artbauhauss_turquoisecircle2.jpg',
+		image_path: 'sophiebauhaus_turquoisecircle2.jpg',
 		sold: false
 	},
 	{
@@ -277,7 +277,7 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 		style: 'oil and acrylic on canvas',
 		description: '',
 		year: 2019,
-		image_path: 'artbauhauss_turqoisecircle1.jpg',
+		image_path: 'sophiebauhaus_turqoisecircle1.jpg',
 		sold: true
 	},
 	{
@@ -286,7 +286,7 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 		style: 'oil and acrylic on canvas',
 		description: '',
 		year: 2019,
-		image_path: 'artbauhauss_explosion1.jpg',
+		image_path: 'sophiebauhaus_explosion1.jpg',
 		sold: false
 	},
 	{
@@ -295,7 +295,7 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 		style: 'oil and acrylic on canvas',
 		description: '',
 		year: 2019,
-		image_path: 'artbauhauss_explosion2.jpg',
+		image_path: 'sophiebauhaus_explosion2.jpg',
 		sold: false
 	},
 	{
@@ -304,7 +304,7 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 		style: 'oil on canvas',
 		description: '',
 		year: 2019,
-		image_path: 'artbauhauss_redparachute2.jpg',
+		image_path: 'sophiebauhaus_redparachute2.jpg',
 		sold: false
 	},
 	{
@@ -313,7 +313,7 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 		style: 'acrylic on canvas',
 		description: '',
 		year: 2018,
-		image_path: 'artbauhauss_redparachute1.jpg',
+		image_path: 'sophiebauhaus_redparachute1.jpg',
 		sold: true
 	}
 ];
@@ -441,7 +441,7 @@ function loadGalleryItems() {
 function loadPortrait() {
 	const portraitElement = document.getElementById('portrait');
 	const portraitLoader = document.getElementById('portrait-loader');
-	loadImage(imagesBasePath + 'artbauhauss_portrait.jpg', 'sophie bauhaus portrait',
+	loadImage(imagesBasePath + 'sophiebauhaus_portrait.jpg', 'sophie bauhaus portrait',
 		imageElement => {
 			portraitLoader.hidden = true;
 			portraitElement.appendChild(imageElement);

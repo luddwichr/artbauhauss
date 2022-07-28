@@ -113,7 +113,7 @@ h2 {
 }
 
 #parallaxed {
-    background-image: url("./images/large/artbauhauss_header.jpg");
+    background-image: url("./images/large/sophiebauhaus_header.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -385,7 +385,7 @@ footer * {
 
 @media (max-width: 600px) {
     #parallaxed {
-        background-image: url("./images/large/artbauhauss_header-slim.jpg");
+        background-image: url("./images/large/sophiebauhaus_header-slim.jpg");
     }
 }
 
