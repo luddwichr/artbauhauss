@@ -245,69 +245,6 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 		sold: true
 	},
 	{
-		title: 'Untitled',
-		size: '20x40 cm (20x20 each)',
-		style: 'spray paint, acrylic and oil on canvas',
-		description: '',
-		year: 2019,
-		image_path: 'sophiebauhaus_untitled1.jpg',
-		sold: true
-	},
-	{
-		title: 'Turquoise Circle #2',
-		size: '200x200 cm',
-		style: 'spray paint, acrylic and oil on canvas',
-		description: '',
-		year: 2019,
-		image_path: 'sophiebauhaus_turquoisecircle2.jpg',
-		sold: false
-	},
-	{
-		title: 'Turquoise Circle #1',
-		size: '100x100 cm',
-		style: 'oil and acrylic on canvas',
-		description: '',
-		year: 2019,
-		image_path: 'sophiebauhaus_turqoisecircle1.jpg',
-		sold: true
-	},
-	{
-		title: 'Explosion #1',
-		size: '100x100 cm',
-		style: 'oil and acrylic on canvas',
-		description: '',
-		year: 2019,
-		image_path: 'sophiebauhaus_explosion1.jpg',
-		sold: false
-	},
-	{
-		title: 'Explosion #2',
-		size: '80x100 cm',
-		style: 'oil and acrylic on canvas',
-		description: '',
-		year: 2019,
-		image_path: 'sophiebauhaus_explosion2.jpg',
-		sold: false
-	},
-	{
-		title: 'Red Parachute #2',
-		size: '50x50 cm',
-		style: 'oil on canvas',
-		description: '',
-		year: 2019,
-		image_path: 'sophiebauhaus_redparachute2.jpg',
-		sold: false
-	},
-	{
-		title: 'Red Parachute #1',
-		size: '40x40 cm',
-		style: 'acrylic on canvas',
-		description: '',
-		year: 2018,
-		image_path: 'sophiebauhaus_redparachute1.jpg',
-		sold: true
-	},
-	{
 		title: 'By the Lake #1',
 		size: '35x24 cm',
 		style: 'fine liner, collage on paper',
