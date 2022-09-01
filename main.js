@@ -452,27 +452,9 @@ function loadPortrait() {
 
 function initStickyHeader() {
 	const navbar = document.getElementById('navbar');
-	const header = document.getElementsByTagName('header')[0];
 	const main = document.getElementsByTagName('main')[0];
-	const computeNavOffset = () => header.offsetTop + header.offsetHeight;
-	let navTopOffset = computeNavOffset();
-
-	function navStickyCheck() {
-		if (window.pageYOffset >= navTopOffset) {
-			navbar.classList.add('sticky');
-			main.style.paddingTop = navbar.offsetHeight + 'px';
-
-		} else {
-			navbar.classList.remove('sticky');
-			main.style.paddingTop = 0;
-		}
-	}
-
-	window.onscroll = navStickyCheck;
-	window.onresize = () => {
-		navTopOffset = computeNavOffset();
-		navStickyCheck();
-	}
+	navbar.classList.add('sticky');
+	main.style.paddingTop = navbar.offsetHeight + 'px';
 }
 
 function initFullscreenNav() {

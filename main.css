@@ -111,37 +111,6 @@ h2 {
     background-color: white;
 }
 
-#parallaxed {
-    background-image: url("./images/large/sophiebauhaus_header.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;
-    height: 100vh;
-    position: fixed;
-    width: 100%;
-}
-
-header {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
-}
-
-#header-menu {
-    display: flex;
-}
-
-#header-menu a, #fullscreen-menu a {
-    display: block;
-    padding: 1em;
-    font-size: max(1.5vw, 1em);
-    font-weight: bold;
-}
-
 #fullscreen-menu a {
     font-size: 2em;
 }
@@ -241,8 +210,8 @@ section {
 }
 
 .gallery-item {
-    max-height: 500px;
-    max-width: 500px;
+    max-height: 400px;
+    max-width: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -383,14 +352,8 @@ footer * {
     height: 29px;
 }
 
-@media (max-width: 600px) {
-    #parallaxed {
-        background-image: url("./images/large/sophiebauhaus_header-slim.jpg");
-    }
-}
-
 @media (max-width: 1024px) {
-    #menu, #header-menu {
+    #menu {
         display: none;
     }
 
