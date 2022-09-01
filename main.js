@@ -33,7 +33,7 @@ const galleryItems = [
 		description: '',
 		year: 2021,
 		image_path: 'sophiebauhaus_ease.jpg',
-		sold: false
+		sold: true
 	},
 	{
 		title: 'Mountains',
@@ -89,25 +89,64 @@ const galleryItems = [
 		image_path: 'sophiebauhaus_lostinspace2.jpg',
 		sold: false
 	},
+
+
+
 	{
-		title: 'Incredibly Large And Small',
-		size: '42x29.7 cm',
-		style: 'photo collage and fineliner on photograph',
-		description: `<p>This work was created as cover for the PhD thesis <i>"From Images to Graphs: Machine Learning Methods for the Detection of Microtubules and Synapses in Large-Scale Electron Microscopy Data"</i> handed in at ETH Zurich by Julia Milena Buhmann.</p>
-					  <p>Credit: The photo of the universe in the background was taken by ESO/ Mario Nonino, Piero Rosati and the ESO GOODS Team (downloadable from <a href="https://www.eso.org/public/images/eso0839a/" target="_blank" rel="noopener">here</a>). It shows the Chandra Deep Field South, observed in the U-, B-, and R-bands with ESO's VIMOS and WFI instruments.`,
-		year: 2020,
-		image_path: 'sophiebauhaus_incrediblylargeandsmall.jpg',
-		sold: true
-	},
-	{
-		title: 'Self Portait',
-		size: '42x29.7 cm',
-		style: 'photo collage on photograph',
+		title: 'Falling Endlessly #1',
+		size: '40x30 cm',
+		style: 'oil on paper',
 		description: '',
-		year: 2020,
-		image_path: 'sophiebauhaus_selfportrait.jpg',
+		year: 2022,
+		image_path: 'sophiebauhaus_fallingendlessly1.jpg',
 		sold: false
 	},
+	{
+		title: 'This is What You Loose #1',
+		size: '40x30 cm',
+		style: 'oil on paper',
+		description: '',
+		year: 2022,
+		image_path: 'sophiebauhaus_thisiswhatyouloose1.jpg',
+		sold: false
+	},
+	{
+		title: 'This is What You Loose #2',
+		size: '40x30 cm',
+		style: 'oil on paper',
+		description: '',
+		year: 2022,
+		image_path: 'sophiebauhaus_thisiswhatyouloose2.jpg',
+		sold: false
+	},
+	{
+		title: 'This is What You Loose #3',
+		size: '40x30 cm',
+		style: 'oil on paper',
+		description: '',
+		year: 2022,
+		image_path: 'sophiebauhaus_thisiswhatyouloose3.jpg',
+		sold: false
+	},
+	{
+		title: 'This is What You Loose #4',
+		size: '40x30 cm',
+		style: 'oil on paper',
+		description: '',
+		year: 2022,
+		image_path: 'sophiebauhaus_thisiswhatyouloose4.jpg',
+		sold: false
+	},
+	{
+		title: 'This is What Lies Deep in the Sea Under the Stones',
+		size: '40x30 cm',
+		style: 'oil on paper',
+		description: '',
+		year: 2022,
+		image_path: 'sophiebauhaus_thiswhatliesdeepintheseaunderthestones.jpg',
+		sold: false
+	},
+
 	{
 		title: 'New Beginnings #6',
 		size: '40x30 cm',
