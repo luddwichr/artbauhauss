@@ -10,13 +10,22 @@ const galleryItems = [
 	},
 	{
 		title: 'Feelings Expressed #2',
-		size: '42x29.7 cm',
+		size: '59.4x42 cm',
 		style: 'photo collage on paper',
 		description: '',
 		year: 2022,
 		image_path: 'sophiebauhaus_feelingsexpressed2.jpg',
 		sold: false
 	},
+	{
+        title: 'Feelings Expressed #3',
+        size: '59.4x42 cm',
+        style: 'photo collage on paper',
+        description: '',
+        year: 2022,
+        image_path: 'sophiebauhaus_feelingsexpressed3.jpg',
+        sold: false
+    },
 	{
 		title: 'Simple and Yet Not Easy',
 		size: '26x18.5 cm',
@@ -63,8 +72,17 @@ const galleryItems = [
 		sold: false
 	},
 	{
+        title: 'Lost in Space #5',
+        size: '59.4x42 cm',
+        style: 'photo collage on paper',
+        description: '',
+        year: 2020,
+        image_path: 'sophiebauhaus_lostinspace5.jpg',
+        sold: false
+    },
+	{
 		title: 'The End',
-		size: '64x50 cm',
+		size: '59.4x42 cm',
 		style: 'photo collage on paper',
 		description: '',
 		year: 2021,
@@ -89,9 +107,6 @@ const galleryItems = [
 		image_path: 'sophiebauhaus_lostinspace2.jpg',
 		sold: false
 	},
-
-
-
 	{
 		title: 'Falling Endlessly #1',
 		size: '40x30 cm',
@@ -138,15 +153,23 @@ const galleryItems = [
 		sold: false
 	},
 	{
-		title: 'This is What Lies Deep in the Sea Under the Stones',
+		title: 'This is What You Loose #5',
 		size: '40x30 cm',
 		style: 'oil on paper',
 		description: '',
 		year: 2022,
-		image_path: 'sophiebauhaus_thiswhatliesdeepintheseaunderthestones.jpg',
-		sold: false
+		image_path: 'sophiebauhaus_thisiswhatyouloose5.jpg',
+		sold: true
 	},
-
+	{
+		title: 'This is What You Loose #6',
+		size: '40x30 cm',
+		style: 'oil on paper',
+		description: '',
+		year: 2022,
+		image_path: 'sophiebauhaus_thisiswhatyouloose6.jpg',
+		sold: true
+	},
 	{
 		title: 'New Beginnings #6',
 		size: '40x30 cm',
@@ -163,7 +186,7 @@ const galleryItems = [
 		description: '',
 		year: 2021,
 		image_path: 'sophiebauhaus_newbeginnings5.jpg',
-		sold: false
+		sold: true
 	},
 	{
 		title: 'New Beginnings #4',
@@ -244,7 +267,7 @@ const galleryItems = [
 		description: '',
 		year: 2020,
 		image_path: 'sophiebauhaus_dontthink.jpg',
-		sold: false
+		sold: true
 	},
 	{
 		title: 'You',
@@ -282,42 +305,6 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 		year: 2019,
 		image_path: 'sophiebauhaus_transformation2.jpg',
 		sold: true
-	},
-	{
-		title: 'By the Lake #1',
-		size: '35x24 cm',
-		style: 'fine liner, collage on paper',
-		description: '',
-		year: 2020,
-		image_path: 'sophiebauhaus_bythelake1.jpg',
-		sold: false
-	},
-	{
-		title: 'The Trees',
-		size: '35x24 cm',
-		style: 'fine liner on paper',
-		description: '',
-		year: 2020,
-		image_path: 'sophiebauhaus_thetrees.jpg',
-		sold: false
-	},
-	{
-		title: 'Reflections',
-		size: '35x24 cm',
-		style: 'fine liner on paper',
-		description: '',
-		year: 2020,
-		image_path: 'sophiebauhaus_reflections.jpg',
-		sold: false
-	},
-	{
-		title: 'By the Lake #2',
-		size: '35x24 cm',
-		style: 'fine liner, collage on paper',
-		description: '',
-		year: 2020,
-		image_path: 'sophiebauhaus_bythelake2.jpg',
-		sold: false
 	},
 ];
 
