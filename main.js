@@ -1,13 +1,13 @@
 const galleryItems = [
 	{
-		title: 'Feelings Expressed #1',
-		size: '42x29.7 cm',
-		style: 'photo collage on paper',
-		description: '',
-		year: 2022,
-		image_path: 'sophiebauhaus_feelingsexpressed1.jpg',
-		sold: true
-	},
+        title: 'Feelings Expressed #3',
+        size: '59.4x42 cm',
+        style: 'photo collage on paper',
+        description: '',
+        year: 2022,
+        image_path: 'sophiebauhaus_feelingsexpressed3.jpg',
+        sold: false
+    },
 	{
 		title: 'Feelings Expressed #2',
 		size: '59.4x42 cm',
@@ -17,15 +17,15 @@ const galleryItems = [
 		image_path: 'sophiebauhaus_feelingsexpressed2.jpg',
 		sold: false
 	},
-	{
-        title: 'Feelings Expressed #3',
-        size: '59.4x42 cm',
-        style: 'photo collage on paper',
-        description: '',
-        year: 2022,
-        image_path: 'sophiebauhaus_feelingsexpressed3.jpg',
-        sold: false
-    },
+ 	{
+ 		title: 'Feelings Expressed #1',
+ 		size: '42x29.7 cm',
+ 		style: 'photo collage on paper',
+ 		description: '',
+ 		year: 2022,
+ 		image_path: 'sophiebauhaus_feelingsexpressed1.jpg',
+ 		sold: true
+ 	},
 	{
 		title: 'Simple and Yet Not Easy',
 		size: '26x18.5 cm',
@@ -108,15 +108,6 @@ const galleryItems = [
 		sold: false
 	},
 	{
-		title: 'Falling Endlessly #1',
-		size: '40x30 cm',
-		style: 'oil on paper',
-		description: '',
-		year: 2022,
-		image_path: 'sophiebauhaus_fallingendlessly1.jpg',
-		sold: false
-	},
-	{
 		title: 'This is What You Loose #1',
 		size: '40x30 cm',
 		style: 'oil on paper',
@@ -171,13 +162,22 @@ const galleryItems = [
 		sold: true
 	},
 	{
-		title: 'New Beginnings #6',
+		title: 'Falling Endlessly #1',
+		size: '40x30 cm',
+		style: 'oil on paper',
+		description: '',
+		year: 2022,
+		image_path: 'sophiebauhaus_fallingendlessly1.jpg',
+		sold: false
+	},
+	{
+		title: 'New Beginnings #1',
 		size: '40x30 cm',
 		style: 'oil on paper',
 		description: '',
 		year: 2021,
-		image_path: 'sophiebauhaus_newbeginnings6.jpg',
-		sold: false
+		image_path: 'sophiebauhaus_newbeginnings1.jpg',
+		sold: true
 	},
 	{
 		title: 'New Beginnings #5',
@@ -187,6 +187,15 @@ const galleryItems = [
 		year: 2021,
 		image_path: 'sophiebauhaus_newbeginnings5.jpg',
 		sold: true
+	},
+	{
+		title: 'New Beginnings #6',
+		size: '40x30 cm',
+		style: 'oil on paper',
+		description: '',
+		year: 2021,
+		image_path: 'sophiebauhaus_newbeginnings6.jpg',
+		sold: false
 	},
 	{
 		title: 'New Beginnings #4',
@@ -214,15 +223,6 @@ const galleryItems = [
 		year: 2021,
 		image_path: 'sophiebauhaus_newbeginnings2.jpg',
 		sold: false
-	},
-	{
-		title: 'New Beginnings #1',
-		size: '40x30 cm',
-		style: 'oil on paper',
-		description: '',
-		year: 2021,
-		image_path: 'sophiebauhaus_newbeginnings1.jpg',
-		sold: true
 	},
 	{
 		title: 'On Fire',
