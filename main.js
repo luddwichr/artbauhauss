@@ -1,5 +1,23 @@
 const galleryItems = [
 	{
+        title: 'Light #1',
+        size: '42x29.7 cm',
+        style: 'photo collage on paper',
+        description: '',
+        year: 2023,
+        image_path: 'sophiebauhaus_light1.jpg',
+        sold: false
+    },
+	{
+        title: 'Light #2',
+        size: '42x29.7 cm',
+        style: 'photo collage on paper',
+        description: '',
+        year: 2023,
+        image_path: 'sophiebauhaus_light2.jpg',
+        sold: false
+    },
+	{
         title: 'Feelings Expressed #3',
         size: '59.4x42 cm',
         style: 'photo collage on paper',
