@@ -243,33 +243,6 @@ const galleryItems = [
 		sold: false
 	},
 	{
-		title: 'New Beginnings #4',
-		size: '40x30 cm',
-		style: 'oil on paper',
-		description: '',
-		year: 2021,
-		image_path: 'sophiebauhaus_newbeginnings4.jpg',
-		sold: false
-	},
-	{
-		title: 'New Beginnings #3',
-		size: '40x30 cm',
-		style: 'oil on paper',
-		description: '',
-		year: 2021,
-		image_path: 'sophiebauhaus_newbeginnings3.jpg',
-		sold: false
-	},
-	{
-		title: 'New Beginnings #2',
-		size: '40x30 cm',
-		style: 'oil on paper',
-		description: '',
-		year: 2021,
-		image_path: 'sophiebauhaus_newbeginnings2.jpg',
-		sold: false
-	},
-	{
 		title: 'On Fire',
 		size: '100x100 cm',
 		style: 'oil on canvas',
