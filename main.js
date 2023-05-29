@@ -1,5 +1,95 @@
 const galleryItems = [
 	{
+		title: 'This is What You Loose #8',
+		size: '80x60 cm',
+		style: 'oil on canvas',
+		description: '',
+		year: 2023,
+		image_path: 'sophiebauhaus_thisiswhatyouloose8-2.jpg',
+		sold: false
+	},
+	{
+		title: 'This is What You Loose #8',
+		size: '80x60 cm',
+		style: 'oil on canvas',
+		description: '',
+		year: 2023,
+		image_path: 'sophiebauhaus_thisiswhatyouloose8-1.jpg',
+		sold: false
+	},
+	{
+		title: 'This is What You Loose #7',
+		size: '80x60 cm',
+		style: 'oil on canvas',
+		description: '',
+		year: 2023,
+		image_path: 'sophiebauhaus_thisiswhatyouloose7.jpg',
+		sold: false
+	},
+	{
+		title: 'This is What You Loose #1',
+		size: '40x30 cm',
+		style: 'oil on paper',
+		description: '',
+		year: 2022,
+		image_path: 'sophiebauhaus_thisiswhatyouloose1.jpg',
+		sold: false
+	},
+	{
+		title: 'This is What You Loose #2',
+		size: '40x30 cm',
+		style: 'oil on paper',
+		description: '',
+		year: 2022,
+		image_path: 'sophiebauhaus_thisiswhatyouloose2.jpg',
+		sold: false
+	},
+	{
+		title: 'This is What You Loose #3',
+		size: '40x30 cm',
+		style: 'oil on paper',
+		description: '',
+		year: 2022,
+		image_path: 'sophiebauhaus_thisiswhatyouloose3.jpg',
+		sold: true
+	},
+	{
+		title: 'This is What You Loose #5',
+		size: '40x30 cm',
+		style: 'oil on paper',
+		description: '',
+		year: 2022,
+		image_path: 'sophiebauhaus_thisiswhatyouloose5.jpg',
+		sold: true
+	},
+	{
+		title: 'This is What You Loose #6',
+		size: '40x30 cm',
+		style: 'oil on paper',
+		description: '',
+		year: 2022,
+		image_path: 'sophiebauhaus_thisiswhatyouloose6.jpg',
+		sold: true
+	},
+	{
+		title: 'This is What You Loose #4',
+		size: '40x30 cm',
+		style: 'oil on paper',
+		description: '',
+		year: 2022,
+		image_path: 'sophiebauhaus_thisiswhatyouloose4.jpg',
+		sold: false
+	},
+	{
+		title: 'Falling Endlessly #1',
+		size: '40x30 cm',
+		style: 'oil on paper',
+		description: '',
+		year: 2022,
+		image_path: 'sophiebauhaus_fallingendlessly1.jpg',
+		sold: false
+	},
+	{
         title: 'Light #1',
         size: '42x29.7 cm',
         style: 'photo collage on paper',
@@ -123,69 +213,6 @@ const galleryItems = [
 		description: '',
 		year: 2020,
 		image_path: 'sophiebauhaus_lostinspace2.jpg',
-		sold: false
-	},
-	{
-		title: 'This is What You Loose #1',
-		size: '40x30 cm',
-		style: 'oil on paper',
-		description: '',
-		year: 2022,
-		image_path: 'sophiebauhaus_thisiswhatyouloose1.jpg',
-		sold: false
-	},
-	{
-		title: 'This is What You Loose #2',
-		size: '40x30 cm',
-		style: 'oil on paper',
-		description: '',
-		year: 2022,
-		image_path: 'sophiebauhaus_thisiswhatyouloose2.jpg',
-		sold: false
-	},
-	{
-		title: 'This is What You Loose #3',
-		size: '40x30 cm',
-		style: 'oil on paper',
-		description: '',
-		year: 2022,
-		image_path: 'sophiebauhaus_thisiswhatyouloose3.jpg',
-		sold: false
-	},
-	{
-		title: 'This is What You Loose #4',
-		size: '40x30 cm',
-		style: 'oil on paper',
-		description: '',
-		year: 2022,
-		image_path: 'sophiebauhaus_thisiswhatyouloose4.jpg',
-		sold: false
-	},
-	{
-		title: 'This is What You Loose #5',
-		size: '40x30 cm',
-		style: 'oil on paper',
-		description: '',
-		year: 2022,
-		image_path: 'sophiebauhaus_thisiswhatyouloose5.jpg',
-		sold: true
-	},
-	{
-		title: 'This is What You Loose #6',
-		size: '40x30 cm',
-		style: 'oil on paper',
-		description: '',
-		year: 2022,
-		image_path: 'sophiebauhaus_thisiswhatyouloose6.jpg',
-		sold: true
-	},
-	{
-		title: 'Falling Endlessly #1',
-		size: '40x30 cm',
-		style: 'oil on paper',
-		description: '',
-		year: 2022,
-		image_path: 'sophiebauhaus_fallingendlessly1.jpg',
 		sold: false
 	},
 	{
