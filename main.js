@@ -98,6 +98,7 @@ const galleryItems = [
 		image_path: 'sophiebauhaus_thisiswhatyouloose3.jpg',
 		sold: true
 	},
+
 	{
 		title: 'Falling Endlessly #1',
 		size: '40x30 cm',
@@ -106,9 +107,6 @@ const galleryItems = [
 		year: 2022,
 		image_path: 'sophiebauhaus_fallingendlessly1.jpg',
 		sold: false
-	},
-	{
-		placeholder: true,
 	},
 	{
 		title: 'Farewell Party',
