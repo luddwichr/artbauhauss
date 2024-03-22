@@ -1,5 +1,23 @@
 const galleryItems = [
 	{
+		title: 'Almost Touching #3',
+		size: '20x15 cm',
+		style: 'oil on paper',
+		description: '',
+		year: 2024,
+		image_path: 'sophiebauhaus_almosttouching3.jpg',
+		sold: false
+	},
+	{
+		title: 'Almost Touching #4',
+		size: '21x14.8 cm',
+		style: 'oil on paper',
+		description: '',
+		year: 2024,
+		image_path: 'sophiebauhaus_almosttouching4.jpg',
+		sold: false
+	},
+	{
 		title: 'Almost Touching #1',
 		size: '40x30 cm',
 		style: 'oil on paper',
@@ -98,7 +116,6 @@ const galleryItems = [
 		image_path: 'sophiebauhaus_thisiswhatyouloose3.jpg',
 		sold: true
 	},
-
 	{
 		title: 'Falling Endlessly #1',
 		size: '40x30 cm',
@@ -106,6 +123,24 @@ const galleryItems = [
 		description: '',
 		year: 2022,
 		image_path: 'sophiebauhaus_fallingendlessly1.jpg',
+		sold: false
+	},
+	{
+		title: 'Fill the Gap #1',
+		size: '59.4x42 cm',
+		style: 'photo collage on paper',
+		description: '',
+		year: 2024,
+		image_path: 'sophiebauhaus_fillthegap1.jpg',
+		sold: false
+	},
+	{
+		title: 'Fill the Gap #2',
+		size: '59.4x42 cm',
+		style: 'photo collage on paper',
+		description: '',
+		year: 2024,
+		image_path: 'sophiebauhaus_fillthegap2.jpg',
 		sold: false
 	},
 	{
