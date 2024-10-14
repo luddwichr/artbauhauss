@@ -306,15 +306,6 @@ const galleryItems = [
 		sold: false
 	},
 	{
-		title: 'Iced',
-		size: '60x60 cm',
-		style: 'oil on canvas',
-		description: '',
-		year: 2021,
-		image_path: 'sophiebauhaus_iced.webp',
-		sold: false
-	},
-	{
 		title: 'On the Road',
 		size: '90x90 cm',
 		style: 'oil on canvas',
