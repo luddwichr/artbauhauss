@@ -36,30 +36,30 @@ const galleryItems = [
 		sold: false
 	},
 	{
-		title: 'This is What You Loose #8',
+		title: 'This is What You Lose #8',
 		size: '80x60 cm',
 		style: 'oil on canvas',
 		description: '',
 		year: 2023,
-		image_path: 'sophiebauhaus_thisiswhatyouloose8-2.webp',
+		image_path: 'sophiebauhaus_thisiswhatyoulose8-2.webp',
 		sold: false
 	},
 	{
-		title: 'This is What You Loose #8',
+		title: 'This is What You Lose #8',
 		size: '80x60 cm',
 		style: 'oil on canvas',
 		description: '',
 		year: 2023,
-		image_path: 'sophiebauhaus_thisiswhatyouloose8-1.webp',
+		image_path: 'sophiebauhaus_thisiswhatyoulose8-1.webp',
 		sold: false
 	},
 	{
-		title: 'This is What You Loose #7',
+		title: 'This is What You Lose #7',
 		size: '80x60 cm',
 		style: 'oil on canvas',
 		description: '',
 		year: 2023,
-		image_path: 'sophiebauhaus_thisiswhatyouloose7.webp',
+		image_path: 'sophiebauhaus_thisiswhatyoulose7.webp',
 		sold: false
 	},
 	{
@@ -72,48 +72,48 @@ const galleryItems = [
 		sold: false
 	},
 	{
-		title: 'This is What You Loose #1',
+		title: 'This is What You Lose #1',
 		size: '40x30 cm',
 		style: 'oil on paper',
 		description: '',
 		year: 2022,
-		image_path: 'sophiebauhaus_thisiswhatyouloose1.webp',
+		image_path: 'sophiebauhaus_thisiswhatyoulose1.webp',
 		sold: false
 	},
 	{
-		title: 'This is What You Loose #2',
+		title: 'This is What You Lose #2',
 		size: '40x30 cm',
 		style: 'oil on paper',
 		description: '',
 		year: 2022,
-		image_path: 'sophiebauhaus_thisiswhatyouloose2.webp',
+		image_path: 'sophiebauhaus_thisiswhatyoulose2.webp',
 		sold: false
 	},
 	{
-		title: 'This is What You Loose #5',
+		title: 'This is What You Lose #5',
 		size: '40x30 cm',
 		style: 'oil on paper',
 		description: '',
 		year: 2022,
-		image_path: 'sophiebauhaus_thisiswhatyouloose5.webp',
+		image_path: 'sophiebauhaus_thisiswhatyoulose5.webp',
 		sold: true
 	},
 	{
-		title: 'This is What You Loose #6',
+		title: 'This is What You Lose #6',
 		size: '40x30 cm',
 		style: 'oil on paper',
 		description: '',
 		year: 2022,
-		image_path: 'sophiebauhaus_thisiswhatyouloose6.webp',
+		image_path: 'sophiebauhaus_thisiswhatyoulose6.webp',
 		sold: true
 	},
 	{
-		title: 'This is What You Loose #3',
+		title: 'This is What You Lose #3',
 		size: '40x30 cm',
 		style: 'oil on paper',
 		description: '',
 		year: 2022,
-		image_path: 'sophiebauhaus_thisiswhatyouloose3.webp',
+		image_path: 'sophiebauhaus_thisiswhatyoulose3.webp',
 		sold: true
 	},
 	{
