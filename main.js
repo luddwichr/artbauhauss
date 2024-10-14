@@ -1,5 +1,14 @@
 const galleryItems = [
 	{
+		title: 'Tender Pain #1',
+		size: '40x30 cm',
+		style: 'oil on paper',
+		description: '',
+		year: 2024,
+		image_path: 'sophiebauhaus_tenderpain1.webp',
+		sold: false
+	},
+	{
 		title: 'Almost Touching #3',
 		size: '20x15 cm',
 		style: 'oil on paper',
@@ -8,6 +17,7 @@ const galleryItems = [
 		image_path: 'sophiebauhaus_almosttouching3.webp',
 		sold: false
 	},
+	/* currently to be ignored
 	{
 		title: 'Almost Touching #4',
 		size: '21x14.8 cm',
@@ -17,6 +27,7 @@ const galleryItems = [
 		image_path: 'sophiebauhaus_almosttouching4.webp',
 		sold: false
 	},
+	*/
 	{
 		title: 'Almost Touching #1',
 		size: '40x30 cm',
