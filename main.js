@@ -5,7 +5,7 @@ const galleryItems = [
 		style: 'oil on paper',
 		description: '',
 		year: 2024,
-		image_path: 'sophiebauhaus_almosttouching3.jpg',
+		image_path: 'sophiebauhaus_almosttouching3.webp',
 		sold: false
 	},
 	{
@@ -14,7 +14,7 @@ const galleryItems = [
 		style: 'oil on paper',
 		description: '',
 		year: 2024,
-		image_path: 'sophiebauhaus_almosttouching4.jpg',
+		image_path: 'sophiebauhaus_almosttouching4.webp',
 		sold: false
 	},
 	{
@@ -23,7 +23,7 @@ const galleryItems = [
 		style: 'oil on paper',
 		description: '',
 		year: 2023,
-		image_path: 'sophiebauhaus_almosttouching1.jpg',
+		image_path: 'sophiebauhaus_almosttouching1.webp',
 		sold: false
 	},
 	{
@@ -32,7 +32,7 @@ const galleryItems = [
 		style: 'oil on paper',
 		description: '',
 		year: 2023,
-		image_path: 'sophiebauhaus_almosttouching2.jpg',
+		image_path: 'sophiebauhaus_almosttouching2.webp',
 		sold: false
 	},
 	{
@@ -41,7 +41,7 @@ const galleryItems = [
 		style: 'oil on canvas',
 		description: '',
 		year: 2023,
-		image_path: 'sophiebauhaus_thisiswhatyouloose8-2.jpg',
+		image_path: 'sophiebauhaus_thisiswhatyouloose8-2.webp',
 		sold: false
 	},
 	{
@@ -50,7 +50,7 @@ const galleryItems = [
 		style: 'oil on canvas',
 		description: '',
 		year: 2023,
-		image_path: 'sophiebauhaus_thisiswhatyouloose8-1.jpg',
+		image_path: 'sophiebauhaus_thisiswhatyouloose8-1.webp',
 		sold: false
 	},
 	{
@@ -59,7 +59,7 @@ const galleryItems = [
 		style: 'oil on canvas',
 		description: '',
 		year: 2023,
-		image_path: 'sophiebauhaus_thisiswhatyouloose7.jpg',
+		image_path: 'sophiebauhaus_thisiswhatyouloose7.webp',
 		sold: false
 	},
 	{
@@ -68,7 +68,7 @@ const galleryItems = [
 		style: 'oil on paper',
 		description: '',
 		year: 2023,
-		image_path: 'sophiebauhaus_whenthefogclears2.jpg',
+		image_path: 'sophiebauhaus_whenthefogclears2.webp',
 		sold: false
 	},
 	{
@@ -77,7 +77,7 @@ const galleryItems = [
 		style: 'oil on paper',
 		description: '',
 		year: 2022,
-		image_path: 'sophiebauhaus_thisiswhatyouloose1.jpg',
+		image_path: 'sophiebauhaus_thisiswhatyouloose1.webp',
 		sold: false
 	},
 	{
@@ -86,7 +86,7 @@ const galleryItems = [
 		style: 'oil on paper',
 		description: '',
 		year: 2022,
-		image_path: 'sophiebauhaus_thisiswhatyouloose2.jpg',
+		image_path: 'sophiebauhaus_thisiswhatyouloose2.webp',
 		sold: false
 	},
 	{
@@ -95,7 +95,7 @@ const galleryItems = [
 		style: 'oil on paper',
 		description: '',
 		year: 2022,
-		image_path: 'sophiebauhaus_thisiswhatyouloose5.jpg',
+		image_path: 'sophiebauhaus_thisiswhatyouloose5.webp',
 		sold: true
 	},
 	{
@@ -104,7 +104,7 @@ const galleryItems = [
 		style: 'oil on paper',
 		description: '',
 		year: 2022,
-		image_path: 'sophiebauhaus_thisiswhatyouloose6.jpg',
+		image_path: 'sophiebauhaus_thisiswhatyouloose6.webp',
 		sold: true
 	},
 	{
@@ -113,7 +113,7 @@ const galleryItems = [
 		style: 'oil on paper',
 		description: '',
 		year: 2022,
-		image_path: 'sophiebauhaus_thisiswhatyouloose3.jpg',
+		image_path: 'sophiebauhaus_thisiswhatyouloose3.webp',
 		sold: true
 	},
 	{
@@ -122,7 +122,7 @@ const galleryItems = [
 		style: 'oil on paper',
 		description: '',
 		year: 2022,
-		image_path: 'sophiebauhaus_fallingendlessly1.jpg',
+		image_path: 'sophiebauhaus_fallingendlessly1.webp',
 		sold: false
 	},
 	{
@@ -131,7 +131,7 @@ const galleryItems = [
 		style: 'photo collage on paper',
 		description: '',
 		year: 2024,
-		image_path: 'sophiebauhaus_fillthegap1.jpg',
+		image_path: 'sophiebauhaus_fillthegap1.webp',
 		sold: false
 	},
 	{
@@ -140,7 +140,7 @@ const galleryItems = [
 		style: 'photo collage on paper',
 		description: '',
 		year: 2024,
-		image_path: 'sophiebauhaus_fillthegap2.jpg',
+		image_path: 'sophiebauhaus_fillthegap2.webp',
 		sold: false
 	},
 	{
@@ -149,7 +149,7 @@ const galleryItems = [
 		style: 'photo collage on paper',
 		description: '',
 		year: 2023,
-		image_path: 'sophiebauhaus_farewellparty.jpg',
+		image_path: 'sophiebauhaus_farewellparty.webp',
 		sold: true
 	},
 	{
@@ -158,7 +158,7 @@ const galleryItems = [
         style: 'photo collage on paper',
         description: '',
         year: 2023,
-        image_path: 'sophiebauhaus_light1.jpg',
+        image_path: 'sophiebauhaus_light1.webp',
         sold: false
     },
 	{
@@ -167,7 +167,7 @@ const galleryItems = [
         style: 'photo collage on paper',
         description: '',
         year: 2023,
-        image_path: 'sophiebauhaus_light2.jpg',
+        image_path: 'sophiebauhaus_light2.webp',
         sold: false
     },
 	{
@@ -176,7 +176,7 @@ const galleryItems = [
         style: 'photo collage on paper',
         description: '',
         year: 2022,
-        image_path: 'sophiebauhaus_feelingsexpressed3.jpg',
+        image_path: 'sophiebauhaus_feelingsexpressed3.webp',
         sold: false
     },
 	{
@@ -185,7 +185,7 @@ const galleryItems = [
 		style: 'photo collage on paper',
 		description: '',
 		year: 2022,
-		image_path: 'sophiebauhaus_feelingsexpressed2.jpg',
+		image_path: 'sophiebauhaus_feelingsexpressed2.webp',
 		sold: false
 	},
  	{
@@ -194,7 +194,7 @@ const galleryItems = [
  		style: 'photo collage on paper',
  		description: '',
  		year: 2022,
- 		image_path: 'sophiebauhaus_feelingsexpressed1.jpg',
+ 		image_path: 'sophiebauhaus_feelingsexpressed1.webp',
  		sold: true
  	},
 	{
@@ -203,7 +203,7 @@ const galleryItems = [
 		style: 'photo collage on paper',
 		description: '',
 		year: 2021,
-		image_path: 'sophiebauhaus_ease.jpg',
+		image_path: 'sophiebauhaus_ease.webp',
 		sold: true
 	},
 	{
@@ -212,7 +212,7 @@ const galleryItems = [
 		style: 'photo collage on paper',
 		description: '',
 		year: 2021,
-		image_path: 'sophiebauhaus_mountains.jpg',
+		image_path: 'sophiebauhaus_mountains.webp',
 		sold: false
 	},
 	{
@@ -221,7 +221,7 @@ const galleryItems = [
 		style: 'photo collage on paper',
 		description: '',
 		year: 2020,
-		image_path: 'sophiebauhaus_lostinspace3.jpg',
+		image_path: 'sophiebauhaus_lostinspace3.webp',
 		sold: false
 	},
 	{
@@ -230,7 +230,7 @@ const galleryItems = [
 		style: 'photo collage on paper',
 		description: '',
 		year: 2020,
-		image_path: 'sophiebauhaus_lostinspace4.jpg',
+		image_path: 'sophiebauhaus_lostinspace4.webp',
 		sold: false
 	},
 	{
@@ -239,7 +239,7 @@ const galleryItems = [
         style: 'photo collage on paper',
         description: '',
         year: 2020,
-        image_path: 'sophiebauhaus_lostinspace5.jpg',
+        image_path: 'sophiebauhaus_lostinspace5.webp',
         sold: false
     },
 	{
@@ -248,7 +248,7 @@ const galleryItems = [
 		style: 'photo collage on paper',
 		description: '',
 		year: 2021,
-		image_path: 'sophiebauhaus_theend.jpg',
+		image_path: 'sophiebauhaus_theend.webp',
 		sold: false
 	},
 	{
@@ -257,7 +257,7 @@ const galleryItems = [
 		style: 'photo collage on paper',
 		description: '',
 		year: 2020,
-		image_path: 'sophiebauhaus_lostinspace1.jpg',
+		image_path: 'sophiebauhaus_lostinspace1.webp',
 		sold: false
 	},
 	{
@@ -266,7 +266,7 @@ const galleryItems = [
 		style: 'photo collage on paper',
 		description: '',
 		year: 2020,
-		image_path: 'sophiebauhaus_lostinspace2.jpg',
+		image_path: 'sophiebauhaus_lostinspace2.webp',
 		sold: false
 	},
 	{
@@ -275,7 +275,7 @@ const galleryItems = [
 		style: 'oil on paper',
 		description: '',
 		year: 2021,
-		image_path: 'sophiebauhaus_newbeginnings1.jpg',
+		image_path: 'sophiebauhaus_newbeginnings1.webp',
 		sold: true
 	},
 	{
@@ -284,7 +284,7 @@ const galleryItems = [
 		style: 'oil on paper',
 		description: '',
 		year: 2021,
-		image_path: 'sophiebauhaus_newbeginnings5.jpg',
+		image_path: 'sophiebauhaus_newbeginnings5.webp',
 		sold: true
 	},
 	{
@@ -293,7 +293,7 @@ const galleryItems = [
 		style: 'oil on paper',
 		description: '',
 		year: 2021,
-		image_path: 'sophiebauhaus_newbeginnings6.jpg',
+		image_path: 'sophiebauhaus_newbeginnings6.webp',
 		sold: false
 	},
 	{
@@ -302,7 +302,7 @@ const galleryItems = [
 		style: 'oil on canvas',
 		description: '',
 		year: 2021,
-		image_path: 'sophiebauhaus_onfire.jpg',
+		image_path: 'sophiebauhaus_onfire.webp',
 		sold: false
 	},
 	{
@@ -311,7 +311,7 @@ const galleryItems = [
 		style: 'oil on canvas',
 		description: '',
 		year: 2021,
-		image_path: 'sophiebauhaus_iced.jpg',
+		image_path: 'sophiebauhaus_iced.webp',
 		sold: false
 	},
 	{
@@ -320,7 +320,7 @@ const galleryItems = [
 		style: 'oil on canvas',
 		description: '',
 		year: 2021,
-		image_path: 'sophiebauhaus_ontheroad.jpg',
+		image_path: 'sophiebauhaus_ontheroad.webp',
 		sold: false
 	},
 	{
@@ -329,7 +329,7 @@ const galleryItems = [
 		style: 'oil on canvas',
 		description: '',
 		year: 2020,
-		image_path: 'sophiebauhaus_whereisthespace2.jpg',
+		image_path: 'sophiebauhaus_whereisthespace2.webp',
 		sold: false
 	},
 	{
@@ -338,7 +338,7 @@ const galleryItems = [
 		style: 'oil and acrylic on canvas',
 		description: '',
 		year: 2020,
-		image_path: 'sophiebauhaus_dontthink.jpg',
+		image_path: 'sophiebauhaus_dontthink.webp',
 		sold: true
 	},
 	{
@@ -347,7 +347,7 @@ const galleryItems = [
 		style: 'oil, acrylic and spray paint on canvas',
 		description: '',
 		year: 2020,
-		image_path: 'sophiebauhaus_you.jpg',
+		image_path: 'sophiebauhaus_you.webp',
 		sold: false
 	},
 	{
@@ -357,7 +357,7 @@ const galleryItems = [
 		description: `The painting was donated to Breidenbach Studios in Heidelberg to help them survive the hard situation caused by Covid-19. 
 See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopener">Startnext Breidenbach Studios</a> for more.`,
 		year: 2019,
-		image_path: 'sophiebauhaus_daretoexpress1.jpg',
+		image_path: 'sophiebauhaus_daretoexpress1.webp',
 		sold: true
 	},
 	{
@@ -366,7 +366,7 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 		style: 'oil and acrylic on canvas',
 		description: '',
 		year: 2019,
-		image_path: 'sophiebauhaus_daretoexpress2.jpg',
+		image_path: 'sophiebauhaus_daretoexpress2.webp',
 		sold: true
 	},
 	{
@@ -375,7 +375,7 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 		style: 'oil and acrylic on canvas',
 		description: '',
 		year: 2019,
-		image_path: 'sophiebauhaus_transformation2.jpg',
+		image_path: 'sophiebauhaus_transformation2.webp',
 		sold: true
 	},
 ];
@@ -485,7 +485,7 @@ function loadImage(imgSrc, altText, callback) {
 	imageElement.src = imgSrc;
 }
 
-const imagesBasePath = window.innerWidth < 1024 ? 'images/small/' : 'images/medium/';
+const imagesBasePath = 'images/large/';
 const galleryLoader = createLoaderElement();
 const galleryElement = document.getElementById('gallery');
 galleryElement.appendChild(galleryLoader);
@@ -515,7 +515,7 @@ function loadGalleryItems() {
 function loadPortrait() {
 	const portraitElement = document.getElementById('portrait');
 	const portraitLoader = document.getElementById('portrait-loader');
-	loadImage(imagesBasePath + 'sophiebauhaus_portrait.jpg', 'sophie bauhaus portrait',
+	loadImage(imagesBasePath + 'sophiebauhaus_portrait.webp', 'sophie bauhaus portrait',
 		imageElement => {
 			portraitLoader.hidden = true;
 			portraitElement.appendChild(imageElement);
