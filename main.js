@@ -303,7 +303,7 @@ const galleryItems = [
 		description: '',
 		year: 2021,
 		image_path: 'sophiebauhaus_onfire.webp',
-		sold: false
+		sold: true
 	},
 	{
 		title: 'On the Road',
@@ -339,7 +339,7 @@ const galleryItems = [
 		description: '',
 		year: 2020,
 		image_path: 'sophiebauhaus_you.webp',
-		sold: false
+		sold: true
 	},
 	{
 		title: 'Dare to Express #1',
