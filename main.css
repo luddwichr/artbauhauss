@@ -89,15 +89,25 @@ html {
 h1 {
   font-size: max(3vw, 2em);
   font-weight: bold;
-  margin: 0;
   padding-bottom: 0.5em;
 }
 
 h2 {
   font-size: 1.3em;
-  margin: 0;
   padding: 1em 0;
 }
+
+h3 {
+  font-size: 1.15em;
+  padding: 1em 0;
+}
+
+
+p {
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+}
+
 
 .no-scroll {
   overflow: hidden;
@@ -388,7 +398,6 @@ footer * {
   }
 
   #metadata > p {
-    margin: 0;
     padding-top: 0.5em;
     width: 100%;
   }
