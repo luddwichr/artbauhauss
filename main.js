@@ -3,7 +3,6 @@ const galleryItems = [
 		title: 'Tender Pain #1',
 		size: '40x30 cm',
 		style: 'oil on paper',
-		description: '',
 		year: 2024,
 		image_path: 'sophiebauhaus_tenderpain1.webp',
 		sold: false
@@ -12,7 +11,6 @@ const galleryItems = [
 		title: 'Almost Touching #3',
 		size: '20x15 cm',
 		style: 'oil on paper',
-		description: '',
 		year: 2024,
 		image_path: 'sophiebauhaus_almosttouching3.webp',
 		sold: false
@@ -22,7 +20,6 @@ const galleryItems = [
 		title: 'Almost Touching #4',
 		size: '21x14.8 cm',
 		style: 'oil on paper',
-		description: '',
 		year: 2024,
 		image_path: 'sophiebauhaus_almosttouching4.webp',
 		sold: false
@@ -32,7 +29,6 @@ const galleryItems = [
 		title: 'Almost Touching #1',
 		size: '40x30 cm',
 		style: 'oil on paper',
-		description: '',
 		year: 2023,
 		image_path: 'sophiebauhaus_almosttouching1.webp',
 		sold: false
@@ -41,7 +37,6 @@ const galleryItems = [
 		title: 'Almost Touching #2',
 		size: '40x30 cm',
 		style: 'oil on paper',
-		description: '',
 		year: 2023,
 		image_path: 'sophiebauhaus_almosttouching2.webp',
 		sold: false
@@ -50,7 +45,6 @@ const galleryItems = [
 		title: 'This is What You Lose #8',
 		size: '80x60 cm',
 		style: 'oil on canvas',
-		description: '',
 		year: 2023,
 		image_path: 'sophiebauhaus_thisiswhatyoulose8-2.webp',
 		sold: false
@@ -59,7 +53,6 @@ const galleryItems = [
 		title: 'This is What You Lose #8',
 		size: '80x60 cm',
 		style: 'oil on canvas',
-		description: '',
 		year: 2023,
 		image_path: 'sophiebauhaus_thisiswhatyoulose8-1.webp',
 		sold: false
@@ -68,7 +61,6 @@ const galleryItems = [
 		title: 'This is What You Lose #7',
 		size: '80x60 cm',
 		style: 'oil on canvas',
-		description: '',
 		year: 2023,
 		image_path: 'sophiebauhaus_thisiswhatyoulose7.webp',
 		sold: false
@@ -77,7 +69,6 @@ const galleryItems = [
 		title: 'When the Fog Clears #2',
 		size: '40x30 cm',
 		style: 'oil on paper',
-		description: '',
 		year: 2023,
 		image_path: 'sophiebauhaus_whenthefogclears2.webp',
 		sold: false
@@ -86,7 +77,6 @@ const galleryItems = [
 		title: 'This is What You Lose #1',
 		size: '40x30 cm',
 		style: 'oil on paper',
-		description: '',
 		year: 2022,
 		image_path: 'sophiebauhaus_thisiswhatyoulose1.webp',
 		sold: false
@@ -95,7 +85,6 @@ const galleryItems = [
 		title: 'This is What You Lose #2',
 		size: '40x30 cm',
 		style: 'oil on paper',
-		description: '',
 		year: 2022,
 		image_path: 'sophiebauhaus_thisiswhatyoulose2.webp',
 		sold: false
@@ -104,7 +93,6 @@ const galleryItems = [
 		title: 'This is What You Lose #5',
 		size: '40x30 cm',
 		style: 'oil on paper',
-		description: '',
 		year: 2022,
 		image_path: 'sophiebauhaus_thisiswhatyoulose5.webp',
 		sold: true
@@ -113,7 +101,6 @@ const galleryItems = [
 		title: 'This is What You Lose #6',
 		size: '40x30 cm',
 		style: 'oil on paper',
-		description: '',
 		year: 2022,
 		image_path: 'sophiebauhaus_thisiswhatyoulose6.webp',
 		sold: true
@@ -122,7 +109,6 @@ const galleryItems = [
 		title: 'This is What You Lose #3',
 		size: '40x30 cm',
 		style: 'oil on paper',
-		description: '',
 		year: 2022,
 		image_path: 'sophiebauhaus_thisiswhatyoulose3.webp',
 		sold: true
@@ -131,7 +117,6 @@ const galleryItems = [
 		title: 'Falling Endlessly #1',
 		size: '40x30 cm',
 		style: 'oil on paper',
-		description: '',
 		year: 2022,
 		image_path: 'sophiebauhaus_fallingendlessly1.webp',
 		sold: false
@@ -140,7 +125,6 @@ const galleryItems = [
 		title: 'Fill the Gap #1',
 		size: '59.4x42 cm',
 		style: 'photo collage on paper',
-		description: '',
 		year: 2024,
 		image_path: 'sophiebauhaus_fillthegap1.webp',
 		sold: false
@@ -149,7 +133,6 @@ const galleryItems = [
 		title: 'Fill the Gap #2',
 		size: '59.4x42 cm',
 		style: 'photo collage on paper',
-		description: '',
 		year: 2024,
 		image_path: 'sophiebauhaus_fillthegap2.webp',
 		sold: false
@@ -158,7 +141,6 @@ const galleryItems = [
 		title: 'Farewell Party',
 		size: '40x30 cm',
 		style: 'photo collage on paper',
-		description: '',
 		year: 2023,
 		image_path: 'sophiebauhaus_farewellparty.webp',
 		sold: true
@@ -167,7 +149,6 @@ const galleryItems = [
         title: 'Light #1',
         size: '42x29.7 cm',
         style: 'photo collage on paper',
-        description: '',
         year: 2023,
         image_path: 'sophiebauhaus_light1.webp',
         sold: false
@@ -176,7 +157,6 @@ const galleryItems = [
         title: 'Light #2',
         size: '42x29.7 cm',
         style: 'photo collage on paper',
-        description: '',
         year: 2023,
         image_path: 'sophiebauhaus_light2.webp',
         sold: false
@@ -185,7 +165,6 @@ const galleryItems = [
         title: 'Feelings Expressed #3',
         size: '59.4x42 cm',
         style: 'photo collage on paper',
-        description: '',
         year: 2022,
         image_path: 'sophiebauhaus_feelingsexpressed3.webp',
         sold: false
@@ -194,7 +173,6 @@ const galleryItems = [
 		title: 'Feelings Expressed #2',
 		size: '59.4x42 cm',
 		style: 'photo collage on paper',
-		description: '',
 		year: 2022,
 		image_path: 'sophiebauhaus_feelingsexpressed2.webp',
 		sold: false
@@ -203,7 +181,6 @@ const galleryItems = [
  		title: 'Feelings Expressed #1',
  		size: '42x29.7 cm',
  		style: 'photo collage on paper',
- 		description: '',
  		year: 2022,
  		image_path: 'sophiebauhaus_feelingsexpressed1.webp',
  		sold: true
@@ -212,7 +189,6 @@ const galleryItems = [
 		title: 'Ease',
 		size: '42x29.7 cm',
 		style: 'photo collage on paper',
-		description: '',
 		year: 2021,
 		image_path: 'sophiebauhaus_ease.webp',
 		sold: true
@@ -221,7 +197,6 @@ const galleryItems = [
 		title: 'Mountains',
 		size: '46x35 cm',
 		style: 'photo collage on paper',
-		description: '',
 		year: 2021,
 		image_path: 'sophiebauhaus_mountains.webp',
 		sold: false
@@ -230,7 +205,6 @@ const galleryItems = [
 		title: 'Lost in Space #3',
 		size: '64x50 cm',
 		style: 'photo collage on paper',
-		description: '',
 		year: 2020,
 		image_path: 'sophiebauhaus_lostinspace3.webp',
 		sold: false
@@ -239,7 +213,6 @@ const galleryItems = [
 		title: 'Lost in Space #4',
 		size: '64x50 cm',
 		style: 'photo collage on paper',
-		description: '',
 		year: 2020,
 		image_path: 'sophiebauhaus_lostinspace4.webp',
 		sold: false
@@ -248,7 +221,6 @@ const galleryItems = [
         title: 'Lost in Space #5',
         size: '59.4x42 cm',
         style: 'photo collage on paper',
-        description: '',
         year: 2020,
         image_path: 'sophiebauhaus_lostinspace5.webp',
         sold: false
@@ -257,7 +229,6 @@ const galleryItems = [
 		title: 'The End',
 		size: '59.4x42 cm',
 		style: 'photo collage on paper',
-		description: '',
 		year: 2021,
 		image_path: 'sophiebauhaus_theend.webp',
 		sold: false
@@ -266,7 +237,6 @@ const galleryItems = [
 		title: 'Lost in Space #1',
 		size: '42x29.7 cm',
 		style: 'photo collage on paper',
-		description: '',
 		year: 2020,
 		image_path: 'sophiebauhaus_lostinspace1.webp',
 		sold: false
@@ -275,7 +245,6 @@ const galleryItems = [
 		title: 'Lost in Space #2',
 		size: '42x29.7 cm',
 		style: 'photo collage on paper',
-		description: '',
 		year: 2020,
 		image_path: 'sophiebauhaus_lostinspace2.webp',
 		sold: false
@@ -284,7 +253,6 @@ const galleryItems = [
 		title: 'New Beginnings #1',
 		size: '40x30 cm',
 		style: 'oil on paper',
-		description: '',
 		year: 2021,
 		image_path: 'sophiebauhaus_newbeginnings1.webp',
 		sold: true
@@ -293,7 +261,6 @@ const galleryItems = [
 		title: 'New Beginnings #5',
 		size: '40x30 cm',
 		style: 'oil on paper',
-		description: '',
 		year: 2021,
 		image_path: 'sophiebauhaus_newbeginnings5.webp',
 		sold: true
@@ -302,7 +269,6 @@ const galleryItems = [
 		title: 'New Beginnings #6',
 		size: '40x30 cm',
 		style: 'oil on paper',
-		description: '',
 		year: 2021,
 		image_path: 'sophiebauhaus_newbeginnings6.webp',
 		sold: false
@@ -311,7 +277,6 @@ const galleryItems = [
 		title: 'On Fire',
 		size: '100x100 cm',
 		style: 'oil on canvas',
-		description: '',
 		year: 2021,
 		image_path: 'sophiebauhaus_onfire.webp',
 		sold: true
@@ -320,7 +285,6 @@ const galleryItems = [
 		title: 'On the Road',
 		size: '90x90 cm',
 		style: 'oil on canvas',
-		description: '',
 		year: 2021,
 		image_path: 'sophiebauhaus_ontheroad.webp',
 		sold: false
@@ -329,7 +293,6 @@ const galleryItems = [
 		title: 'Where is the Space #2',
 		size: '20x20 cm',
 		style: 'oil on canvas',
-		description: '',
 		year: 2020,
 		image_path: 'sophiebauhaus_whereisthespace2.webp',
 		sold: false
@@ -338,7 +301,6 @@ const galleryItems = [
 		title: 'Don\'t Think',
 		size: '70x70 cm',
 		style: 'oil and acrylic on canvas',
-		description: '',
 		year: 2020,
 		image_path: 'sophiebauhaus_dontthink.webp',
 		sold: true
@@ -347,7 +309,6 @@ const galleryItems = [
 		title: 'You',
 		size: '185x185 cm',
 		style: 'oil, acrylic and spray paint on canvas',
-		description: '',
 		year: 2020,
 		image_path: 'sophiebauhaus_you.webp',
 		sold: true
@@ -356,8 +317,6 @@ const galleryItems = [
 		title: 'Dare to Express #1',
 		size: '30x30 cm',
 		style: 'oil and acrylic on canvas',
-		description: `The painting was donated to Breidenbach Studios in Heidelberg to help them survive the hard situation caused by Covid-19. 
-See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopener">Startnext Breidenbach Studios</a> for more.`,
 		year: 2019,
 		image_path: 'sophiebauhaus_daretoexpress1.webp',
 		sold: true
@@ -366,7 +325,6 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 		title: 'Dare to Express #2',
 		size: '20x20 cm',
 		style: 'oil and acrylic on canvas',
-		description: '',
 		year: 2019,
 		image_path: 'sophiebauhaus_daretoexpress2.webp',
 		sold: true
@@ -375,7 +333,6 @@ See <a href="https://www.startnext.com/breidenbach" target="_blank" rel="noopene
 		title: 'Transformation #2',
 		size: '40x40 cm',
 		style: 'oil and acrylic on canvas',
-		description: '',
 		year: 2019,
 		image_path: 'sophiebauhaus_transformation2.webp',
 		sold: true
@@ -441,12 +398,10 @@ function nextNonPlaceHolderGalleryItemIdx(currentIdx, offset) {
 function displayInFullScreen(itemIdx) {
 	currentFullscreenGalleryItemIdx = itemIdx;
 	const setText = (elementId, text) => document.getElementById(elementId).innerText = text;
-	const setHtml = (elementId, text) => document.getElementById(elementId).innerHTML = text;
 	const item = galleryItems[itemIdx];
 	setText('artwork-title', item.title);
 	setText('artwork-size', item.size);
 	setText('artwork-style', item.style);
-	setHtml('artwork-description', item.description);
 	setText('artwork-year', item.year);
 	setText('artwork-sold', item.sold ? 'in private collection' : '');
 	const artworkImageElement = document.getElementById('artwork-image');
