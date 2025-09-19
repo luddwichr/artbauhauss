@@ -430,8 +430,8 @@ function endGalleryFullScreenMode() {
 
 document.getElementById('end-gallery-fullscreen-button').onclick = endGalleryFullScreenMode;
 
-function nextNonPlaceHolderGaleryItemIdx(currentIdx, offset) {
-	let nextIdx = currentIdx += offset;
+function nextNonPlaceHolderGalleryItemIdx(currentIdx, offset) {
+	let nextIdx = currentIdx + offset;
 	while (galleryItems[nextIdx].placeholder) {
 		nextIdx += offset;
 	}
@@ -463,10 +463,10 @@ function displayInFullScreen(itemIdx) {
 
 	let goToPreviousItemElement = document.getElementById('go-to-previous-item');
 	goToPreviousItemElement.disabled = itemIdx === 0;
-	goToPreviousItemElement.onclick = () => displayInFullScreen(nextNonPlaceHolderGaleryItemIdx(itemIdx, -1));
+	goToPreviousItemElement.onclick = () => displayInFullScreen(nextNonPlaceHolderGalleryItemIdx(itemIdx, -1));
 	let goToNextItemElement = document.getElementById('go-to-next-item');
 	goToNextItemElement.disabled = itemIdx === galleryItems.length - 1;
-	goToNextItemElement.onclick = () => displayInFullScreen(nextNonPlaceHolderGaleryItemIdx(itemIdx, 1));
+	goToNextItemElement.onclick = () => displayInFullScreen(nextNonPlaceHolderGalleryItemIdx(itemIdx, 1));
 }
 
 function createLoaderElement() {
@@ -496,7 +496,7 @@ function loadGalleryItems() {
 	galleryElement.removeChild(galleryLoader);
 	galleryItems.forEach((item, itemIdx) => {
 		const galleryItem = document.createElement('div');
-		
+
 		if (item.placeholder) {
 			galleryItem.classList.add('gallery-item-placeholder');
 		} else {
@@ -509,7 +509,7 @@ function loadGalleryItems() {
 				imageElement.onclick = () => startGalleryFullScreenMode(itemIdx);
 			});
 		}
-		
+
 		galleryElement.appendChild(galleryItem);
 	});
 }
@@ -540,9 +540,7 @@ function initFullscreenNav() {
 		bodyElement.classList.add('no-scroll');
 	}
 
-	[...document.getElementsByClassName('burger')].forEach(burgerElement => {
-		burgerElement.addEventListener('click', () => startNavFullScreenMode());
-	});
+    document.getElementById('burger-menu').onclick = () => startNavFullScreenMode();
 
 	function endNavScreenMode() {
 		navFullScreenViewer.style.visibility = 'hidden';
@@ -551,9 +549,9 @@ function initFullscreenNav() {
 
 	document.getElementById('end-nav-fullscreen-button').onclick = () => endNavScreenMode();
 
-	[...document.querySelectorAll('#fullscreen-menu li a')].forEach(menuLink => {
-		menuLink.addEventListener('click', () => endNavScreenMode());
-	});
+    for (const menuLink of document.querySelectorAll('#fullscreen-menu li a')) {
+        menuLink.onclick = () => endNavScreenMode();
+    }
 }
 
 window.onload = () => {
