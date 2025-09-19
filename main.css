@@ -1,9 +1,8 @@
 @font-face {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local(""), url("./fonts/Montserrat-Regular.ttf");
+    font-family: "Roboto";
+    font-style: normal;
+    font-display: swap;
+    src: local(""), url("fonts/Roboto-VariableFont_wdth,wght.ttf");
 }
 
 /*
@@ -11,7 +10,7 @@
  */
 
 :root {
-  line-height: 1.15;
+  line-height: 1.5;
   color-scheme: light;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
@@ -71,11 +70,7 @@ html {
 
 body {
   font-size: 14px;
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-}
-
-main {
-    line-height: 1.5em;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -162,9 +157,9 @@ p {
 }
 
 #navbar a {
+  font-size: 1.25em;
   display: block;
   float: left;
-  padding: 10px;
 }
 
 #navbar a:hover {
@@ -172,12 +167,18 @@ p {
 }
 
 #home a {
-  font-size: 1.5em;
+  font-size: 1.75em;
+  line-height: 1.25em;
   font-weight: bold;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 #menu {
-  justify-self: right;
+  align-self: center;
+}
+
+#menu a {
+    padding: 10px;
 }
 
 #fullscreen-menu {
@@ -187,8 +188,6 @@ p {
 
 .burger {
   display: none;
-  width: 35px;
-  cursor: pointer;
 }
 
 .burger div {
@@ -343,7 +342,6 @@ footer * {
 
 #about-me {
   font-size: 1.25em;
-  text-align: justify;
 }
 
 #portrait {
@@ -371,12 +369,19 @@ footer * {
     display: none;
   }
 
+  #home a {
+    font-size: 1.5em;
+  }
+
   .column {
     width: 100%;
   }
 
   .burger {
     display: block;
+    align-self: center;
+    width: 35px;
+    cursor: pointer;
   }
 
   #go-to-previous-item,
