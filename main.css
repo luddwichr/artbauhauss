@@ -110,6 +110,11 @@ p {
   overflow: hidden;
 }
 
+#fullscreen-menu ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
 #fullscreen-menu a {
   font-size: 2em;
 }
@@ -153,13 +158,20 @@ p {
   justify-content: space-between;
 }
 
-#navbar a {
+.submenu-toggle {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  align-self: center;
+}
+
+#navbar a, .submenu-toggle {
   font-size: 1.25em;
   display: block;
   float: left;
 }
 
-#navbar a:hover {
+#navbar a:hover, .submenu-toggle:hover {
   color: gray;
 }
 
@@ -172,10 +184,38 @@ p {
 
 #menu {
   align-self: center;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
 }
 
-#menu a {
+#menu > li {
     padding: 10px;
+}
+
+.submenu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: absolute;
+    top: 4rem;
+    padding: 20px;
+    gap: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: -20px;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.submenu-toggle:focus + .submenu,
+.submenu-toggle:focus-within,
+.submenu:focus-within,
+#menu > li:hover > .submenu,
+.submenu-toggle:focus-visible + .submenu {
+    visibility: visible;
+    pointer-events: auto;
 }
 
 #fullscreen-menu {
@@ -218,7 +258,7 @@ section {
   cursor: default;
 }
 
-#gallery {
+.gallery {
   justify-content: space-around;
 }
 

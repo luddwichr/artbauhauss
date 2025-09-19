@@ -29,19 +29,30 @@
             <div></div>
             <div></div>
         </div>
-        <div id="menu">
-            <a href="#portfolio">portfolio</a>
-            <a href="#about">about</a>
-            <a href="#on-view">on view</a>
-            <a href="#contact">contact</a>
-        </div>
+        <ul id="menu">
+            <li>
+                <button class="submenu-toggle">portfolio</button>
+                <ul class="submenu">
+                    <li><a href="#collages">collages</a></li>
+                    <li><a href="#paintings">paintings</a></li>
+                </ul>
+            </li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#on-view">on view</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
     </nav>
     <div id="nav-fullscreen-viewer" class="fullscreen-viewer">
         <div class="fullscreen-navbar">
             <button type="button" id="end-nav-fullscreen-button" class="fullscreen-button">&#x2716;</button>
         </div>
         <ul id="fullscreen-menu">
-            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#portfolio">portfolio</a>
+                <ul>
+                    <li><a href="#collages">collages</a></li>
+                    <li><a href="#paintings">paintings</a></li>
+                </ul>
+            </li>
             <li><a href="#about">about</a></li>
             <li><a href="#on-view">on view</a></li>
             <li><a href="#contact">contact</a></li>
@@ -64,8 +75,14 @@
         </section>
         <section id="portfolio">
             <h2>Portfolio</h2>
-            <div id="gallery" class="row">
-            </div>
+        </section>
+        <section id="collages">
+            <h3>Collages</h3>
+            <div id="collages-gallery" class="gallery row"></div>
+        </section>
+        <section id="paintings">
+            <h3>Paintings</h3>
+            <div id="paintings-gallery" class="gallery row"></div>
         </section>
         <section id="about">
             <h2>About</h2>
