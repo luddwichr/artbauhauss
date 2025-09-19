@@ -162,7 +162,7 @@ p {
   border: none;
   background-color: white;
   cursor: pointer;
-  align-self: center;
+  line-height: inherit;
 }
 
 #navbar a, .submenu-toggle {
