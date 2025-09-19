@@ -469,6 +469,17 @@ function loadGalleryItems() {
 	});
 }
 
+function loadHero() {
+    const heroElement = document.getElementById('hero-image');
+    const heroLoader = document.getElementById('hero-loader');
+    loadImage(imagesBasePath + 'almosttouching_takingupspace1.webp', 'opener image showing two exhibited works',
+        imageElement => {
+            heroLoader.hidden = true;
+            heroElement.appendChild(imageElement);
+        }
+    );
+}
+
 function loadPortrait() {
 	const portraitElement = document.getElementById('portrait');
 	const portraitLoader = document.getElementById('portrait-loader');
@@ -510,6 +521,7 @@ function initFullscreenNav() {
 }
 
 window.onload = () => {
+	loadHero();
 	loadPortrait();
 	loadGalleryItems();
 	initStickyHeader();
