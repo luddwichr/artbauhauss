@@ -183,11 +183,11 @@ p {
   padding: 20px;
 }
 
-.burger {
+#burger-menu {
   display: none;
 }
 
-.burger div {
+#burger-menu div {
   width: 35px;
   height: 5px;
   background-color: black;
@@ -374,7 +374,7 @@ footer * {
     width: 100%;
   }
 
-  .burger {
+  #burger-menu {
     display: block;
     align-self: center;
     width: 35px;
