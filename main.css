@@ -462,6 +462,10 @@ footer * {
   #about-me {
     order: 2;
   }
+
+  .gallery-item-placeholder {
+    display: none;
+  }
 }
 
 .loader-container {
