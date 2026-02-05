@@ -13,6 +13,14 @@ const paintings = [
         sold: true
     },
     {
+        title: 'Tender Pain #2',
+        size: '40x30 cm',
+        style: 'oil on paper',
+        year: 2024,
+        image_path: 'sophiebauhaus_tenderpain2.webp',
+        sold: true
+    },
+    {
         title: 'Almost Touching #1',
         size: '40x30 cm',
         style: 'oil on paper',
@@ -29,11 +37,27 @@ const paintings = [
         sold: false
     },
     {
+        title: 'Almost Touching #4',
+        size: '20x45 cm',
+        style: 'oil on paper, triptych, framed',
+        year: 2024,
+        image_path: 'sophiebauhaus_almosttouching4triptych.webp',
+        sold: false
+    },
+    {
         title: 'This is What You Lose #7',
         size: '80x60 cm',
         style: 'oil on canvas',
         year: 2023,
         image_path: 'sophiebauhaus_thisiswhatyoulose7.webp',
+        sold: false
+    },
+    {
+        title: 'This is What You Lose #8',
+        size: '80x120 cm',
+        style: 'oil on canvas, diptych',
+        year: 2023,
+        image_path: 'sophiebauhaus_thisiswhatyoulose8diptych.webp',
         sold: false
     },
     {
@@ -103,6 +127,30 @@ const paintings = [
 ];
 
 const collages = [
+    {
+        title: 'And They Told Me It Was My Fault',
+        size: '59.4x42 cm',
+        style: 'photo collage on paper',
+        year: 2025,
+        image_path: 'sophiebauhaus_andtheytoldmeitwasmyfault.webp',
+        sold: true
+    },
+    {
+        title: 'Taking up Space #1',
+        size: '118.9x84.1 cm',
+        style: 'fine art print, photo collage on paper',
+        year: 2025,
+        image_path: 'sophiebauhaus_takingupspace1.webp',
+        sold: false
+    },
+    {
+        title: 'Taking up Space #2',
+        size: '118.9x84.1 cm',
+        style: 'fine art print, photo collage on paper',
+        year: 2025,
+        image_path: 'sophiebauhaus_takingupspace2.webp',
+        sold: false
+    },
     {
         title: 'Fill the Gap #1',
         size: '59.4x42 cm',
