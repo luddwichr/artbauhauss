@@ -466,8 +466,8 @@ footer * {
 
 .loader-container {
   display: flex;
-  width: min(90vw, 500px);
-  height: min(50vh, 500px);
+  width: min(90vw, 400px);
+  height: min(50vh, 400px);
   align-items: center;
   justify-content: center;
   border: 1px solid #efefef;
