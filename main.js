@@ -10,33 +10,15 @@ const paintings = [
         style: 'oil on paper',
         year: 2024,
         image_path: 'sophiebauhaus_tenderpain1.webp',
-        sold: false
+        sold: true
     },
-    {
-        title: 'Almost Touching #3',
-        size: '20x15 cm',
-        style: 'oil on paper',
-        year: 2024,
-        image_path: 'sophiebauhaus_almosttouching3.webp',
-        sold: false
-    },
-    /* currently to be ignored
-    {
-        title: 'Almost Touching #4',
-        size: '21x14.8 cm',
-        style: 'oil on paper',
-        year: 2024,
-        image_path: 'sophiebauhaus_almosttouching4.webp',
-        sold: false
-    },
-    */
     {
         title: 'Almost Touching #1',
         size: '40x30 cm',
         style: 'oil on paper',
         year: 2023,
         image_path: 'sophiebauhaus_almosttouching1.webp',
-        sold: false
+        sold: true
     },
     {
         title: 'Almost Touching #2',
@@ -44,22 +26,6 @@ const paintings = [
         style: 'oil on paper',
         year: 2023,
         image_path: 'sophiebauhaus_almosttouching2.webp',
-        sold: false
-    },
-    {
-        title: 'This is What You Lose #8',
-        size: '80x60 cm',
-        style: 'oil on canvas',
-        year: 2023,
-        image_path: 'sophiebauhaus_thisiswhatyoulose8-2.webp',
-        sold: false
-    },
-    {
-        title: 'This is What You Lose #8',
-        size: '80x60 cm',
-        style: 'oil on canvas',
-        year: 2023,
-        image_path: 'sophiebauhaus_thisiswhatyoulose8-1.webp',
         sold: false
     },
     {
@@ -76,22 +42,6 @@ const paintings = [
         style: 'oil on paper',
         year: 2023,
         image_path: 'sophiebauhaus_whenthefogclears2.webp',
-        sold: false
-    },
-    {
-        title: 'This is What You Lose #1',
-        size: '40x30 cm',
-        style: 'oil on paper',
-        year: 2022,
-        image_path: 'sophiebauhaus_thisiswhatyoulose1.webp',
-        sold: false
-    },
-    {
-        title: 'This is What You Lose #2',
-        size: '40x30 cm',
-        style: 'oil on paper',
-        year: 2022,
-        image_path: 'sophiebauhaus_thisiswhatyoulose2.webp',
         sold: false
     },
     {
@@ -149,71 +99,7 @@ const paintings = [
         year: 2021,
         image_path: 'sophiebauhaus_newbeginnings6.webp',
         sold: false
-    },
-    {
-        title: 'On Fire',
-        size: '100x100 cm',
-        style: 'oil on canvas',
-        year: 2021,
-        image_path: 'sophiebauhaus_onfire.webp',
-        sold: true
-    },
-    {
-        title: 'On the Road',
-        size: '90x90 cm',
-        style: 'oil on canvas',
-        year: 2021,
-        image_path: 'sophiebauhaus_ontheroad.webp',
-        sold: false
-    },
-    {
-        title: 'Where is the Space #2',
-        size: '20x20 cm',
-        style: 'oil on canvas',
-        year: 2020,
-        image_path: 'sophiebauhaus_whereisthespace2.webp',
-        sold: false
-    },
-    {
-        title: 'Don\'t Think',
-        size: '70x70 cm',
-        style: 'oil and acrylic on canvas',
-        year: 2020,
-        image_path: 'sophiebauhaus_dontthink.webp',
-        sold: true
-    },
-    {
-        title: 'You',
-        size: '185x185 cm',
-        style: 'oil, acrylic and spray paint on canvas',
-        year: 2020,
-        image_path: 'sophiebauhaus_you.webp',
-        sold: true
-    },
-    {
-        title: 'Dare to Express #1',
-        size: '30x30 cm',
-        style: 'oil and acrylic on canvas',
-        year: 2019,
-        image_path: 'sophiebauhaus_daretoexpress1.webp',
-        sold: true
-    },
-    {
-        title: 'Dare to Express #2',
-        size: '20x20 cm',
-        style: 'oil and acrylic on canvas',
-        year: 2019,
-        image_path: 'sophiebauhaus_daretoexpress2.webp',
-        sold: true
-    },
-    {
-        title: 'Transformation #2',
-        size: '40x40 cm',
-        style: 'oil and acrylic on canvas',
-        year: 2019,
-        image_path: 'sophiebauhaus_transformation2.webp',
-        sold: true
-    },
+    }
 ];
 
 const collages = [
@@ -247,7 +133,7 @@ const collages = [
         style: 'photo collage on paper',
         year: 2023,
         image_path: 'sophiebauhaus_light1.webp',
-        sold: false
+        sold: true
     },
     {
         title: 'Light #2',
@@ -303,7 +189,7 @@ const collages = [
         style: 'photo collage on paper',
         year: 2020,
         image_path: 'sophiebauhaus_lostinspace3.webp',
-        sold: false
+        sold: true
     },
     {
         title: 'Lost in Space #4',
@@ -311,7 +197,7 @@ const collages = [
         style: 'photo collage on paper',
         year: 2020,
         image_path: 'sophiebauhaus_lostinspace4.webp',
-        sold: false
+        sold: true
     },
     {
         title: 'Lost in Space #5',
@@ -335,7 +221,7 @@ const collages = [
         style: 'photo collage on paper',
         year: 2020,
         image_path: 'sophiebauhaus_lostinspace1.webp',
-        sold: false
+        sold: true
     },
     {
         title: 'Lost in Space #2',
@@ -343,7 +229,7 @@ const collages = [
         style: 'photo collage on paper',
         year: 2020,
         image_path: 'sophiebauhaus_lostinspace2.webp',
-        sold: false
+        sold: true
     },
 ];
 
